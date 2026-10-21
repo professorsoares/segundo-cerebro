@@ -20,7 +20,7 @@ Atualizado: 2026-10-21
 
 ## 💰 Exposição financeira em aberto
 
-- [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
+- [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | prazo: 2026-10-23 | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 
 ## 📋 Em aberto
 
