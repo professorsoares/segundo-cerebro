@@ -1,0 +1,496 @@
+<title>Baixa do Segundo Cérebro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: coluna unica, pensada para o celular. Cada tarefa aberta do vault
+   com um controle de estado. As marcacoes vao para o `db` do artifact e sao
+   um BUFFER: o Claude le, aplica no markdown e limpa. A verdade e o markdown. */
+:root{
+  --bg:#eef1f1; --surface:#fff; --surface-2:#f6f8f8;
+  --fg:#141e1d; --fg-dim:#5c6c6b; --line:#d9e0df;
+  --accent:#0d6058;
+  --risco:#9e3018; --promessa:#80530a; --travada:#434e73; --ok:#1c6244;
+  --cancel:#6b6b6b;
+  --f-disp:"Archivo",system-ui,sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1313; --surface:#18201f; --surface-2:#1e2726;
+  --fg:#e7edeb; --fg-dim:#93a3a1; --line:#2a3534;
+  --accent:#4ec6b6;
+  --risco:#ef8e74; --promessa:#dfb256; --travada:#9dabd4; --ok:#5ec995;
+  --cancel:#8a8a8a;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0e1313; --surface:#18201f; --surface-2:#1e2726;
+  --fg:#e7edeb; --fg-dim:#93a3a1; --line:#2a3534;
+  --accent:#4ec6b6;
+  --risco:#ef8e74; --promessa:#dfb256; --travada:#9dabd4; --ok:#5ec995;
+  --cancel:#8a8a8a;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-corpo);line-height:1.5;margin:0}
+.wrap{max-width:46rem;margin:0 auto;padding-block:1.75rem 3rem;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+header{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:baseline;justify-content:space-between;
+  border-bottom:2px solid var(--fg);padding-bottom:.6rem}
+h1{font-family:var(--f-disp);font-weight:700;font-size:1.5rem;letter-spacing:-.015em;margin:0;text-wrap:balance}
+.stamp{font-family:var(--f-mono);font-size:.7rem;color:var(--fg-dim);min-width:0;overflow-wrap:anywhere}
+
+.intro{font-size:.85rem;color:var(--fg-dim);margin:.9rem 0 0;max-width:38rem}
+.intro code{font-family:var(--f-mono);font-size:.78rem;background:var(--surface-2);
+  border:1px solid var(--line);border-radius:.2rem;padding:.05rem .3rem}
+
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;
+  background:var(--bg);border-bottom:1px solid var(--line);
+  margin:1rem 0 1.4rem;padding:.6rem 0;
+  display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;justify-content:space-between}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);
+  z-index:10;background:var(--bg)}
+.conta{font-family:var(--f-disp);font-weight:600;font-size:.9rem;min-width:0}
+.conta .n{font-family:var(--f-mono);font-variant-numeric:tabular-nums;color:var(--accent)}
+.barra-acoes{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+
+section{margin-bottom:1.6rem}
+h2{font-family:var(--f-disp);font-size:.78rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.09em;color:var(--fg-dim);margin:0 0 .55rem;display:flex;gap:.5rem;align-items:center}
+h2 .c{font-family:var(--f-mono);font-weight:500;letter-spacing:0;color:var(--fg-dim);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:1rem;padding:0 .4rem;font-size:.7rem}
+
+ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.45rem}
+li{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c,var(--line));
+  border-radius:.25rem;padding:.6rem .7rem;min-width:0}
+li[data-marca="feito"]{border-left-color:var(--ok)}
+li[data-marca="andamento"]{border-left-color:var(--accent)}
+li[data-marca="cancelado"]{border-left-color:var(--cancel);opacity:.72}
+li[data-marca="feito"] .desc{text-decoration:line-through;text-decoration-thickness:1px;color:var(--fg-dim)}
+li[data-marca="cancelado"] .desc{text-decoration:line-through;text-decoration-thickness:1px;color:var(--fg-dim)}
+.linha{display:flex;gap:.55rem;align-items:baseline;min-width:0}
+.num{font-family:var(--f-mono);font-size:.78rem;font-weight:500;font-variant-numeric:tabular-nums;
+  color:var(--bg);background:var(--fg-dim);border-radius:.25rem;
+  padding:.05rem .4rem;flex:none;min-width:1.9rem;text-align:center;
+  -webkit-user-select:all;user-select:all}
+li[data-marca="feito"] .num{background:var(--ok)}
+li[data-marca="andamento"] .num{background:var(--accent)}
+li[data-marca="cancelado"] .num{background:var(--cancel)}
+.desc{font-weight:500;overflow-wrap:anywhere;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:.2rem .45rem;margin-top:.3rem;font-size:.72rem;
+  color:var(--fg-dim);font-family:var(--f-mono);min-width:0}
+.meta .sep{opacity:.45}
+.meta .forte{font-weight:500;color:var(--c,var(--fg-dim))}
+.meta .proj{color:var(--accent);font-weight:500}
+
+.ctrl{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.55rem;align-items:center}
+.pill{font-family:var(--f-corpo);font-size:.76rem;font-weight:500;
+  color:var(--fg-dim);background:var(--surface-2);border:1px solid var(--line);
+  border-radius:1.2rem;padding:.28rem .7rem;cursor:pointer;min-width:0}
+.pill:hover{border-color:var(--accent);color:var(--fg)}
+.pill[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.pill.ok[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:#fff}
+.pill.and[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.pill.can[aria-pressed="true"]{background:var(--cancel);border-color:var(--cancel);color:#fff}
+.pill.com[aria-pressed="true"]{background:var(--promessa);border-color:var(--promessa);color:#fff}
+.pill.mini{font-size:.72rem;padding:.22rem .55rem}
+.nota{margin-top:.5rem;width:100%;font-family:var(--f-corpo);font-size:.82rem;
+  color:var(--fg);background:var(--surface-2);border:1px solid var(--line);
+  border-radius:.25rem;padding:.4rem .55rem;min-width:0}
+.nota::placeholder{color:var(--fg-dim)}
+
+button.b2{font-family:var(--f-corpo);font-size:.78rem;font-weight:500;color:var(--accent);
+  background:var(--surface);border:1px solid var(--line);border-radius:.25rem;
+  padding:.4rem .75rem;cursor:pointer;min-width:0}
+button.b2:hover{border-color:var(--accent)}
+button.b2.perigo{color:var(--risco)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ok-msg{font-family:var(--f-mono);font-size:.72rem;color:var(--ok)}
+
+.aviso{background:var(--surface-2);border:1px dashed var(--line);border-radius:.25rem;
+  padding:.65rem .75rem;font-size:.84rem;color:var(--fg-dim);margin:0 0 1.2rem;overflow-wrap:anywhere}
+.vazio{color:var(--fg-dim);font-size:.85rem;background:var(--surface-2);border:1px dashed var(--line);
+  border-radius:.25rem;padding:.6rem .7rem}
+.rodape{margin-top:2rem;border-top:1px solid var(--line);padding-top:1rem;font-size:.8rem;color:var(--fg-dim)}
+.rodape code{font-family:var(--f-mono);font-size:.76rem;background:var(--surface-2);
+  border:1px solid var(--line);border-radius:.2rem;padding:.05rem .3rem;overflow-wrap:anywhere}
+.rodape p{margin:.4rem 0}
+.resumo{width:100%;margin-top:.6rem;font-family:var(--f-mono);font-size:.76rem;
+  background:var(--surface-2);color:var(--fg);border:1px solid var(--line);
+  border-radius:.25rem;padding:.55rem;min-height:7rem}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Baixa do Segundo Cérebro</h1>
+    <span class="stamp" id="stamp"></span>
+  </header>
+
+  <p class="intro">Marque o que mudou. As marcações ficam guardadas aqui e o Claude
+    lê, aplica no <code>tarefas.md</code> e limpa. Esta página é um
+    <strong>buffer de captura</strong>, não a lista de tarefas: a verdade continua
+    sendo o markdown do repositório.</p>
+
+  <p class="intro">Cada item tem um <strong>número</strong>. Para comentar algo que
+    não cabe na marcação, é só citar o número na conversa: <em>“o 7 foi parcial, só
+    metade dos anexos”</em>.</p>
+
+  <div class="barra">
+    <span class="conta" id="conta">carregando marcações…</span>
+    <span class="barra-acoes">
+      <button class="b2" id="btn-resumo" type="button">Ver resumo</button>
+      <button class="b2 perigo" id="btn-limpar" type="button" hidden>Limpar tudo</button>
+      <span class="ok-msg" id="ok-msg" hidden></span>
+    </span>
+  </div>
+
+  <div id="estado-db"></div>
+  <div id="corpo"></div>
+
+  <div class="rodape">
+    <p>Estados: <strong>feito</strong> → <code>[x]</code> · <strong>andamento</strong> →
+      <code>[/]</code> · <strong>cancelado</strong> → <code>[-]</code>.
+      <strong>comuniquei</strong> grava <code>comunicado:</code> com a data de hoje,
+      que é o que tira a tarefa da fila do Vinicius.</p>
+    <p>Os números valem para esta geração da página. Mexer no <code>tarefas.md</code>
+      e regerar renumera os itens, então cite o número na mesma conversa em que
+      marcou. Cada marcação guarda o número e o texto da tarefa, para dar para
+      casar na mão se algo sair de ordem.</p>
+  </div>
+</div>
+
+<script>
+const DADOS = /*__DADOS__*/ {};
+
+const ESC = { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" };
+const esc = s => String(s).replace(/[&<>"]/g, c => ESC[c]);
+
+const HOJE = (function(){
+  const d = new Date();
+  const p = n => String(n).padStart(2, "0");
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+})();
+
+function prazoTexto(d, hora){
+  let base;
+  if (d === null || d === undefined) return "sem prazo";
+  if (d < -1) base = "venceu ha " + (-d) + " dias";
+  else if (d === -1) base = "venceu ontem";
+  else if (d === 0) base = "vence hoje";
+  else if (d === 1) base = "vence amanha";
+  else base = "em " + d + " dias";
+  return hora ? base + " as " + hora : base;
+}
+
+const BUCKETS = [
+  { t:"Vencidas",                 c:"var(--risco)",    f:t => t.dias !== null && t.dias < 0 },
+  { t:"Para hoje",                c:"var(--risco)",    f:t => t.dias === 0 },
+  { t:"Prometi e nao entreguei",  c:"var(--promessa)", f:t => !!t.prometi_a },
+  { t:"Travadas em terceiro",     c:"var(--travada)",  f:t => !!t.aguardo },
+  { t:"Proximos 7 dias",          c:"var(--accent)",   f:t => t.dias !== null && t.dias > 0 && t.dias <= 7 },
+  { t:"Adiante / sem prazo",      c:"var(--line)",     f:() => true }
+];
+
+const ABERTAS = (DADOS.tarefas || []).filter(
+  t => t.estado === "aberto" || t.estado === "andamento"
+);
+
+/* id -> tarefa, e id -> elementos do cartao */
+const PORID = {};
+ABERTAS.forEach(t => { PORID[t.id] = t; });
+const CARTOES = {};
+
+/* marcacoes vindas do db: id -> {estado, comunicado, nota} */
+let marcas = {};
+let db = null;
+let podeEscrever = true;
+
+function metaLinha(t){
+  const meta = [];
+  if (t.projeto)  meta.push('<span class="proj">#' + esc(t.projeto) + '</span>');
+  meta.push('<span class="forte">' + esc(prazoTexto(t.dias, t.hora)) + '</span>');
+  if (t.prometi_a) meta.push("<span>prometido a " + esc(t.prometi_a) + "</span>");
+  if (t.aguardo)   meta.push("<span>aguardo " + esc(t.aguardo) + "</span>");
+  if (t.comunicar && !t.comunicado) meta.push("<span>comunicar " + esc(t.comunicar) + "</span>");
+  if (t.comunicado) meta.push("<span>comunicado " + esc(t.comunicado) + "</span>");
+  if (t.prioridade) meta.push("<span>pri " + esc(t.prioridade) + "</span>");
+  if (t.estado === "andamento") meta.push("<span>ja em andamento</span>");
+  return meta.join('<span class="sep" aria-hidden="true">·</span>');
+}
+
+/* numero sequencial na ordem da pagina — e a alca que o Bruno usa para citar
+   um item na conversa. Vale para esta geracao: mudar o tarefas.md renumera. */
+const NUMERO = {};
+const PORNUMERO = {};
+
+function montar(){
+  const usadas = new Set();
+  let html = "";
+  let n = 0;
+
+  BUCKETS.forEach(function(b){
+    const itens = ABERTAS.filter(t => !usadas.has(t) && b.f(t));
+    itens.forEach(t => usadas.add(t));
+    if (!itens.length) return;
+
+    html += "<section><h2>" + esc(b.t) + '<span class="c">' + itens.length + "</span></h2><ul>";
+    itens.forEach(function(t){
+      const precisaCom = !!(t.comunicar && !t.comunicado);
+      n += 1;
+      NUMERO[t.id] = n;
+      PORNUMERO[n] = t.id;
+      html += '<li style="--c:' + b.c + '" data-id="' + esc(t.id) + '">' +
+        '<div class="linha">' +
+          '<span class="num" title="item ' + n + '">' + n + "</span>" +
+          '<span class="desc">' + esc(t.descricao) + "</span>" +
+        "</div>" +
+        '<div class="meta">' + metaLinha(t) + "</div>" +
+        '<div class="ctrl">' +
+          '<button class="pill ok"  type="button" data-estado="feito"      aria-pressed="false">feito</button>' +
+          '<button class="pill and" type="button" data-estado="andamento"  aria-pressed="false">andamento</button>' +
+          '<button class="pill can" type="button" data-estado="cancelado"  aria-pressed="false">cancelado</button>' +
+          (precisaCom
+            ? '<button class="pill com" type="button" data-com="1" aria-pressed="false">comuniquei</button>'
+            : "") +
+          '<button class="pill mini" type="button" data-nota="1">nota</button>' +
+        "</div>" +
+        '<input class="nota" type="text" hidden id="nota-' + esc(t.id) + '"' +
+          ' placeholder="ressalva, nova data, com quem falou…">' +
+      "</li>";
+    });
+    html += "</ul></section>";
+  });
+
+  document.getElementById("corpo").innerHTML = html ||
+    '<div class="vazio">Nada em aberto no vault. Se isso nao parece verdade, o markdown nao esta sendo alimentado.</div>';
+
+  document.querySelectorAll("li[data-id]").forEach(function(li){
+    const id = li.getAttribute("data-id");
+    CARTOES[id] = {
+      li: li,
+      estados: li.querySelectorAll("[data-estado]"),
+      com: li.querySelector("[data-com]"),
+      nota: li.querySelector(".nota")
+    };
+  });
+}
+
+function pintar(){
+  Object.keys(CARTOES).forEach(function(id){
+    const c = CARTOES[id];
+    const m = marcas[id] || {};
+    c.li.setAttribute("data-marca", m.estado || "");
+    c.estados.forEach(function(btn){
+      btn.setAttribute("aria-pressed",
+        m.estado === btn.getAttribute("data-estado") ? "true" : "false");
+    });
+    if (c.com) c.com.setAttribute("aria-pressed", m.comunicado ? "true" : "false");
+    if (c.nota && document.activeElement !== c.nota) {
+      c.nota.value = m.nota || "";
+      c.nota.hidden = !(m.nota || c.nota.dataset.aberto === "1");
+    }
+  });
+
+  const n = Object.keys(marcas).length;
+  const conta = document.getElementById("conta");
+  conta.innerHTML = n
+    ? '<span class="n">' + n + '</span> ' + (n === 1 ? "marcação" : "marcações") +
+      " pendente" + (n === 1 ? "" : "s") + " de aplicar"
+    : "Nenhuma marcação ainda";
+  document.getElementById("btn-limpar").hidden = !(n && podeEscrever);
+}
+
+function corpoMarca(id){
+  const t = PORID[id] || {};
+  const m = marcas[id] || {};
+  const body = {
+    numero: NUMERO[id] || null,
+    descricao: t.descricao || "",
+    em: new Date().toISOString()
+  };
+  if (m.estado) body.estado = m.estado;
+  if (m.comunicado) body.comunicado = m.comunicado;
+  if (m.nota) body.nota = m.nota;
+  if (t.projeto) body.projeto = t.projeto;
+  return body;
+}
+
+let fila = Promise.resolve();
+function gravar(id){
+  if (!db) { pintar(); return; }
+  const m = marcas[id];
+  const vazio = !m || (!m.estado && !m.comunicado && !m.nota);
+  const ref = db.collection("baixa").doc(id);
+  fila = fila.then(function(){
+    return vazio ? ref.delete() : ref.set(corpoMarca(id));
+  }).catch(function(e){
+    if (e && e.code === "invalid_argument") {
+      podeEscrever = false;
+      aviso("As marcações não foram salvas: esta visualização não tem permissão de escrita. " +
+            "Use o resumo abaixo e cole na conversa.");
+    } else {
+      aviso("Uma marcação pode não ter sido salva (" + ((e && e.code) || "erro") +
+            "). Confira o resumo antes de confiar na página.");
+    }
+    pintar();
+  });
+}
+
+function aviso(txt){
+  const alvo = document.getElementById("estado-db");
+  alvo.innerHTML = '<p class="aviso">' + esc(txt) + "</p>";
+}
+
+function marcarEstado(id, estado){
+  const m = marcas[id] || (marcas[id] = {});
+  m.estado = (m.estado === estado) ? null : estado;
+  if (!m.estado) delete m.estado;
+  if (!m.estado && !m.comunicado && !m.nota) delete marcas[id];
+  pintar();
+  gravar(id);
+}
+
+function marcarComunicado(id){
+  const m = marcas[id] || (marcas[id] = {});
+  m.comunicado = m.comunicado ? null : HOJE;
+  if (!m.comunicado) delete m.comunicado;
+  if (!m.estado && !m.comunicado && !m.nota) delete marcas[id];
+  pintar();
+  gravar(id);
+}
+
+let timerNota = {};
+function anotar(id, valor){
+  const m = marcas[id] || (marcas[id] = {});
+  m.nota = valor.trim();
+  if (!m.nota) delete m.nota;
+  if (!m.estado && !m.comunicado && !m.nota) delete marcas[id];
+  clearTimeout(timerNota[id]);
+  timerNota[id] = setTimeout(function(){ gravar(id); }, 600);
+}
+
+document.getElementById("corpo").addEventListener("click", function(ev){
+  const btn = ev.target.closest("button");
+  if (!btn) return;
+  const li = btn.closest("li[data-id]");
+  if (!li) return;
+  const id = li.getAttribute("data-id");
+
+  if (btn.hasAttribute("data-estado")) { marcarEstado(id, btn.getAttribute("data-estado")); return; }
+  if (btn.hasAttribute("data-com"))    { marcarComunicado(id); return; }
+  if (btn.hasAttribute("data-nota")) {
+    const campo = CARTOES[id].nota;
+    campo.dataset.aberto = campo.hidden ? "1" : "0";
+    campo.hidden = !campo.hidden;
+    if (!campo.hidden) campo.focus();
+  }
+});
+
+document.getElementById("corpo").addEventListener("input", function(ev){
+  const campo = ev.target.closest(".nota");
+  if (!campo) return;
+  const id = campo.closest("li[data-id]").getAttribute("data-id");
+  anotar(id, campo.value);
+});
+
+/* resumo em texto: serve de saida manual caso a leitura automatica falhe */
+function textoResumo(){
+  const ids = Object.keys(marcas);
+  if (!ids.length) return "Nenhuma marcação.";
+  const linhas = ["Baixa do segundo cerebro — " + HOJE, ""];
+  ids.sort(function(a, b){ return (NUMERO[a] || 999) - (NUMERO[b] || 999); });
+  ids.forEach(function(id){
+    const t = PORID[id] || {};
+    const m = marcas[id];
+    const partes = [];
+    if (m.estado) partes.push(m.estado);
+    if (m.comunicado) partes.push("comunicado em " + m.comunicado);
+    if (m.nota) partes.push("nota: " + m.nota);
+    linhas.push(String(NUMERO[id] || "?").padStart(2, " ") + ". " +
+                (t.descricao || "(sem descricao)") +
+                "\n    -> " + partes.join(" | "));
+  });
+  return linhas.join("\n");
+}
+
+const btnResumo = document.getElementById("btn-resumo");
+btnResumo.addEventListener("click", function(){
+  let cx = document.getElementById("cx-resumo");
+  if (cx) { cx.remove(); btnResumo.textContent = "Ver resumo"; return; }
+  cx = document.createElement("textarea");
+  cx.className = "resumo";
+  cx.id = "cx-resumo";
+  cx.readOnly = true;
+  cx.value = textoResumo();
+  document.getElementById("estado-db").appendChild(cx);
+  btnResumo.textContent = "Fechar resumo";
+  cx.focus();
+  cx.select();
+});
+
+/* limpar tudo, em dois passos (o visualizador nao mostra confirm()) */
+const btnLimpar = document.getElementById("btn-limpar");
+let armado = false;
+btnLimpar.addEventListener("click", function(){
+  if (!armado) {
+    armado = true;
+    btnLimpar.textContent = "Confirmar limpeza";
+    setTimeout(function(){
+      armado = false;
+      btnLimpar.textContent = "Limpar tudo";
+    }, 4000);
+    return;
+  }
+  armado = false;
+  btnLimpar.textContent = "Limpar tudo";
+  const ids = Object.keys(marcas);
+  marcas = {};
+  pintar();
+  if (!db) return;
+  ids.forEach(function(id){
+    fila = fila.then(function(){ return db.collection("baixa").doc(id).delete(); })
+               .catch(function(){});
+  });
+  const ok = document.getElementById("ok-msg");
+  ok.textContent = "limpo";
+  ok.hidden = false;
+  setTimeout(function(){ ok.hidden = true; }, 2000);
+});
+
+/* --- boot --- */
+document.getElementById("stamp").textContent =
+  "gerado " + (DADOS.gerado_em || "?") + " · " + (DADOS.commit || "?");
+montar();
+pintar();
+
+(async function(){
+  try {
+    db = await claude.use("db");
+  } catch (e) {
+    db = null;
+  }
+  if (!db) {
+    aviso("As marcações não estão sendo guardadas nesta visualização. Pode marcar " +
+          "do mesmo jeito: abra “Ver resumo” e cole o texto na conversa com o Claude.");
+    pintar();
+    return;
+  }
+  db.collection("baixa").onSnapshot(function(snap){
+    const novas = {};
+    snap.docs.forEach(function(d){
+      const v = d.data() || {};
+      novas[d.id] = { estado: v.estado || null, comunicado: v.comunicado || null, nota: v.nota || "" };
+      if (!novas[d.id].estado) delete novas[d.id].estado;
+      if (!novas[d.id].comunicado) delete novas[d.id].comunicado;
+      if (!novas[d.id].nota) delete novas[d.id].nota;
+    });
+    marcas = novas;
+    pintar();
+  }, function(err){
+    aviso("A sincronização das marcações parou (" + (err.code || "erro") +
+          "). O que já estava salvo continua lá; para o resto, use “Ver resumo”.");
+  });
+})();
+</script>

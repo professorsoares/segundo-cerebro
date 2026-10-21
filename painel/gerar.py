@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Gera painel/dados.json e painel/painel.html a partir do markdown do vault.
+"""Gera painel/dados.json, painel/painel.html e painel/baixa.html a partir do
+markdown do vault.
 
 O markdown e a fonte da verdade. Este script apenas deriva. Nao escreva
 nada de volta no markdown a partir do JSON.
 
 Le:   tarefas.md  +  projetos/*.md
 Uso:  python painel/gerar.py
+
+painel.html -> retrato read-only.
+baixa.html  -> formulario de baixa; o Bruno marca, o Claude le e aplica no
+               markdown. O formulario e buffer de captura, nunca fonte.
 """
+import hashlib
 import json
 import re
 import subprocess
@@ -20,6 +26,8 @@ PROJETOS = RAIZ / "projetos"
 SAIDA = RAIZ / "painel" / "dados.json"
 TEMPLATE = RAIZ / "painel" / "template.html"
 PAGINA = RAIZ / "painel" / "painel.html"
+TEMPLATE_BAIXA = RAIZ / "painel" / "template-baixa.html"
+PAGINA_BAIXA = RAIZ / "painel" / "baixa.html"
 MARCADOR = "/*__DADOS__*/ {}"
 
 # Para quem o status e devido. Comparado em minusculas, por substring.
@@ -148,6 +156,12 @@ def main():
         t = parse_tarefa(m.group(2), secao)
         t["estado"] = estado
         t["dias"] = dias_para(t["prazo"], hoje)
+        # Chave estavel para o formulario de baixa. Derivada da descricao:
+        # se a descricao for reescrita, a marcacao orfana. Por isso o
+        # formulario grava tambem a descricao, para dar para casar por texto.
+        t["id"] = hashlib.sha1(
+            t["descricao"].encode("utf-8")
+        ).hexdigest()[:10]
         tarefas.append(t)
 
     abertas = [t for t in tarefas if t["estado"] in ("aberto", "andamento")]
@@ -215,12 +229,14 @@ def main():
     SAIDA.write_text(bruto + "\n", encoding="utf-8")
     print(f"{SAIDA.relative_to(RAIZ)} gerado")
 
-    if TEMPLATE.exists():
-        html = TEMPLATE.read_text(encoding="utf-8")
+    for modelo, saida in ((TEMPLATE, PAGINA), (TEMPLATE_BAIXA, PAGINA_BAIXA)):
+        if not modelo.exists():
+            continue
+        html = modelo.read_text(encoding="utf-8")
         if MARCADOR not in html:
-            sys.exit(f"marcador {MARCADOR!r} nao encontrado em {TEMPLATE.name}")
-        PAGINA.write_text(html.replace(MARCADOR, bruto, 1), encoding="utf-8")
-        print(f"{PAGINA.relative_to(RAIZ)} gerado")
+            sys.exit(f"marcador {MARCADOR!r} nao encontrado em {modelo.name}")
+        saida.write_text(html.replace(MARCADOR, bruto, 1), encoding="utf-8")
+        print(f"{saida.relative_to(RAIZ)} gerado")
 
     r = dados["resumo"]
     print(f"  {r['abertas']} abertas | {r['vencidas']} vencidas | "

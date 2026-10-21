@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-21T11:11:51",
-  "commit": "03f1187",
+  "gerado_em": "2026-10-21T12:20:30",
+  "commit": "d1f4929",
   "resumo": {
     "abertas": 25,
     "vencidas": 7,
@@ -82,6 +82,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": -1,
+          "id": "dbcd2ea252",
           "precisa_comunicar": true
         },
         {
@@ -99,6 +100,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": -1,
+          "id": "d6dbc6efa4",
           "precisa_comunicar": true
         },
         {
@@ -116,6 +118,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": 0,
+          "id": "67f3826855",
           "precisa_comunicar": true
         },
         {
@@ -133,6 +136,7 @@
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
           "dias": -2,
+          "id": "25792ffdb4",
           "precisa_comunicar": true
         }
       ]
@@ -161,6 +165,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": -1,
+          "id": "f43bd020bf",
           "precisa_comunicar": true
         },
         {
@@ -178,6 +183,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": -1,
+          "id": "94a8de10e3",
           "precisa_comunicar": true
         },
         {
@@ -195,6 +201,7 @@
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
           "dias": 2,
+          "id": "85d7a7b048",
           "precisa_comunicar": true
         },
         {
@@ -212,6 +219,7 @@
           "secao": "💰 Exposição financeira em aberto",
           "estado": "aberto",
           "dias": null,
+          "id": "a69cbcf473",
           "precisa_comunicar": true
         }
       ]
@@ -240,6 +248,7 @@
           "secao": "📋 Em aberto",
           "estado": "aberto",
           "dias": 0,
+          "id": "49ff7c72f6",
           "precisa_comunicar": true
         },
         {
@@ -257,6 +266,7 @@
           "secao": "📋 Em aberto",
           "estado": "aberto",
           "dias": null,
+          "id": "c284f26a15",
           "precisa_comunicar": true
         },
         {
@@ -274,6 +284,7 @@
           "secao": "📋 Em aberto",
           "estado": "aberto",
           "dias": 0,
+          "id": "9d571b4532",
           "precisa_comunicar": true
         }
       ]
@@ -302,6 +313,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": -1,
+          "id": "c53bed5b11",
           "precisa_comunicar": true
         },
         {
@@ -319,6 +331,7 @@
           "secao": "📋 Em aberto",
           "estado": "aberto",
           "dias": null,
+          "id": "084ce6fb06",
           "precisa_comunicar": true
         }
       ]
@@ -347,6 +360,7 @@
           "secao": "🔥 Esta semana",
           "estado": "aberto",
           "dias": -1,
+          "id": "2b33576fa7",
           "precisa_comunicar": true
         }
       ]
@@ -368,6 +382,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -1,
+      "id": "dbcd2ea252",
       "precisa_comunicar": true
     },
     {
@@ -385,6 +400,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -1,
+      "id": "f43bd020bf",
       "precisa_comunicar": true
     },
     {
@@ -402,6 +418,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -1,
+      "id": "d6dbc6efa4",
       "precisa_comunicar": true
     },
     {
@@ -419,6 +436,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -1,
+      "id": "94a8de10e3",
       "precisa_comunicar": true
     },
     {
@@ -436,6 +454,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -1,
+      "id": "c53bed5b11",
       "precisa_comunicar": true
     },
     {
@@ -453,6 +472,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -1,
+      "id": "2b33576fa7",
       "precisa_comunicar": true
     },
     {
@@ -470,6 +490,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": 0,
+      "id": "43a08b3980",
       "precisa_comunicar": false
     },
     {
@@ -487,6 +508,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": 0,
+      "id": "67f3826855",
       "precisa_comunicar": true
     },
     {
@@ -504,6 +526,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": 0,
+      "id": "19ace91880",
       "precisa_comunicar": false
     },
     {
@@ -521,6 +544,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": 0,
+      "id": "c02e470f75",
       "precisa_comunicar": false
     },
     {
@@ -538,6 +562,7 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": 0,
+      "id": "c8e136d3ad",
       "precisa_comunicar": false
     },
     {
@@ -555,6 +580,7 @@
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
       "dias": -2,
+      "id": "25792ffdb4",
       "precisa_comunicar": true
     },
     {
@@ -572,6 +598,7 @@
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
       "dias": 2,
+      "id": "85d7a7b048",
       "precisa_comunicar": true
     },
     {
@@ -589,6 +616,7 @@
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
       "dias": 2,
+      "id": "d37c8455e0",
       "precisa_comunicar": false
     },
     {
@@ -606,6 +634,7 @@
       "secao": "💰 Exposição financeira em aberto",
       "estado": "aberto",
       "dias": null,
+      "id": "a69cbcf473",
       "precisa_comunicar": true
     },
     {
@@ -623,6 +652,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": null,
+      "id": "084ce6fb06",
       "precisa_comunicar": true
     },
     {
@@ -640,6 +670,7 @@
       "secao": "📋 Em aberto",
       "estado": "andamento",
       "dias": null,
+      "id": "22f2da982d",
       "precisa_comunicar": false
     },
     {
@@ -657,6 +688,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": 0,
+      "id": "49ff7c72f6",
       "precisa_comunicar": true
     },
     {
@@ -674,6 +706,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": 1,
+      "id": "07e1f82dba",
       "precisa_comunicar": false
     },
     {
@@ -691,6 +724,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": null,
+      "id": "c284f26a15",
       "precisa_comunicar": true
     },
     {
@@ -708,6 +742,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": null,
+      "id": "69e72730db",
       "precisa_comunicar": false
     },
     {
@@ -725,6 +760,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": 1,
+      "id": "56c2945fb9",
       "precisa_comunicar": false
     },
     {
@@ -742,6 +778,7 @@
       "secao": "📋 Em aberto",
       "estado": "aberto",
       "dias": 0,
+      "id": "9d571b4532",
       "precisa_comunicar": true
     },
     {
@@ -759,6 +796,7 @@
       "secao": "📋 Em aberto",
       "estado": "andamento",
       "dias": 1,
+      "id": "cfb9d1a1ab",
       "precisa_comunicar": false
     },
     {
@@ -776,6 +814,7 @@
       "secao": "📋 Em aberto",
       "estado": "andamento",
       "dias": 1,
+      "id": "3ffe12679c",
       "precisa_comunicar": false
     }
   ]
