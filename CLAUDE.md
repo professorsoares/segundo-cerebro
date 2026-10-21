@@ -7,6 +7,20 @@ do Claude que abrir este repo — desktop, web ou celular — deve seguir este m
 `painel/dados.json` é *gerado* a partir do markdown; nunca edite o JSON à mão e
 nunca o trate como fonte de dados.
 
+## Contexto do Bruno (leia antes de qualquer coisa)
+
+- É **consultor**, alocado na **OceanPact** através da empresa **Capitani**.
+- Seu gerente é **Vinicius Mattos** (colaborador OceanPact), o **principal afetado
+  quando algo sai do esperado** — ver [[pessoas/vinicius-mattos]].
+- Posição de consultor alocado significa que **comunicar problema a tempo vale
+  tanto quanto entregar**. Atraso que o Vinicius descobre sozinho é o pior cenário.
+- Por isso: sempre que uma captura revelar atraso, risco ou mudança de escopo,
+  **crie a tarefa de comunicar ao Vinicius** junto com a tarefa de resolver.
+  As duas, não só a segunda.
+- Objetivo declarado do Bruno ao montar isto: acabar com a dificuldade de
+  **comunicar os problemas**. O sistema tem que ser capaz de produzir, a qualquer
+  momento, um relato claro de status e de problema por projeto.
+
 ## Regra zero: capturar é mais importante que organizar
 
 Quando o Bruno despeja informação (texto ou áudio ditado), o trabalho é:
