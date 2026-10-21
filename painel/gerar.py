@@ -16,6 +16,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 TAREFAS = RAIZ / "tarefas.md"
 SAIDA = RAIZ / "painel" / "dados.json"
+TEMPLATE = RAIZ / "painel" / "template.html"
+PAGINA = RAIZ / "painel" / "painel.html"
+MARCADOR = "/*__DADOS__*/ {}"
 
 ESTADOS = {" ": "aberto", "/": "andamento", "x": "concluido", "-": "cancelado"}
 LINHA = re.compile(r"^\s*-\s*\[(.)\]\s*(.+)$")
@@ -126,9 +129,17 @@ def main():
         "tarefas": tarefas,
     }
 
-    SAIDA.write_text(
-        json.dumps(dados, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    bruto = json.dumps(dados, ensure_ascii=False, indent=2)
+    SAIDA.write_text(bruto + "\n", encoding="utf-8")
+
+    # Injeta os dados no template para gerar a pagina publicavel.
+    if TEMPLATE.exists():
+        html = TEMPLATE.read_text(encoding="utf-8")
+        if MARCADOR not in html:
+            sys.exit(f"marcador {MARCADOR!r} nao encontrado em {TEMPLATE.name}")
+        PAGINA.write_text(html.replace(MARCADOR, bruto, 1), encoding="utf-8")
+        print(f"{PAGINA.relative_to(RAIZ)} gerado")
+
     r = dados["resumo"]
     print(f"{SAIDA.relative_to(RAIZ)} gerado")
     print(f"  {r['abertas']} abertas | {r['vencidas']} vencidas | "

@@ -1,0 +1,197 @@
+<title>Painel do Segundo Cérebro</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: coluna unica, pensada para o celular. Trilha de contadores no topo,
+   depois secoes ordenadas por risco: vencido > hoje > promessa > travado > prazo. */
+:root{
+  --bg:#eef1f1; --surface:#fff; --surface-2:#f6f8f8;
+  --fg:#141e1d; --fg-dim:#5c6c6b; --line:#d9e0df;
+  --accent:#0d6058;
+  --risco:#9e3018; --promessa:#80530a; --travada:#434e73; --ok:#1c6244;
+  --f-disp:"Archivo",system-ui,sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1313; --surface:#18201f; --surface-2:#1e2726;
+  --fg:#e7edeb; --fg-dim:#93a3a1; --line:#2a3534;
+  --accent:#4ec6b6;
+  --risco:#ef8e74; --promessa:#dfb256; --travada:#9dabd4; --ok:#5ec995;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0e1313; --surface:#18201f; --surface-2:#1e2726;
+  --fg:#e7edeb; --fg-dim:#93a3a1; --line:#2a3534;
+  --accent:#4ec6b6;
+  --risco:#ef8e74; --promessa:#dfb256; --travada:#9dabd4; --ok:#5ec995;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-corpo);line-height:1.5;margin:0}
+.wrap{max-width:46rem;margin:0 auto;padding-block:1.75rem 3rem;padding-left:1rem;padding-right:1rem}
+
+header{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:baseline;justify-content:space-between;
+  border-bottom:2px solid var(--fg);padding-bottom:.6rem;margin-bottom:1.25rem}
+h1{font-family:var(--f-disp);font-weight:700;font-size:1.5rem;letter-spacing:-.015em;margin:0;text-wrap:balance}
+.stamp{font-family:var(--f-mono);font-size:.7rem;color:var(--fg-dim);min-width:0;overflow-wrap:anywhere}
+
+.rail{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;margin-bottom:1.5rem}
+@media (max-width:30rem){.rail{grid-template-columns:repeat(2,1fr)}}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:.3rem;
+  padding:.6rem .7rem;min-width:0;border-top:3px solid var(--line)}
+.tile[data-on="1"]{border-top-color:var(--c)}
+.tile .n{font-family:var(--f-disp);font-weight:700;font-size:1.7rem;line-height:1.1;
+  font-variant-numeric:tabular-nums;color:var(--fg-dim);display:block}
+.tile[data-on="1"] .n{color:var(--c)}
+.tile .k{font-size:.67rem;text-transform:uppercase;letter-spacing:.07em;color:var(--fg-dim);
+  font-weight:600;display:block;margin-top:.1rem}
+
+section{margin-bottom:1.6rem}
+h2{font-family:var(--f-disp);font-size:.78rem;font-weight:600;text-transform:uppercase;
+  letter-spacing:.09em;color:var(--fg-dim);margin:0 0 .55rem;display:flex;gap:.5rem;align-items:center}
+h2 .c{font-family:var(--f-mono);font-weight:500;letter-spacing:0;color:var(--fg-dim);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:1rem;padding:0 .4rem;font-size:.7rem}
+
+ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.35rem}
+li{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c,var(--line));
+  border-radius:.25rem;padding:.55rem .7rem;min-width:0}
+.desc{font-weight:500;overflow-wrap:anywhere}
+.meta{display:flex;flex-wrap:wrap;gap:.2rem .45rem;margin-top:.3rem;font-size:.72rem;
+  color:var(--fg-dim);font-family:var(--f-mono);min-width:0}
+.meta .sep{opacity:.45}
+.meta .forte{font-weight:500;color:var(--c,var(--fg-dim))}
+.meta .proj{color:var(--accent);font-weight:500}
+.vazio{color:var(--fg-dim);font-size:.85rem;background:var(--surface-2);border:1px dashed var(--line);
+  border-radius:.25rem;padding:.6rem .7rem;overflow-wrap:anywhere}
+
+.nota{margin-top:2rem;border-top:1px solid var(--line);padding-top:1rem;font-size:.8rem;color:var(--fg-dim)}
+.nota code{font-family:var(--f-mono);font-size:.76rem;background:var(--surface-2);
+  border:1px solid var(--line);border-radius:.2rem;padding:.05rem .3rem;overflow-wrap:anywhere}
+.nota p{margin:.4rem 0}
+button{font-family:var(--f-corpo);font-size:.78rem;font-weight:500;color:var(--accent);
+  background:var(--surface);border:1px solid var(--line);border-radius:.25rem;
+  padding:.4rem .75rem;cursor:pointer;margin-top:.7rem}
+button:hover{border-color:var(--accent)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.aviso{color:var(--promessa);font-weight:600;font-family:var(--f-mono);font-size:.72rem;
+  text-transform:uppercase;letter-spacing:.06em;margin:0 0 .6rem}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Painel do Segundo Cérebro</h1>
+    <span class="stamp" id="stamp"></span>
+  </header>
+  <div class="rail" id="rail"></div>
+  <p class="aviso" id="aviso" hidden>Dados de exemplo — não são suas tarefas</p>
+  <div id="corpo"></div>
+  <div class="nota">
+    <p>A verdade está no markdown do repositório <code>segundo-cerebro</code>. Esta página é um retrato gerado a partir dele: ler aqui, escrever lá.</p>
+    <p>Para atualizar o retrato: <code>python painel/gerar.py</code> e republicar.</p>
+    <button id="alt" type="button">Ver com dados de exemplo</button>
+  </div>
+</div>
+
+<script>
+const DADOS = /*__DADOS__*/ {};
+
+const EXEMPLO = {
+  gerado_em: "(exemplo)", commit: "exemplo",
+  resumo: { abertas:9, vencidas:2, hoje:1, proximos_7_dias:3, sem_prazo:3, promessas:3, travadas:2 },
+  tarefas: [
+    { descricao:"Enviar proposta revisada de Professional Services", projeto:"oceanpact-bid", prazo:"2026-10-15", prioridade:"alta", prometi_a:"Carla", aguardo:null, fonte:"email 10/10", estado:"aberto", dias:-5 },
+    { descricao:"Confirmar se o pacote DocuSign foi efetivamente enviado", projeto:"oceanpact-bid", prazo:"2026-10-17", prioridade:"alta", prometi_a:null, aguardo:null, fonte:"projetos/oceanpact-bid-docusign.md", estado:"aberto", dias:-3 },
+    { descricao:"Responder e-mail do juridico sobre clausula de SLA", projeto:"oceanpact-bid", prazo:"2026-10-20", prioridade:"alta", prometi_a:"Dept. Juridico", aguardo:null, fonte:"email 19/10", estado:"andamento", dias:0 },
+    { descricao:"Mandar o resumo da call de quinta para o time", projeto:"conecta-linkedin", prazo:"2026-10-22", prioridade:"media", prometi_a:"Time", aguardo:null, fonte:"reunioes/2026-10-16-call.md", estado:"aberto", dias:2 },
+    { descricao:"Aprovar orcamento de infraestrutura", projeto:"conecta-linkedin", prazo:"2026-10-23", prioridade:"media", prometi_a:null, aguardo:"Financeiro (cobrado em 2026-10-14)", fonte:"email 14/10", estado:"aberto", dias:3 },
+    { descricao:"Receber parecer juridico do contrato", projeto:"oceanpact-bid", prazo:null, prioridade:"alta", prometi_a:null, aguardo:"Dept. Juridico (cobrado em 2026-10-18)", fonte:"call 18/10", estado:"aberto", dias:null },
+    { descricao:"Revisar deck de apresentacao", projeto:"conecta-linkedin", prazo:"2026-10-26", prioridade:"baixa", prometi_a:null, aguardo:null, fonte:null, estado:"aberto", dias:6 },
+    { descricao:"Estruturar processo de onboarding de cliente", projeto:null, prazo:null, prioridade:"baixa", prometi_a:null, aguardo:null, fonte:"ideia 12/10", estado:"aberto", dias:null },
+    { descricao:"Fechar escopo da fase 2", projeto:"conecta-linkedin", prazo:null, prioridade:"media", prometi_a:null, aguardo:null, fonte:null, estado:"aberto", dias:null }
+  ]
+};
+
+const ESC = { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" };
+const esc = s => String(s).replace(/[&<>"]/g, c => ESC[c]);
+
+function prazoTexto(d){
+  if (d === null || d === undefined) return "sem prazo";
+  if (d < -1) return "venceu ha " + (-d) + " dias";
+  if (d === -1) return "venceu ontem";
+  if (d === 0) return "vence hoje";
+  if (d === 1) return "vence amanha";
+  return "em " + d + " dias";
+}
+
+const BUCKETS = [
+  { t:"Vencidas",                 c:"var(--risco)",    f:t => t.dias !== null && t.dias < 0 },
+  { t:"Para hoje",                c:"var(--risco)",    f:t => t.dias === 0 },
+  { t:"Prometi e nao entreguei",  c:"var(--promessa)", f:t => !!t.prometi_a },
+  { t:"Travadas em terceiro",     c:"var(--travada)",  f:t => !!t.aguardo },
+  { t:"Proximos 7 dias",          c:"var(--accent)",   f:t => t.dias !== null && t.dias > 0 && t.dias <= 7 },
+  { t:"Adiante / sem prazo",      c:"var(--line)",     f:() => true }
+];
+
+const CONTADORES = [
+  { k:"vencidas",  c:"var(--risco)" },
+  { k:"hoje",      c:"var(--risco)" },
+  { k:"promessas", c:"var(--promessa)" },
+  { k:"travadas",  c:"var(--travada)" }
+];
+
+function render(d, exemplo){
+  document.getElementById("aviso").hidden = !exemplo;
+  document.getElementById("stamp").textContent = exemplo
+    ? "dados de exemplo"
+    : "gerado " + (d.gerado_em || "?") + " · " + (d.commit || "?");
+
+  const r = d.resumo || {};
+  document.getElementById("rail").innerHTML = CONTADORES.map(function(c){
+    const n = r[c.k] || 0;
+    return '<div class="tile" data-on="' + (n > 0 ? 1 : 0) + '" style="--c:' + c.c + '">' +
+           '<span class="n">' + n + '</span><span class="k">' + c.k + '</span></div>';
+  }).join("");
+
+  const abertas = (d.tarefas || []).filter(t => t.estado === "aberto" || t.estado === "andamento");
+  const usadas = new Set();
+  let html = "";
+
+  BUCKETS.forEach(function(b){
+    const itens = abertas.filter(t => !usadas.has(t) && b.f(t));
+    itens.forEach(t => usadas.add(t));
+    if (!itens.length) return;
+
+    const linhas = itens.map(function(t){
+      const meta = [];
+      if (t.projeto)  meta.push('<span class="proj">#' + esc(t.projeto) + '</span>');
+      meta.push('<span class="forte">' + esc(prazoTexto(t.dias)) + '</span>');
+      if (t.prometi_a) meta.push("<span>prometido a " + esc(t.prometi_a) + "</span>");
+      if (t.aguardo)   meta.push("<span>aguardo " + esc(t.aguardo) + "</span>");
+      if (t.prioridade) meta.push("<span>pri " + esc(t.prioridade) + "</span>");
+      if (t.estado === "andamento") meta.push("<span>em andamento</span>");
+      if (t.fonte)     meta.push("<span>" + esc(t.fonte) + "</span>");
+      return '<li style="--c:' + b.c + '"><div class="desc">' + esc(t.descricao) + "</div>" +
+             '<div class="meta">' + meta.join('<span class="sep" aria-hidden="true">·</span>') + "</div></li>";
+    }).join("");
+
+    html += "<section><h2>" + esc(b.t) + '<span class="c">' + itens.length + "</span></h2>" +
+            "<ul>" + linhas + "</ul></section>";
+  });
+
+  document.getElementById("corpo").innerHTML = html ||
+    '<div class="vazio">Nada em aberto registrado. Se isso nao parece verdade, o vault nao esta sendo alimentado: dite para o Claude o que esta pendente.</div>';
+}
+
+let mostrandoExemplo = false;
+const btn = document.getElementById("alt");
+btn.addEventListener("click", function(){
+  mostrandoExemplo = !mostrandoExemplo;
+  btn.textContent = mostrandoExemplo ? "Ver meus dados reais" : "Ver com dados de exemplo";
+  render(mostrandoExemplo ? EXEMPLO : DADOS, mostrandoExemplo);
+  window.scrollTo({ top:0, behavior:"smooth" });
+});
+
+render(DADOS, false);
+</script>
