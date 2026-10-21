@@ -5,7 +5,25 @@
 - **Estado:** ativo — fase final de negociação
 - **Pessoas:** a preencher (quem é o contato comercial da Nashai?)
 - **Prazo-chave:** a definir
+- **Último status ao Vinicius:** nunca
 - **Atualizado:** 2026-10-20
+
+## Para comunicar ao Vinicius
+
+**Status: fase final de negociação da versão Standard.**
+
+A negociação com a Nashai está avançada para contratar a versão **Standard** do Sym
+Supply One (Techsocial) — ou seja, sem as modificações que fizemos ao longo do tempo.
+
+**Risco que preciso registrar formalmente:** não temos levantamento de quais
+modificações existem hoje nem de quais processos dependem delas. Cada modificação
+foi feita porque alguma necessidade existia. Ir para Standard significa que esses
+processos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na
+implantação, depois de assinado, não agora.
+
+**O que preciso de você:** ou autorização para levantar as modificações atuais e
+seus dependentes **antes** de fechar, ou ciência formal de que vamos assinar sem
+esse levantamento e absorver o risco.
 
 ## Por que existe
 Sistema fornecido pela **Nashai**. A decisão em curso é contratar a **versão

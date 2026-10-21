@@ -17,6 +17,9 @@ depois.
 ## Ele me deve
 - Migração dos anexos do módulo Societário (**entrega final** do #projuris) — sem data
 - Data de entrega da alteração do endereço do sistema — **sem resposta**
+- Devolutiva do **cancelamento do módulo de Imóveis**: qual a tratativa sobre o
+  **valor já pago** — **sem resposta**. É a pendência mais grave das três, porque
+  envolve dinheiro, não cronograma.
 
 ## Eu devo a ele
 <nada registrado>

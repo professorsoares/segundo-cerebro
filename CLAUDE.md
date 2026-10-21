@@ -56,14 +56,42 @@ Uma tarefa é **uma linha** em `tarefas.md`:
 ```
 
 - Campos separados por ` | `. Só a descrição é obrigatória.
-- `#projeto` deve bater com o nome de arquivo em `projetos/` (`#oceanpact-bid` → `projetos/oceanpact-bid.md`).
+- `#projeto` deve bater com o **Slug** declarado em `projetos/` (`#docket` → `projetos/docket.md`).
 - `prazo:` sempre `AAAA-MM-DD`. Nunca "semana que vem" — converta para data.
+- `hora: HH:MM` — quando o prazo é hora do dia, não o dia inteiro ("antes das 10h").
 - `pri:` = `alta` | `media` | `baixa`.
-- `prometi-a: Nome` — o Bruno se comprometeu com alguém. Isto é dívida de reputação; trate como prioridade.
-- `aguardo: Nome (cobrado em AAAA-MM-DD)` — está travado em terceiro. Registre quando foi cobrado.
+- `prometi-a: Nome` — o Bruno se comprometeu com alguém. Dívida de reputação; prioridade.
+- `aguardo: Nome (cobrado em AAAA-MM-DD)` — travado em terceiro. Registre quando foi cobrado.
+- `comunicar: Nome` — **tem que ser comunicado a essa pessoa e ainda não foi.** Normalmente Vinicius Mattos.
+- `comunicado: AAAA-MM-DD` — a data em que foi comunicado. Enquanto estiver ausente numa tarefa vencida, com `prometi-a:` ou com `comunicar:`, o painel trata como **problema que o Vinicius ainda não sabe**.
+- `monday:` — id ou link do item correspondente no Monday, quando houver espelho.
 - `fonte:` de onde veio (link de e-mail, `reunioes/...`, "call 20/10"). É o que permite cruzar depois.
 
 Estados da caixa: `[ ]` aberto · `[/]` em andamento · `[x]` concluído · `[-]` cancelado
+
+## Monday é o sistema oficial; este vault é a camada do Bruno
+
+Todos os projetos são trabalhados no **Monday**. Isso significa:
+
+- O Monday é o registro **oficial** — é onde a organização vê o andamento.
+- Este vault é a camada **pessoal e de risco** do Bruno: o que ele precisa fazer,
+  o que está travado, qual o risco e o que precisa ser comunicado. O Monday não
+  guarda isso bem.
+- **Quando algo muda de verdade, o Monday tem que ser atualizado.** Depois de uma
+  entrega, validação ou repactuação de prazo, a tarefa de atualizar o Monday é
+  parte do trabalho, não um extra. Crie-a explicitamente.
+- Exports do Monday entram em `importacoes/`. Ver o leia-me de lá antes de importar.
+
+## Seção de comunicação em cada projeto
+
+Todo arquivo em `projetos/` carrega:
+
+- `- **Último status ao Vinicius:** AAAA-MM-DD` (ou `nunca`) — o painel calcula há
+  quantos dias o projeto está sem status e cobra.
+- `## Para comunicar ao Vinicius` — texto curto, honesto e **pronto para enviar**:
+  status em uma linha, o que trava, e o que o Bruno precisa dele. O painel mostra
+  esse texto com botão de copiar. Mantenha atualizado: texto velho aqui é pior que
+  texto nenhum.
 
 ## Rotinas
 

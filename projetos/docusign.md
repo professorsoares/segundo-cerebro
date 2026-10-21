@@ -5,7 +5,20 @@
 - **Estado:** ativo — em contratação
 - **Pessoas:** a preencher (quem é o contato do PS da DocuSign?)
 - **Prazo-chave:** a definir
+- **Último status ao Vinicius:** nunca
 - **Atualizado:** 2026-10-20
+
+## Para comunicar ao Vinicius
+
+**Status: em contratação, sem data de início.**
+
+Estamos em vias de contratar a equipe de Professional Services da DocuSign para
+executar os **33 requisitos** que levantamos. Enquanto a contratação não fecha,
+nenhum dos 33 anda — o projeto não tem data de início.
+
+**O que preciso de você:** clareza sobre o que falta para fechar a contratação e
+quem assina. Preciso também validar que o escopo contratado cobre os 33 requisitos;
+diferença de escopo descoberta depois da assinatura sai caro.
 
 ## Por que existe
 Atender a **33 requisitos** levantados internamente, por meio de alterações e

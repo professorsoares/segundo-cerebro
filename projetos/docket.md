@@ -4,7 +4,23 @@
 - **Estado:** ativo — **ATRASADO**
 - **Pessoas:** [[pessoas/tamyres]] · [[pessoas/arthur]] · [[pessoas/gabriel-candelaria]]
 - **Prazo-chave:** entrega era até **2026-10-19** (estourado)
+- **Último status ao Vinicius:** nunca
 - **Atualizado:** 2026-10-20
+
+## Para comunicar ao Vinicius
+
+**Status: atrasado desde 19/10.**
+
+A entrega do Docket não fechou no prazo de 19/10. O que o Arthur construiu está
+pronto para validação, mas ainda não passou pelo usuário.
+
+A validação com a Tamyres (Jurídico) está marcada para a manhã de **21/10**. A data
+nova depende do que sair dela: se não houver ajuste estrutural, a entrega fecha em
+seguida.
+
+**O que preciso de você:** nada agora. Te trago a data firme logo depois da
+validação de amanhã. Se a Tamyres apontar ajuste grande, aí vou precisar repactuar
+o prazo formalmente.
 
 ## Por que existe
 Construção/entrega de solução para a área Jurídica. (Escopo detalhado a confirmar.)
