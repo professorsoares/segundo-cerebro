@@ -98,7 +98,19 @@ e prazo. Até lá, ficam aqui.
 
 ## Próximo passo concreto
 Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatura (ver
-`## Para comunicar ao Vinicius`) e registrar o cronograma quando chegar.
+`## Para comunicar ao Vinicius`), garantir a reunião Prothera × Nashai na janela de
+hoje a amanhã, e registrar o cronograma quando chegar.
+
+### Reunião Prothera × Nashai — por que a janela importa
+Registrado em 21/10: é preciso garantir, entre **21** e **22/10**, uma reunião entre
+Prothera e Nashai.
+
+O prazo real dessa reunião não é "amanhã", é **antes de o contrato da Nashai ser
+assinado**. Se os dois fornecedores se falarem enquanto o acordo está em redação,
+tudo o que a reunião concluir sobre a integração ainda cabe no documento: campo que
+o Prothera precisa, obrigação de expor dado, prazo, aceite. Se a reunião acontecer
+depois da assinatura, as conclusões não têm onde morar e viram pedido de mudança,
+que se paga.
 
 ## Riscos / o que pode travar
 - **O risco central é o abandono das customizações.** Houve "um monte de modificações" ao longo do tempo. Cada uma existe porque algum processo precisava dela. Ir para o Standard significa que esses processos mudam, ganham contorno manual ou somem — e isso aparece depois de assinado, não antes.
@@ -115,6 +127,8 @@ Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatur
 - Existe levantamento das modificações atuais e de quem depende de cada uma? (Nunca foi confirmado. Com os termos fechados, a saída provável é obrigar a Nashai a entregá-lo por contrato, já que quem tem o mapa é o fornecedor.)
 - O contrato em redação já prevê prazo, aceite e operação assistida, ou vem só com licença e valor?
 - Quem revisa o contrato do nosso lado antes da assinatura, e qual o prazo que temos para comentar?
+- **"Prothera" é também o nome do fornecedor, além do sistema?** A reunião é "Prothera com Nashai", o que indica fornecedor contra fornecedor. Confirmar o nome da empresa e quem é o contato.
+- A reunião Prothera × Nashai tem pauta definida? Se o objetivo é a integração, quem do nosso lado leva a lista do que o Prothera precisa receber?
 - **Descrição formal de Prothera, FAS e Protheus** — o Bruno vai trazer. Até então a tabela acima é redação provisória.
 - **O que exatamente a integração com o Protheus vai trocar, e em que direção?** Hoje só se sabe que é integração e que vem depois.
 - **"Término das atividades do Sym Supply One" é o quê, concretamente?** Assinatura do Standard, implantação concluída, ou estabilização? A data do Protheus depende dessa definição.
@@ -127,6 +141,7 @@ Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatur
 - Tem data-limite da negociação ou de renovação do contrato atual?
 
 ## Histórico
+- **2026-10-21** — registrada a necessidade de garantir reunião entre **Prothera e Nashai** na janela de 21 a 22/10. Amarrada à janela do contrato: vale muito mais antes da assinatura que depois.
 - **2026-10-21** — termos da negociação fechados na reunião de **20/10**; Nashai redigindo o acordo, sem assinatura. Registrado em `decisoes.md`. A janela de influência deixa de ser escopo e passa a ser texto de contrato, com prazo curto. Cronograma do Sym Supply previsto para hoje.
 - **2026-10-21** — "Sym Supply" registrado como nome usado pelo Bruno.
 - **2026-10-21** — Protheus esclarecido: é só integração, sem processo próprio, e a frente está sequenciada para depois do término das atividades do Sym Supply One. Sai do rol de risco em paralelo e entra como dependente a jusante.

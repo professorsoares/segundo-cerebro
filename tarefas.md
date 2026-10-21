@@ -40,6 +40,7 @@ Atualizado: 2026-10-21
 - [ ] Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
 - [ ] Trazer para o vault a lista dos 33 requisitos do DocuSign, ou linkar onde ela está | #docusign | pri: media | fonte: derivado do despejo 20/10
+- [ ] Garantir a reunião entre Prothera e Nashai — janela de hoje a amanhã | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se "término das atividades" é assinatura, implantação ou estabilização | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
