@@ -15,7 +15,8 @@ explicitamente, e registrar cada cobrança aqui — é o que sustenta uma escala
 depois.
 
 ## Ele me deve
-- Migração dos anexos do módulo Societário (**entrega final** do #projuris) — sem data
+- Migração dos anexos do módulo Societário (**entrega final** do #projuris) —
+  **indicou 23/10** em 20/10. Única data que ele deu até agora; confirmar no dia.
 - Data de entrega da alteração do endereço do sistema — **sem resposta**
 - Devolutiva do **cancelamento do módulo de Imóveis**: qual a tratativa sobre o
   **valor já pago** — **sem resposta**. É a pendência mais grave das três, porque
@@ -29,4 +30,5 @@ depois.
 - Qual canal ele responde de fato?
 
 ## Histórico
-- **2026-10-20** — registrado. Duas pendências finais do Projuris na mão dele; uma delas sem resposta sobre data.
+- **2026-10-20** — registrado. Três pendências finais do Projuris na mão dele; duas sem resposta.
+- **2026-10-20** — indicou **23/10** para a migração dos anexos do Societário. Cobrança por escrito funcionou neste item; nos outros dois, não.

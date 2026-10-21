@@ -3,29 +3,30 @@
 - **Slug:** #projuris
 - **Estado:** ativo — **ATRASADO**
 - **Pessoas:** [[pessoas/bruno-maximo]] (fornecedor)
-- **Prazo-chave:** entrega era em **2026-10-16** (estourado)
+- **Prazo-chave:** original **2026-10-16** (estourado) → fornecedor indicou **2026-10-23**
 - **Último status ao Vinicius:** nunca
 - **Atualizado:** 2026-10-20
 
 ## Para comunicar ao Vinicius
 
-**Status: atrasado desde 16/10, travado no fornecedor.**
+**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**
 
 Faltam três pendências, as três na mão do Bruno Maximo (fornecedor):
 
-1. **Migração dos anexos do módulo Societário** — é a entrega final. Sem data.
+1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor
+   indicou **23/10** como nova data. O prazo original era 16/10.
 2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.
 3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor
    **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é
-   exposição financeira em aberto, não só atraso de cronograma.
+   exposição financeira em aberto, não atraso de cronograma.
 
-Não tenho data comprometida pelo fornecedor para nenhuma das três, então não tenho
-previsão de entrega para te dar. Em dois dos três casos o fornecedor simplesmente
-não respondeu.
+Sobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por
+nós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer
+forma.
 
-**O que preciso de você:** apoio para escalar no fornecedor acima do Bruno Maximo.
-Cobrança minha, sozinha, já não está produzindo resposta — e no caso do módulo de
-Imóveis há dinheiro nosso parado sem definição.
+**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas
+pendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há
+dinheiro nosso parado sem definição de crédito, reembolso ou abatimento.
 
 ## Por que existe
 Implantação do Projuris. Está na reta final: faltam as tarefas de fechamento,
@@ -37,7 +38,7 @@ dependentes do fornecedor:
 
 | Pendência | Responsável | Situação |
 |---|---|---|
-| Migração dos anexos do módulo Societário — **é a entrega final** | Bruno Maximo (fornecedor) | sem data |
+| Migração dos anexos do módulo Societário — **é a entrega final** | Bruno Maximo (fornecedor) | **23/10** (indicada pelo fornecedor em 20/10) |
 | Alteração do endereço do sistema | Bruno Maximo (fornecedor) | **sem resposta** |
 | Devolutiva do cancelamento do módulo de Imóveis — tratativa do **valor já pago** | Bruno Maximo (fornecedor) | **sem resposta** |
 
@@ -65,4 +66,5 @@ para a alteração de endereço, que está sem resposta nenhuma.
 
 ## Histórico
 - **2026-10-16** — data de entrega prevista; não cumprida.
-- **2026-10-20** — projeto registrado no segundo cérebro. Duas pendências finais, ambas com o fornecedor; alteração de endereço sem resposta.
+- **2026-10-20** — projeto registrado no segundo cérebro. Três pendências finais, todas com o fornecedor.
+- **2026-10-20** — Bruno Maximo **indicou 23/10** como nova data para a migração dos anexos do Societário. Primeira data que o fornecedor dá desde o estouro do prazo. Endereço do sistema e devolutiva do módulo de Imóveis seguem sem resposta.

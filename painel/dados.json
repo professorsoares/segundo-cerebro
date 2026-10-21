@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-20T23:06:34",
-  "commit": "0a78c60",
+  "gerado_em": "2026-10-20T23:20:02",
+  "commit": "691eecd",
   "resumo": {
-    "abertas": 19,
-    "vencidas": 2,
+    "abertas": 20,
+    "vencidas": 1,
     "hoje": 6,
-    "proximos_7_dias": 6,
+    "proximos_7_dias": 8,
     "sem_prazo": 5,
     "promessas": 3,
     "travadas": 4,
@@ -14,7 +14,7 @@
   },
   "por_projeto": {
     "docket": 7,
-    "projuris": 4,
+    "projuris": 5,
     "docusign": 4,
     "sem-projeto": 2,
     "sym-supply-one": 2
@@ -45,7 +45,7 @@
       "estado": "ativo — **ATRASADO**",
       "ultimo_status": "nunca",
       "dias_sem_status": null,
-      "rascunho": "**Status: atrasado desde 16/10, travado no fornecedor.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. Sem data.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não só atraso de cronograma.\n\nNão tenho data comprometida pelo fornecedor para nenhuma das três, então não tenho\nprevisão de entrega para te dar. Em dois dos três casos o fornecedor simplesmente\nnão respondeu.\n\n**O que preciso de você:** apoio para escalar no fornecedor acima do Bruno Maximo.\nCobrança minha, sozinha, já não está produzindo resposta — e no caso do módulo de\nImóveis há dinheiro nosso parado sem definição."
+      "rascunho": "**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor\n   indicou **23/10** como nova data. O prazo original era 16/10.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não atraso de cronograma.\n\nSobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por\nnós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer\nforma.\n\n**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas\npendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há\ndinheiro nosso parado sem definição de crédito, reembolso ou abatimento."
     },
     "sym-supply-one": {
       "slug": "sym-supply-one",
@@ -127,7 +127,7 @@
       "estado": "ativo — **ATRASADO**",
       "ultimo_status": "nunca",
       "dias_sem_status": null,
-      "rascunho": "**Status: atrasado desde 16/10, travado no fornecedor.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. Sem data.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não só atraso de cronograma.\n\nNão tenho data comprometida pelo fornecedor para nenhuma das três, então não tenho\nprevisão de entrega para te dar. Em dois dos três casos o fornecedor simplesmente\nnão respondeu.\n\n**O que preciso de você:** apoio para escalar no fornecedor acima do Bruno Maximo.\nCobrança minha, sozinha, já não está produzindo resposta — e no caso do módulo de\nImóveis há dinheiro nosso parado sem definição.",
+      "rascunho": "**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor\n   indicou **23/10** como nova data. O prazo original era 16/10.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não atraso de cronograma.\n\nSobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por\nnós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer\nforma.\n\n**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas\npendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há\ndinheiro nosso parado sem definição de crédito, reembolso ou abatimento.",
       "itens": [
         {
           "descricao": "Comunicar ao Vinicius Mattos o atraso do Projuris (prazo 16/10) e o que falta",
@@ -147,20 +147,20 @@
           "precisa_comunicar": true
         },
         {
-          "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário, prazo de 16/10 estourado",
+          "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário",
           "projeto": "projuris",
-          "prazo": "2026-10-16",
+          "prazo": "2026-10-23",
           "hora": null,
           "prioridade": "alta",
           "prometi_a": "Vinicius Mattos",
-          "aguardo": "Bruno Maximo (sem data)",
+          "aguardo": "Bruno Maximo (data indicada por ele em 20/10; prazo original era 16/10)",
           "fonte": "inbox 2026-10-20",
-          "comunicar": null,
+          "comunicar": "Vinicius Mattos",
           "comunicado": null,
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
-          "dias": -4,
+          "dias": 3,
           "precisa_comunicar": true
         },
         {
@@ -292,7 +292,7 @@
       "precisa_comunicar": false
     },
     {
-      "descricao": "Cobrar do Bruno Maximo, por escrito e numa só mensagem, as três pendências: anexos do Societário, endereço do sistema e tratativa do valor pago no módulo de Imóveis",
+      "descricao": "Cobrar do Bruno Maximo, por escrito, as duas pendências ainda sem resposta: endereço do sistema e tratativa do valor pago no módulo de Imóveis",
       "projeto": "projuris",
       "prazo": "2026-10-20",
       "hora": null,
@@ -445,21 +445,38 @@
       "precisa_comunicar": true
     },
     {
-      "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário, prazo de 16/10 estourado",
+      "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário",
       "projeto": "projuris",
-      "prazo": "2026-10-16",
+      "prazo": "2026-10-23",
       "hora": null,
       "prioridade": "alta",
       "prometi_a": "Vinicius Mattos",
-      "aguardo": "Bruno Maximo (sem data)",
+      "aguardo": "Bruno Maximo (data indicada por ele em 20/10; prazo original era 16/10)",
       "fonte": "inbox 2026-10-20",
+      "comunicar": "Vinicius Mattos",
+      "comunicado": null,
+      "monday": null,
+      "secao": "🤝 Prometi e ainda não entreguei",
+      "estado": "aberto",
+      "dias": 3,
+      "precisa_comunicar": true
+    },
+    {
+      "descricao": "Confirmar na sexta 23/10 se a migração dos anexos do Societário foi realmente entregue",
+      "projeto": "projuris",
+      "prazo": "2026-10-23",
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "derivado do despejo 20/10",
       "comunicar": null,
       "comunicado": null,
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": -4,
-      "precisa_comunicar": true
+      "dias": 3,
+      "precisa_comunicar": false
     },
     {
       "descricao": "Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago**",

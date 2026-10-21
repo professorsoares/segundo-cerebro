@@ -10,7 +10,7 @@ Atualizado: 2026-10-20
 - [ ] Comunicar ao Vinicius Mattos o atraso do Docket (prazo 19/10) e levar data nova | #docket | prazo: 2026-10-20 | pri: alta | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 - [ ] Comunicar ao Vinicius Mattos o atraso do Projuris (prazo 16/10) e o que falta | #projuris | prazo: 2026-10-20 | pri: alta | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 - [ ] Confirmar com a Tamyres que a validação de amanhã às 10h está de pé | #docket | prazo: 2026-10-20 | pri: alta | fonte: inbox 2026-10-20
-- [ ] Cobrar do Bruno Maximo, por escrito e numa só mensagem, as três pendências: anexos do Societário, endereço do sistema e tratativa do valor pago no módulo de Imóveis | #projuris | prazo: 2026-10-20 | pri: alta | aguardo: Bruno Maximo (sem resposta) | fonte: inbox 2026-10-20
+- [ ] Cobrar do Bruno Maximo, por escrito, as duas pendências ainda sem resposta: endereço do sistema e tratativa do valor pago no módulo de Imóveis | #projuris | prazo: 2026-10-20 | pri: alta | aguardo: Bruno Maximo (sem resposta) | fonte: inbox 2026-10-20
 - [ ] Alinhar com o Marcelo Cunha qual é o problema do DocuSign e quanto tempo vai levar | #docusign | prazo: 2026-10-20 | pri: media | fonte: derivado do despejo 20/10
 - [ ] Atualizar o Monday com o status real dos quatro projetos | prazo: 2026-10-20 | pri: alta | fonte: derivado do despejo 20/10
 
@@ -25,7 +25,8 @@ Atualizado: 2026-10-20
 ## 🤝 Prometi e ainda não entreguei
 
 - [ ] Entrega do Docket — prazo de 19/10 estourado | #docket | prazo: 2026-10-19 | pri: alta | prometi-a: Vinicius Mattos | fonte: inbox 2026-10-20
-- [ ] Entrega final do Projuris — migração dos anexos do módulo Societário, prazo de 16/10 estourado | #projuris | prazo: 2026-10-16 | pri: alta | prometi-a: Vinicius Mattos | aguardo: Bruno Maximo (sem data) | fonte: inbox 2026-10-20
+- [ ] Entrega final do Projuris — migração dos anexos do módulo Societário | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | aguardo: Bruno Maximo (data indicada por ele em 20/10; prazo original era 16/10) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
+- [ ] Confirmar na sexta 23/10 se a migração dos anexos do Societário foi realmente entregue | #projuris | prazo: 2026-10-23 | pri: alta | fonte: derivado do despejo 20/10
 
 ## 💰 Exposição financeira em aberto
 
