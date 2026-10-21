@@ -17,6 +17,20 @@ Formato:
 
 ---
 
+## 2026-10-21 — Projuris: migração dos anexos do Societário repactuada para 23/10
+- **Com quem:** Bruno Maximo (fornecedor)
+- **Contexto:** prazo original de 16/10 estourado; em 20/10 o fornecedor indicou 23/10 como nova data e foi cobrado por escrito em 21/10.
+- **Decidido:** o **novo planejamento é 23/10**, confirmado em 21/10. Deixou de ser data solta indicada pelo fornecedor e passou a ser o planejamento vigente.
+- **Consequência:** atraso de 7 dias sobre o prazo original. O Vinicius Mattos foi comunicado do atraso e do que falta em 21/10. Conferência da entrega está marcada para 23/10. A confirmar se o Monday já reflete a data nova.
+- **Fonte:** baixa no formulário, 21/10/2026
+
+## 2026-10-21 — Ajuda ao Marcelo Cunha no DocuSign: promessa cumprida
+- **Com quem:** Marcelo Cunha
+- **Contexto:** ele pediu ajuda em 20/10 com um problema de DocuSign num contrato e o Bruno se comprometeu a achar tempo em 21/10.
+- **Decidido:** ajuda prestada em 21/10, dentro do prazo prometido.
+- **Consequência:** a dívida com ele está quitada. Sobrou um item novo, que não é dívida antiga: alinhar com ele e com o Raphael Jesus o modus operandi informado pelo Jurídico, prazo 22/10.
+- **Fonte:** baixa no formulário, 21/10/2026
+
 ## 2026-10-21 — Docket entregue e encerrado
 - **Com quem:** Tamyres (validação, Jurídico) e Vinicius Mattos (comunicação)
 - **Contexto:** prazo de 19/10 estourado; a entrega dependia da validação da usuária.

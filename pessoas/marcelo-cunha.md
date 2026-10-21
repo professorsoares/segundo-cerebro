@@ -2,7 +2,7 @@
 
 - **Onde:** a confirmar
 - **Projetos:** #docusign (suporte pontual, não o projeto de PS)
-- **Último contato:** 2026-10-20 — pediu ajuda
+- **Último contato:** 2026-10-21 — ajuda prestada
 
 ## Como trabalhar com essa pessoa
 <a preencher>
@@ -11,13 +11,17 @@
 <nada registrado>
 
 ## Eu devo a ele
-- Ajuda para resolver um problema com o **DocuSign em um contrato** — pedido em 20/10,
-  Bruno se comprometeu a achar tempo em **21/10**
+- Alinhar, junto com o [[pessoas/raphael-jesus]], o **modus operandi informado pelo
+  Jurídico** — #docusign, prazo 22/10
+
+**Cumprido em 21/10:** ajuda com o problema do DocuSign no contrato, pedida em 20/10.
+Promessa entregue dentro do prazo que o Bruno deu. Ver [[decisoes]].
 
 ## A confirmar
-- Qual é exatamente o problema no contrato? (erro de envio, assinatura travada, template, permissão?)
-- Qual o contrato e qual a urgência real — tem prazo de assinatura correndo?
-- É problema que o Bruno resolve sozinho ou precisa de alguém da DocuSign?
+- O problema do contrato ficou resolvido, ou foi só desbloqueado e volta?
+- Onde ele trabalha e qual o papel dele — segue "a confirmar" desde 20/10.
+- O alinhamento do modus operandi é reunião dos três com o Raphael, ou conversas separadas?
 
 ## Histórico
 - **2026-10-20** — pediu ajuda com um problema de DocuSign em um contrato.
+- **2026-10-21** — ajuda prestada e alinhamento feito sobre o problema do DocuSign. Sobrou o alinhamento do modus operandi do Jurídico, com ele e o Raphael Jesus.

@@ -68,3 +68,4 @@ para a alteração de endereço, que está sem resposta nenhuma.
 - **2026-10-16** — data de entrega prevista; não cumprida.
 - **2026-10-20** — projeto registrado no segundo cérebro. Três pendências finais, todas com o fornecedor.
 - **2026-10-20** — Bruno Maximo **indicou 23/10** como nova data para a migração dos anexos do Societário. Primeira data que o fornecedor dá desde o estouro do prazo. Endereço do sistema e devolutiva do módulo de Imóveis seguem sem resposta.
+- **2026-10-21** — fornecedor cobrado por escrito nas duas pendências sem resposta. Atraso e o que falta comunicados ao Vinicius Mattos. **23/10 confirmado como o novo planejamento** da migração dos anexos, não mais só data indicada. Registrado em [[decisoes]].

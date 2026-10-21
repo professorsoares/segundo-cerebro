@@ -14,11 +14,10 @@ Atualizado: 2026-10-21
 - [ ] Preparar a pauta da reunião técnica Prothera × Nashai: lista do que o Prothera precisa receber do Sym Supply para autorizar embarque | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: derivado da conversa 21/10
 - [ ] Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se "término das atividades" é assinatura, implantação ou estabilização | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [ ] Alinhar com o Raphael Jesus e o Marcelo Cunha o modus operandi informado pelo Jurídico | #docusign | prazo: 2026-10-22 | pri: alta | fonte: baixa 21/10 (nota do alinhamento com o Marcelo)
-- [ ] Achar tempo para ajudar o Marcelo Cunha com o problema de DocuSign no contrato | #docusign | prazo: 2026-10-21 | pri: media | prometi-a: Marcelo Cunha | fonte: inbox 2026-10-20
 
 ## 🤝 Prometi e ainda não entreguei
 
-- [ ] Entrega final do Projuris — migração dos anexos do módulo Societário | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | aguardo: Bruno Maximo (data indicada por ele em 20/10; cobrado em 2026-10-21; prazo original era 16/10) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
+- [ ] Entrega final do Projuris — migração dos anexos do módulo Societário | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | aguardo: Bruno Maximo (novo planejamento para 23/10, confirmado em 21/10; prazo original era 16/10) | comunicar: Vinicius Mattos | fonte: baixa 21/10
 - [ ] Confirmar na sexta 23/10 se a migração dos anexos do Societário foi realmente entregue | #projuris | prazo: 2026-10-23 | pri: alta | fonte: derivado do despejo 20/10
 
 ## 💰 Exposição financeira em aberto
@@ -53,4 +52,5 @@ Atualizado: 2026-10-21
 - [x] Cobrar do Bruno Maximo, por escrito, as duas pendências sem resposta: endereço do sistema e tratativa do valor pago no módulo de Imóveis | #projuris | prazo: 2026-10-20 | pri: alta | fonte: baixa 21/10
 - [x] Alinhar com o Marcelo Cunha qual é o problema do DocuSign e quanto tempo vai levar | #docusign | prazo: 2026-10-20 | pri: media | fonte: baixa 21/10
 - [x] Agendar a reunião técnica entre Nashai e Prothera | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
+- [x] Achar tempo para ajudar o Marcelo Cunha com o problema de DocuSign no contrato | #docusign | prazo: 2026-10-21 | pri: media | prometi-a: Marcelo Cunha | fonte: baixa 21/10
 - [-] Garantir que o Arthur esteja disponível para ajustar o que a Tamyres apontar | #docket | prazo: 2026-10-21 | pri: alta | fonte: cancelada em 21/10, Docket concluído sem retrabalho
