@@ -35,9 +35,12 @@ Atualizado: 2026-10-21
 ## 📋 Em aberto
 
 - [ ] Fechar a contratação da equipe de PS da DocuSign | #docusign | pri: alta | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
-- [ ] Fechar a negociação da versão Standard com a Nashai | #sym-supply-one | pri: alta | fonte: inbox 2026-10-20
+- [/] Fechar a contratação da versão Standard com a Nashai — termos fechados em 20/10, aguardando o contrato que a Nashai está redigindo | #sym-supply-one | pri: alta | aguardo: Nashai (redação do acordo, desde 2026-10-20) | fonte: conversa 21/10
+- [ ] Comunicar ao Vinicius Mattos que os termos com a Nashai fecharam em 20/10 e pedir, antes da assinatura, as cláusulas de proteção: mapa das modificações pela Nashai, aceite amarrado a Prothera e FAS, e operação assistida | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
+- [ ] Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
 - [ ] Trazer para o vault a lista dos 33 requisitos do DocuSign, ou linkar onde ela está | #docusign | pri: media | fonte: derivado do despejo 20/10
+- [ ] Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se "término das atividades" é assinatura, implantação ou estabilização | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
 

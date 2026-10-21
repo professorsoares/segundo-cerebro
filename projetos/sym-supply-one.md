@@ -1,8 +1,8 @@
 # Sym Supply One
 
 - **Slug:** #sym-supply-one
-- **Outros nomes:** **Techsocial** (nome antigo, ainda usado no dia a dia — procurar por este termo em e-mail antigo), sistema da **Nashai**
-- **Estado:** ativo — fase final de negociação
+- **Outros nomes:** **Sym Supply** (como o Bruno costuma chamar), **Techsocial** (nome antigo, ainda usado no dia a dia — procurar por este termo em e-mail antigo), sistema da **Nashai**
+- **Estado:** ativo — **termos fechados em 20/10; contrato em redação pela Nashai, não assinado**
 - **Pessoas:** a preencher (quem é o contato comercial da Nashai?)
 - **Prazo-chave:** a definir
 - **Último status ao Vinicius:** nunca
@@ -10,10 +10,11 @@
 
 ## Para comunicar ao Vinicius
 
-**Status: fase final de negociação da versão Standard.**
+**Status: termos fechados ontem (20/10). A Nashai está redigindo o contrato.**
 
-A negociação com a Nashai está avançada para contratar a versão **Standard** do Sym
-Supply One (Techsocial) — ou seja, sem as modificações que fizemos ao longo do tempo.
+Fechamos na reunião de ontem os termos para contratar a versão **Standard** do Sym
+Supply One (Techsocial), ou seja, sem as modificações que fizemos ao longo do tempo.
+O acordo está sendo escrito pela Nashai e ainda não foi assinado.
 
 **Risco que preciso registrar formalmente:** não temos levantamento de quais
 modificações existem hoje nem de quais processos dependem delas. Cada modificação
@@ -32,9 +33,22 @@ assinado.
 para depois do término das atividades do Sym Supply One. Todo atraso aqui empurra o
 Protheus junto.
 
-**O que preciso de você:** ou autorização para levantar as modificações atuais, as
-integrações e seus dependentes **antes** de fechar, ou ciência formal de que vamos
-assinar sem esse levantamento e absorver o risco.
+**O que preciso de você, e o prazo é agora:** como os termos já estão fechados, não
+estou pedindo para mexer em escopo nem em preço. O que ainda dá para mudar é o
+**texto do contrato**, enquanto a Nashai o está escrevendo. Três coisas que, se
+entrarem no documento, custam zero agora e valem muito na implantação:
+
+1. **Obrigação da Nashai de entregar o mapa do que muda** — inventário das
+   modificações hoje existentes e das diferenças de modelo de dados em relação ao
+   Standard. Hoje nós não temos isso; quem tem é o fornecedor.
+2. **Critério de aceite amarrado às integrações** — a implantação só é aceita com
+   **Prothera** e **FAS** funcionando. Sem isso, "entregue" significa a ferramenta de
+   pé e o processo parado.
+3. **Período de operação assistida ou paralelo** para absorver o que aparecer depois.
+
+Se a tua leitura for que não vale reabrir o documento, me diz e eu registro a ciência
+formal de que assinamos sem o levantamento e absorvemos o risco. Qualquer das duas
+serve; o que não serve é assinar sem essa conversa ter acontecido.
 
 ## Por que existe
 Sistema fornecido pela **Nashai**. A decisão em curso é contratar a **versão
@@ -42,7 +56,14 @@ Standard** da ferramenta — isto é, abandonar as diversas modificações
 (customizações) feitas ao longo do tempo.
 
 ## Estado atual
-Fase final de negociação da versão Standard. Comercialmente avançado.
+Termos fechados com a Nashai em reunião de **20/10**. O acordo está sendo **redigido
+pela Nashai** e ainda não foi assinado. Cronograma do Sym Supply previsto para
+**21/10**, decorrente desse fechamento.
+
+**A janela mudou de natureza.** Até ontem o que estava em jogo era escopo. Com os
+termos fechados, escopo e preço saíram da mesa; o que ainda está aberto é o **texto
+do contrato**, e só enquanto ele está sendo escrito. Depois da assinatura não há mais
+alavanca nenhuma.
 
 ## Interfaces e integrações
 Frentes em paralelo que o Bruno apoia e que consomem dados de fornecedores do Sym
@@ -76,7 +97,8 @@ Cada frente pode virar arquivo próprio em `projetos/` quando houver fase, respo
 e prazo. Até lá, ficam aqui.
 
 ## Próximo passo concreto
-Fechar a negociação da versão Standard com a Nashai.
+Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatura (ver
+`## Para comunicar ao Vinicius`) e registrar o cronograma quando chegar.
 
 ## Riscos / o que pode travar
 - **O risco central é o abandono das customizações.** Houve "um monte de modificações" ao longo do tempo. Cada uma existe porque algum processo precisava dela. Ir para o Standard significa que esses processos mudam, ganham contorno manual ou somem — e isso aparece depois de assinado, não antes.
@@ -90,7 +112,9 @@ Fechar a negociação da versão Standard com a Nashai.
 - **Risco de retrabalho se o Protheus for especificado antes da decisão do Standard.** Especificação feita contra o modelo de dados atual (customizado) não vale para o Standard. O sequenciamento protege disso, mas só enquanto ninguém adiantar a especificação.
 
 ## A confirmar
-- Existe levantamento das modificações atuais e de quem depende de cada uma? (Se não existir, é o item mais urgente deste projeto.)
+- Existe levantamento das modificações atuais e de quem depende de cada uma? (Nunca foi confirmado. Com os termos fechados, a saída provável é obrigar a Nashai a entregá-lo por contrato, já que quem tem o mapa é o fornecedor.)
+- O contrato em redação já prevê prazo, aceite e operação assistida, ou vem só com licença e valor?
+- Quem revisa o contrato do nosso lado antes da assinatura, e qual o prazo que temos para comentar?
 - **Descrição formal de Prothera, FAS e Protheus** — o Bruno vai trazer. Até então a tabela acima é redação provisória.
 - **O que exatamente a integração com o Protheus vai trocar, e em que direção?** Hoje só se sabe que é integração e que vem depois.
 - **"Término das atividades do Sym Supply One" é o quê, concretamente?** Assinatura do Standard, implantação concluída, ou estabilização? A data do Protheus depende dessa definição.
@@ -103,6 +127,8 @@ Fechar a negociação da versão Standard com a Nashai.
 - Tem data-limite da negociação ou de renovação do contrato atual?
 
 ## Histórico
+- **2026-10-21** — termos da negociação fechados na reunião de **20/10**; Nashai redigindo o acordo, sem assinatura. Registrado em `decisoes.md`. A janela de influência deixa de ser escopo e passa a ser texto de contrato, com prazo curto. Cronograma do Sym Supply previsto para hoje.
+- **2026-10-21** — "Sym Supply" registrado como nome usado pelo Bruno.
 - **2026-10-21** — Protheus esclarecido: é só integração, sem processo próprio, e a frente está sequenciada para depois do término das atividades do Sym Supply One. Sai do rol de risco em paralelo e entra como dependente a jusante.
 - **2026-10-21** — esclarecido que Prothera e Protheus são sistemas distintos. Prothera = permissão de terceiro para embarcar e prestar serviço no navio; FAS = agendamento do serviço com o fornecedor; Protheus = função ainda não descrita. Redação provisória, descrição formal pendente com o Bruno.
 - **2026-10-21** — registrado: existem frentes em paralelo integrando dados de fornecedores com Prothera, FAS e Protheus. Eleva o risco do Standard, que deixa de ser só perda de customização e passa a ser risco de quebra de integração em cadeia operacional. Detalhamento pendente.
