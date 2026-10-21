@@ -148,25 +148,25 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
 <script>
 const DADOS = {
-  "gerado_em": "2026-10-20T23:20:20",
-  "commit": "e6a125f",
+  "gerado_em": "2026-10-21T08:12:43",
+  "commit": "5fb6d18",
   "resumo": {
-    "abertas": 20,
-    "vencidas": 1,
-    "hoje": 6,
-    "proximos_7_dias": 8,
+    "abertas": 21,
+    "vencidas": 7,
+    "hoje": 5,
+    "proximos_7_dias": 4,
     "sem_prazo": 5,
     "promessas": 3,
     "travadas": 4,
-    "a_comunicar": 8,
+    "a_comunicar": 12,
     "concluidas_no_arquivo": 0
   },
   "por_projeto": {
     "docket": 7,
     "projuris": 5,
     "docusign": 4,
-    "sem-projeto": 2,
-    "sym-supply-one": 2
+    "sym-supply-one": 3,
+    "sem-projeto": 2
   },
   "projetos": {
     "docket": {
@@ -203,7 +203,7 @@ const DADOS = {
       "estado": "ativo — fase final de negociação",
       "ultimo_status": "nunca",
       "dias_sem_status": null,
-      "rascunho": "**Status: fase final de negociação da versão Standard.**\n\nA negociação com a Nashai está avançada para contratar a versão **Standard** do Sym\nSupply One (Techsocial) — ou seja, sem as modificações que fizemos ao longo do tempo.\n\n**Risco que preciso registrar formalmente:** não temos levantamento de quais\nmodificações existem hoje nem de quais processos dependem delas. Cada modificação\nfoi feita porque alguma necessidade existia. Ir para Standard significa que esses\nprocessos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na\nimplantação, depois de assinado, não agora.\n\n**O que preciso de você:** ou autorização para levantar as modificações atuais e\nseus dependentes **antes** de fechar, ou ciência formal de que vamos assinar sem\nesse levantamento e absorver o risco."
+      "rascunho": "**Status: fase final de negociação da versão Standard.**\n\nA negociação com a Nashai está avançada para contratar a versão **Standard** do Sym\nSupply One (Techsocial) — ou seja, sem as modificações que fizemos ao longo do tempo.\n\n**Risco que preciso registrar formalmente:** não temos levantamento de quais\nmodificações existem hoje nem de quais processos dependem delas. Cada modificação\nfoi feita porque alguma necessidade existia. Ir para Standard significa que esses\nprocessos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na\nimplantação, depois de assinado, não agora.\n\n**Segundo risco, maior que o primeiro:** o Sym Supply One não é um sistema isolado.\nHá frentes em paralelo integrando dados de fornecedores com **Prothera**, **FAS** e\n**Protheus**. Se a versão Standard não expõe o que essas integrações consomem hoje,\no impacto não fica na ferramenta: ele chega nos sistemas de destino, e aparece na\nimplantação, depois de assinado.\n\n**O que preciso de você:** ou autorização para levantar as modificações atuais, as\nintegrações e seus dependentes **antes** de fechar, ou ciência formal de que vamos\nassinar sem esse levantamento e absorver o risco."
     }
   },
   "comunicar": [
@@ -230,7 +230,24 @@ const DADOS = {
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": 0,
+          "dias": -1,
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Confirmar com a Tamyres que a validação de amanhã às 10h está de pé",
+          "projeto": "docket",
+          "prazo": "2026-10-20",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "inbox 2026-10-20",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
           "precisa_comunicar": true
         },
         {
@@ -247,7 +264,7 @@ const DADOS = {
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": 1,
+          "dias": 0,
           "precisa_comunicar": true
         },
         {
@@ -264,7 +281,7 @@ const DADOS = {
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
-          "dias": -1,
+          "dias": -2,
           "precisa_comunicar": true
         }
       ]
@@ -292,7 +309,24 @@ const DADOS = {
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": 0,
+          "dias": -1,
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Cobrar do Bruno Maximo, por escrito, as duas pendências ainda sem resposta: endereço do sistema e tratativa do valor pago no módulo de Imóveis",
+          "projeto": "projuris",
+          "prazo": "2026-10-20",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": "Bruno Maximo (sem resposta)",
+          "fonte": "inbox 2026-10-20",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
           "precisa_comunicar": true
         },
         {
@@ -309,7 +343,7 @@ const DADOS = {
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
-          "dias": 3,
+          "dias": 2,
           "precisa_comunicar": true
         },
         {
@@ -341,6 +375,23 @@ const DADOS = {
       "rascunho": "**Status: em contratação, sem data de início.**\n\nEstamos em vias de contratar a equipe de Professional Services da DocuSign para\nexecutar os **33 requisitos** que levantamos. Enquanto a contratação não fecha,\nnenhum dos 33 anda — o projeto não tem data de início.\n\n**O que preciso de você:** clareza sobre o que falta para fechar a contratação e\nquem assina. Preciso também validar que o escopo contratado cobre os 33 requisitos;\ndiferença de escopo descoberta depois da assinatura sai caro.",
       "itens": [
         {
+          "descricao": "Alinhar com o Marcelo Cunha qual é o problema do DocuSign e quanto tempo vai levar",
+          "projeto": "docusign",
+          "prazo": "2026-10-20",
+          "hora": null,
+          "prioridade": "media",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "derivado do despejo 20/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
+          "precisa_comunicar": true
+        },
+        {
           "descricao": "Fechar a contratação da equipe de PS da DocuSign",
           "projeto": "docusign",
           "prazo": null,
@@ -360,13 +411,41 @@ const DADOS = {
       ]
     },
     {
+      "slug": "sem-projeto",
+      "nome": "sem-projeto",
+      "arquivo": null,
+      "estado": null,
+      "ultimo_status": null,
+      "dias_sem_status": null,
+      "rascunho": null,
+      "itens": [
+        {
+          "descricao": "Atualizar o Monday com o status real dos quatro projetos",
+          "projeto": null,
+          "prazo": "2026-10-20",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "derivado do despejo 20/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
+          "precisa_comunicar": true
+        }
+      ]
+    },
+    {
       "slug": "sym-supply-one",
       "nome": "Sym Supply One",
       "arquivo": "projetos/sym-supply-one.md",
       "estado": "ativo — fase final de negociação",
       "ultimo_status": "nunca",
       "dias_sem_status": null,
-      "rascunho": "**Status: fase final de negociação da versão Standard.**\n\nA negociação com a Nashai está avançada para contratar a versão **Standard** do Sym\nSupply One (Techsocial) — ou seja, sem as modificações que fizemos ao longo do tempo.\n\n**Risco que preciso registrar formalmente:** não temos levantamento de quais\nmodificações existem hoje nem de quais processos dependem delas. Cada modificação\nfoi feita porque alguma necessidade existia. Ir para Standard significa que esses\nprocessos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na\nimplantação, depois de assinado, não agora.\n\n**O que preciso de você:** ou autorização para levantar as modificações atuais e\nseus dependentes **antes** de fechar, ou ciência formal de que vamos assinar sem\nesse levantamento e absorver o risco.",
+      "rascunho": "**Status: fase final de negociação da versão Standard.**\n\nA negociação com a Nashai está avançada para contratar a versão **Standard** do Sym\nSupply One (Techsocial) — ou seja, sem as modificações que fizemos ao longo do tempo.\n\n**Risco que preciso registrar formalmente:** não temos levantamento de quais\nmodificações existem hoje nem de quais processos dependem delas. Cada modificação\nfoi feita porque alguma necessidade existia. Ir para Standard significa que esses\nprocessos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na\nimplantação, depois de assinado, não agora.\n\n**Segundo risco, maior que o primeiro:** o Sym Supply One não é um sistema isolado.\nHá frentes em paralelo integrando dados de fornecedores com **Prothera**, **FAS** e\n**Protheus**. Se a versão Standard não expõe o que essas integrações consomem hoje,\no impacto não fica na ferramenta: ele chega nos sistemas de destino, e aparece na\nimplantação, depois de assinado.\n\n**O que preciso de você:** ou autorização para levantar as modificações atuais, as\nintegrações e seus dependentes **antes** de fechar, ou ciência formal de que vamos\nassinar sem esse levantamento e absorver o risco.",
       "itens": [
         {
           "descricao": "Levantar as modificações atuais do Techsocial e quem depende de cada uma",
@@ -403,7 +482,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -1,
       "precisa_comunicar": true
     },
     {
@@ -420,7 +499,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -1,
       "precisa_comunicar": true
     },
     {
@@ -437,8 +516,8 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
-      "precisa_comunicar": false
+      "dias": -1,
+      "precisa_comunicar": true
     },
     {
       "descricao": "Cobrar do Bruno Maximo, por escrito, as duas pendências ainda sem resposta: endereço do sistema e tratativa do valor pago no módulo de Imóveis",
@@ -454,8 +533,8 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
-      "precisa_comunicar": false
+      "dias": -1,
+      "precisa_comunicar": true
     },
     {
       "descricao": "Alinhar com o Marcelo Cunha qual é o problema do DocuSign e quanto tempo vai levar",
@@ -471,8 +550,8 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
-      "precisa_comunicar": false
+      "dias": -1,
+      "precisa_comunicar": true
     },
     {
       "descricao": "Atualizar o Monday com o status real dos quatro projetos",
@@ -488,8 +567,8 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
-      "precisa_comunicar": false
+      "dias": -1,
+      "precisa_comunicar": true
     },
     {
       "descricao": "1/3 — Concluir a validação da Tamyres **antes das 10h**",
@@ -505,7 +584,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "precisa_comunicar": false
     },
     {
@@ -522,7 +601,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "precisa_comunicar": true
     },
     {
@@ -539,7 +618,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "precisa_comunicar": false
     },
     {
@@ -556,7 +635,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "precisa_comunicar": false
     },
     {
@@ -573,7 +652,7 @@ const DADOS = {
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "precisa_comunicar": false
     },
     {
@@ -590,7 +669,7 @@ const DADOS = {
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": -1,
+      "dias": -2,
       "precisa_comunicar": true
     },
     {
@@ -607,7 +686,7 @@ const DADOS = {
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": 3,
+      "dias": 2,
       "precisa_comunicar": true
     },
     {
@@ -624,7 +703,7 @@ const DADOS = {
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": 3,
+      "dias": 2,
       "precisa_comunicar": false
     },
     {
@@ -713,6 +792,23 @@ const DADOS = {
       "precisa_comunicar": false
     },
     {
+      "descricao": "Detalhar os projetos em paralelo que fazem interface com o Sym Supply One — integrações de dados de fornecedores com Prothera, FAS e Protheus: o que cada um é, em que fase está, quem é o responsável e qual o prazo",
+      "projeto": "sym-supply-one",
+      "prazo": "2026-10-22",
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "conversa 21/10",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "📋 Em aberto",
+      "estado": "aberto",
+      "dias": 1,
+      "precisa_comunicar": false
+    },
+    {
       "descricao": "Despejar no segundo cérebro o resto dos projetos, pendências e comunicações",
       "projeto": null,
       "prazo": "2026-10-22",
@@ -726,7 +822,7 @@ const DADOS = {
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": 2,
+      "dias": 1,
       "precisa_comunicar": false
     }
   ]
