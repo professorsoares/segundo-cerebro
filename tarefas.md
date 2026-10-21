@@ -38,7 +38,7 @@ Atualizado: 2026-10-21
 - [ ] Fechar a negociação da versão Standard com a Nashai | #sym-supply-one | pri: alta | fonte: inbox 2026-10-20
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
 - [ ] Trazer para o vault a lista dos 33 requisitos do DocuSign, ou linkar onde ela está | #docusign | pri: media | fonte: derivado do despejo 20/10
-- [ ] Detalhar os projetos em paralelo que fazem interface com o Sym Supply One — integrações de dados de fornecedores com Prothera, FAS e Protheus: o que cada um é, em que fase está, quem é o responsável e qual o prazo | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
+- [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
 
 ## ⏳ Aguardando outra pessoa

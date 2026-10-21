@@ -21,11 +21,13 @@ foi feita porque alguma necessidade existia. Ir para Standard significa que esse
 processos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na
 implantação, depois de assinado, não agora.
 
-**Segundo risco, maior que o primeiro:** o Sym Supply One não é um sistema isolado.
-Há frentes em paralelo integrando dados de fornecedores com **Prothera**, **FAS** e
-**Protheus**. Se a versão Standard não expõe o que essas integrações consomem hoje,
-o impacto não fica na ferramenta: ele chega nos sistemas de destino, e aparece na
-implantação, depois de assinado.
+**Segundo risco, maior que o primeiro:** o Sym Supply One é o cadastro mestre de
+fornecedor de uma cadeia operacional. O **FAS** agenda o serviço com o fornecedor e o
+**Prothera** autoriza o pessoal dele a embarcar no navio; há ainda integração com o
+**Protheus**. Se a versão Standard não expõe o que essas integrações consomem hoje, o
+impacto não fica na ferramenta nem no relatório: terceiro não liberado para embarcar
+é serviço não executado e navio esperando. E isso aparece na implantação, depois de
+assinado.
 
 **O que preciso de você:** ou autorização para levantar as modificações atuais, as
 integrações e seus dependentes **antes** de fechar, ou ciência formal de que vamos
@@ -40,18 +42,31 @@ Standard** da ferramenta — isto é, abandonar as diversas modificações
 Fase final de negociação da versão Standard. Comercialmente avançado.
 
 ## Interfaces e integrações
-Frentes em paralelo que o Bruno apoia e que trocam dados com o Sym Supply One.
-Registrado em 21/10 a partir de conversa; **conteúdo ainda a detalhar** (ver tarefa
-em `tarefas.md`).
+Frentes em paralelo que o Bruno apoia e que consomem dados de fornecedores do Sym
+Supply One. **Prothera e Protheus são sistemas distintos** — nomes parecidos, funções
+diferentes. Confirmado em 21/10.
 
-| Sistema de destino | Natureza | Detalhe |
+> **Redação provisória.** As descrições abaixo vieram de conversa rápida em 21/10. O
+> Bruno vai trazer a descrição formal de cada sistema. Não citar este texto em
+> documento oficial antes disso.
+
+| Sistema | Para que serve | O que consome daqui |
 |---|---|---|
-| **Prothera** | integração de dados de fornecedores | a detalhar |
-| **FAS** | integração de dados de fornecedores | a detalhar |
-| **Protheus** | integração de dados de fornecedores | a detalhar |
+| **Prothera** | permissão de terceiros para embarcar no navio e prestar serviço. A OceanPact é empresa de navegação e serviços ligados ao oceano; o braço de navegação precisa desse controle de acesso. | dados do fornecedor e do seu pessoal, para autorizar o embarque |
+| **FAS** | agendamento dos serviços com os fornecedores | dados do fornecedor, para marcar o serviço |
+| **Protheus** | a detalhar | a detalhar |
 
-Cada uma dessas frentes pode virar um arquivo próprio em `projetos/` quando houver
-fase, responsável e prazo. Até lá, ficam aqui.
+### A cadeia, na ordem em que acontece
+O Sym Supply One é, na prática, o **cadastro mestre de fornecedor** dessa cadeia:
+
+1. o fornecedor existe e está qualificado no **Sym Supply One**;
+2. o **FAS** agenda o serviço com esse fornecedor;
+3. o **Prothera** autoriza o pessoal dele a embarcar para executar o serviço.
+
+Quebrar o elo 1 não para só o cadastro: para o agendamento e para o embarque.
+
+Cada frente pode virar arquivo próprio em `projetos/` quando houver fase, responsável
+e prazo. Até lá, ficam aqui.
 
 ## Próximo passo concreto
 Fechar a negociação da versão Standard com a Nashai.
@@ -61,17 +76,22 @@ Fechar a negociação da versão Standard com a Nashai.
 - Não há aqui um levantamento das modificações atuais nem de quem depende de cada uma.
 - Usuários que hoje trabalham com os ajustes podem reagir na implantação, não na negociação.
 - **O raio do risco é maior do que a ferramenta.** Existem integrações de dados de fornecedores com Prothera, FAS e Protheus. Se alguma delas consome campo, tabela ou extensão que só existe por causa de uma modificação, ir para Standard quebra a integração, e o estrago aparece no sistema de destino, não aqui.
+- **O pior caminho de falha é o do Prothera, e ele é operacional, não administrativo.** Prothera autoriza terceiro a embarcar. Se o dado que ele consome deixar de existir no Standard, a consequência não é relatório errado: é pessoa não liberada para embarcar, serviço não executado e navio esperando. *(Leitura minha a partir da função descrita, não afirmação do fornecedor — confirmar.)*
+- **O FAS falha antes:** sem dado de fornecedor, não há agendamento. Serviço que não é agendado também não acontece.
 - O levantamento das modificações, por si, não resolve: é preciso cruzar cada modificação com as integrações que a consomem.
 
 ## A confirmar
 - Existe levantamento das modificações atuais e de quem depende de cada uma? (Se não existir, é o item mais urgente deste projeto.)
-- **Prothera e Protheus são dois sistemas distintos, ou um deles é erro de grafia?** Os nomes são quase idênticos e errar isso aqui contamina tudo o que vier depois.
-- **O que é FAS?** Nome completo, dono e o que consome do Sym Supply One.
+- **Descrição formal de Prothera, FAS e Protheus** — o Bruno vai trazer. Até então a tabela acima é redação provisória.
+- **O que o Protheus consome do Sym Supply One?** É o único dos três sem função descrita.
 - Cada integração consome só dado Standard, ou depende de customização?
+- Quem é o responsável por cada frente (Prothera, FAS, Protheus) e em que fase cada uma está?
+- O Prothera trata documentação de pessoal de terceiro para embarque (aptidão, treinamento, certificação)? Se sim, há peso regulatório, e o campo que falta vira impedimento legal de embarque, não inconveniência.
 - A decisão pelo Standard é financeira, de manutenção, ou imposta pela Nashai?
 - Qual o impacto previsto para os usuários e quem precisa ser avisado?
 - Tem data-limite da negociação ou de renovação do contrato atual?
 
 ## Histórico
-- **2026-10-21** — registrado: existem frentes em paralelo integrando dados de fornecedores com Prothera, FAS e Protheus. Eleva o risco do Standard, que deixa de ser só perda de customização e passa a ser risco de quebra de integração. Detalhamento pendente.
+- **2026-10-21** — esclarecido que Prothera e Protheus são sistemas distintos. Prothera = permissão de terceiro para embarcar e prestar serviço no navio; FAS = agendamento do serviço com o fornecedor; Protheus = função ainda não descrita. Redação provisória, descrição formal pendente com o Bruno.
+- **2026-10-21** — registrado: existem frentes em paralelo integrando dados de fornecedores com Prothera, FAS e Protheus. Eleva o risco do Standard, que deixa de ser só perda de customização e passa a ser risco de quebra de integração em cadeia operacional. Detalhamento pendente.
 - **2026-10-20** — registrado: fase final de negociação da versão Standard, sem as modificações históricas.
