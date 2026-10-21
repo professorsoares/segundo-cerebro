@@ -4,7 +4,7 @@
 - **Estado:** ativo — **ATRASADO**
 - **Pessoas:** [[pessoas/bruno-maximo]] (fornecedor)
 - **Prazo-chave:** original **2026-10-16** (estourado) → fornecedor indicou **2026-10-23**
-- **Último status ao Vinicius:** nunca
+- **Último status ao Vinicius:** 2026-10-21
 - **Atualizado:** 2026-10-20
 
 ## Para comunicar ao Vinicius

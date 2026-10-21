@@ -48,3 +48,4 @@ Fechar a contratação do PS. Enquanto ela não fecha, nenhum dos 33 requisitos 
 ## Histórico
 - **2026-09-11** — pacote de envio do BID gerado em `C:/git/ocean/docusign-bid/envio`.
 - **2026-10-20** — registrado: em vias de contratar o PS da DocuSign para atender aos 33 requisitos.
+- **2026-10-21** — alinhamento com o [[pessoas/marcelo-cunha]] feito: o problema do DocuSign no contrato foi entendido. Sobrou um passo: alinhar com o [[pessoas/raphael-jesus]] e o Marcelo o **modus operandi informado pelo Jurídico**. Tarefa aberta em `tarefas.md`.

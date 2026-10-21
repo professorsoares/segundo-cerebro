@@ -3,7 +3,7 @@
 - **Onde:** OceanPact — colaborador
 - **Papel:** **gerente do Bruno**
 - **Projetos:** todos (#docket · #projuris · #docusign · #sym-supply-one)
-- **Último contato:** a confirmar
+- **Último contato:** 2026-10-21 — Docket (conclusão) e Projuris (atraso e o que falta)
 
 ## Como trabalhar com essa pessoa
 É o **principal afetado quando algo sai do esperado** — ou seja, é o destinatário
@@ -16,14 +16,22 @@ Atraso que ele descobre sozinho custa muito mais caro que atraso comunicado.
 <nada registrado>
 
 ## Eu devo a ele
-- Comunicação do atraso do **#docket** (prazo 19/10 estourado) e data nova
-- Comunicação do atraso do **#projuris** (prazo 16/10 estourado) e o que falta
-- Visibilidade de status dos quatro projetos
+- Comunicação de que os termos com a Nashai fecharam em 20/10, com o pedido das
+  cláusulas de proteção **antes da assinatura** — #sym-supply-one, vence hoje
+- Cronograma do Sym Supply quando chegar — #sym-supply-one
+- Visibilidade de status do #docusign (contratação de PS parada, sem data de início)
+- Visibilidade do que está travado no Bruno Maximo no #projuris
+
+**Cumprido em 21/10:** atraso e conclusão do #docket; atraso do #projuris e o que
+falta. Ver [[decisoes]].
 
 ## A confirmar
 - Qual canal e cadência ele prefere para status? (e-mail, reunião semanal, mensagem)
-- Ele já sabe dos atrasos do Docket e do Projuris?
+- A comunicação do Projuris em 21/10 cobriu as três pendências do fornecedor, ou só
+  o atraso da migração? Decide se a devolutiva de Imóveis e a entrega final ainda
+  contam como não comunicadas.
 - Ele é o ponto de escalada para cobrar fornecedor (Bruno Maximo / Nashai)?
 
 ## Histórico
 - **2026-10-20** — registrado como gerente do Bruno e principal afetado por desvios.
+- **2026-10-21** — recebeu o status do Docket (atraso e depois conclusão) e do Projuris (atraso de 16/10 e o que falta). Primeiro status formal registrado.

@@ -17,6 +17,13 @@ Formato:
 
 ---
 
+## 2026-10-21 — Docket entregue e encerrado
+- **Com quem:** Tamyres (validação, Jurídico) e Vinicius Mattos (comunicação)
+- **Contexto:** prazo de 19/10 estourado; a entrega dependia da validação da usuária.
+- **Decidido:** validação concluída na manhã de 21/10 sem retrabalho estrutural; entrega fechada e projeto encerrado.
+- **Consequência:** atraso final de 2 dias. Conclusão comunicada ao Vinicius Mattos em 21/10 e Monday atualizado no mesmo dia. A promessa feita a ele está cumprida. Falta confirmar se houve aceite formal da Tamyres ou apenas validação verbal.
+- **Fonte:** baixa no formulário, 21/10/2026
+
 ## 2026-10-20 — Sym Supply One: termos fechados para a versão Standard
 - **Com quem:** Nashai (fornecedor), em reunião
 - **Contexto:** decisão de contratar o Sym Supply One (Techsocial / Sym Supply) na versão **Standard**, abandonando as modificações feitas ao longo do tempo.

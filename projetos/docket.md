@@ -1,52 +1,45 @@
 # Docket
 
 - **Slug:** #docket
-- **Estado:** ativo — **ATRASADO**
+- **Estado:** **concluído** em 2026-10-21 — validado, comunicado e atualizado no Monday
 - **Pessoas:** [[pessoas/tamyres]] · [[pessoas/arthur]] · [[pessoas/gabriel-candelaria]]
-- **Prazo-chave:** entrega era até **2026-10-19** (estourado)
-- **Último status ao Vinicius:** nunca
-- **Atualizado:** 2026-10-20
+- **Prazo-chave:** entrega era até **2026-10-19**; fechou em **2026-10-21**, com 2 dias de atraso
+- **Último status ao Vinicius:** 2026-10-21
+- **Atualizado:** 2026-10-21
 
-## Para comunicar ao Vinicius
-
-**Status: atrasado desde 19/10.**
-
-A entrega do Docket não fechou no prazo de 19/10. O que o Arthur construiu está
-pronto para validação, mas ainda não passou pelo usuário.
-
-A validação com a Tamyres (Jurídico) está marcada para a manhã de **21/10**. A data
-nova depende do que sair dela: se não houver ajuste estrutural, a entrega fecha em
-seguida.
-
-**O que preciso de você:** nada agora. Te trago a data firme logo depois da
-validação de amanhã. Se a Tamyres apontar ajuste grande, aí vou precisar repactuar
-o prazo formalmente.
+<!-- A seção `## Para comunicar ao Vinicius` foi removida de propósito: o projeto
+     fechou e o status foi dado em 21/10. Texto de comunicação parado aqui faria o
+     painel cobrar uma conversa que já aconteceu. Se o projeto reabrir, escrever
+     a seção de novo. -->
 
 ## Por que existe
 Construção/entrega de solução para a área Jurídica. (Escopo detalhado a confirmar.)
 
 ## Estado atual
-Prazo de entrega era **19/10** e não foi cumprido. O que o Arthur construiu está
-pronto o suficiente para validação, mas ainda **não foi validado pelo usuário**.
+Concluído. A validação da Tamyres aconteceu na manhã de **21/10** e não gerou
+retrabalho estrutural. A entrega fechou em seguida, o Vinicius Mattos foi
+comunicado da conclusão no mesmo dia e o Monday foi atualizado.
 
-A validação da Tamyres (usuária do Jurídico) está marcada para a **manhã de
-2026-10-21**. É o passo que destrava a entrega.
+Atraso final: **2 dias** sobre o prazo de 19/10.
 
 ## Próximo passo concreto
-Garantir que a validação da Tamyres aconteça na manhã de 21/10 — confirmar com
-ela hoje que está de pé, e garantir que o Arthur esteja disponível para ajustar
-o que ela apontar.
+Nenhum. Projeto encerrado.
 
 ## Riscos / o que pode travar
-- Validação não acontecer amanhã e o atraso crescer sem data nova.
-- Tamyres apontar ajustes grandes: hoje não há folga de prazo para absorver retrabalho.
-- Arthur é estagiário e não responde pelo prazo: a cobrança precisa passar pelo Gabriel Candelaria.
+Nenhum ativo. Registro do que valeu enquanto corria:
+
+- O atraso de 19/10 ficou 1 dia sem comunicação ao Vinicius. Fechou bem porque a
+  validação não gerou retrabalho, não porque havia folga. Se a Tamyres tivesse
+  apontado ajuste estrutural, o atraso cresceria com o gerente já desinformado.
+- Arthur é estagiário e não responde pelo prazo; a cobrança passava pelo Gabriel
+  Candelaria. Vale lembrar disso na próxima frente com a mesma estrutura.
 
 ## A confirmar
-- Quem é o dono do prazo de 19/10 e para quem o atraso precisa ser comunicado?
-- O atraso já foi comunicado formalmente? Existe data nova repactuada?
-- Qual é exatamente o escopo que a Tamyres vai validar?
+- Houve aceite formal da Tamyres, ou validação verbal? Entrega de Jurídico sem
+  registro de aceite tende a voltar.
+- O escopo validado foi o escopo prometido em 19/10, ou foi reduzido para fechar?
 
 ## Histórico
 - **2026-10-19** — data de entrega prevista; não cumprida.
 - **2026-10-20** — projeto registrado no segundo cérebro. Validação da Tamyres marcada para a manhã de 21/10.
+- **2026-10-21** — validação da Tamyres concluída, entrega fechada, conclusão comunicada ao Vinicius Mattos e Monday atualizado. Projeto encerrado com 2 dias de atraso.
