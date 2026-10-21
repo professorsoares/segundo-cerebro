@@ -101,9 +101,10 @@ Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatur
 `## Para comunicar ao Vinicius`), garantir a reunião Prothera × Nashai na janela de
 hoje a amanhã, e registrar o cronograma quando chegar.
 
-### Reunião Prothera × Nashai — por que a janela importa
-Registrado em 21/10: é preciso garantir, entre **21** e **22/10**, uma reunião entre
-Prothera e Nashai.
+### Reunião técnica Prothera × Nashai — agendada
+**Agendamento concluído em 21/10.** É reunião **técnica** entre os dois fornecedores.
+A data ainda não está registrada aqui, e é ela que decide se a reunião serve de
+insumo para o contrato ou chega tarde.
 
 O prazo real dessa reunião não é "amanhã", é **antes de o contrato da Nashai ser
 assinado**. Se os dois fornecedores se falarem enquanto o acordo está em redação,
@@ -141,6 +142,7 @@ que se paga.
 - Tem data-limite da negociação ou de renovação do contrato atual?
 
 ## Histórico
+- **2026-10-21** — reunião **técnica** entre Nashai e Prothera **agendada**. Data a registrar; é o que define se as conclusões dela cabem no contrato em redação ou viram pedido de mudança.
 - **2026-10-21** — registrada a necessidade de garantir reunião entre **Prothera e Nashai** na janela de 21 a 22/10. Amarrada à janela do contrato: vale muito mais antes da assinatura que depois.
 - **2026-10-21** — termos da negociação fechados na reunião de **20/10**; Nashai redigindo o acordo, sem assinatura. Registrado em `decisoes.md`. A janela de influência deixa de ser escopo e passa a ser texto de contrato, com prazo curto. Cronograma do Sym Supply previsto para hoje.
 - **2026-10-21** — "Sym Supply" registrado como nome usado pelo Bruno.
