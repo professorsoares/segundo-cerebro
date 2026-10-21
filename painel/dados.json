@@ -1,0 +1,31 @@
+{
+  "gerado_em": "2026-10-20T21:54:20",
+  "commit": "29354cd",
+  "resumo": {
+    "abertas": 1,
+    "vencidas": 0,
+    "hoje": 0,
+    "proximos_7_dias": 1,
+    "sem_prazo": 0,
+    "promessas": 0,
+    "travadas": 0,
+    "concluidas_no_arquivo": 0
+  },
+  "por_projeto": {
+    "sem-projeto": 1
+  },
+  "tarefas": [
+    {
+      "descricao": "Fazer o primeiro despejo completo de tarefas no segundo cérebro",
+      "projeto": null,
+      "prazo": "2026-10-22",
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "conversa de montagem 20/10",
+      "secao": "📋 Em aberto",
+      "estado": "aberto",
+      "dias": 2
+    }
+  ]
+}
