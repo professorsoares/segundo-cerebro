@@ -2,23 +2,28 @@
 
 - **Slug:** #docusign
 - **Outros nomes:** "BID DocuSign", "RFP de Professional Services"
-- **Estado:** ativo — em contratação
-- **Pessoas:** a preencher (quem é o contato do PS da DocuSign?)
-- **Prazo-chave:** a definir
+- **Estado:** ativo — **SOW e planejamento em aprovação** (21/10)
+- **Pessoas:** [[pessoas/marcelo-cunha]] · [[pessoas/raphael-jesus]] · contato do PS da DocuSign a preencher
+- **Prazo-chave:** aprovação do SOW com o Vinicius — **2026-10-21**
 - **Último status ao Vinicius:** nunca
-- **Atualizado:** 2026-10-20
+- **Atualizado:** 2026-10-21
 
 ## Para comunicar ao Vinicius
 
-**Status: em contratação, sem data de início.**
+**Status: SOW e planejamento prontos para aprovação. É hoje que o escopo congela.**
 
-Estamos em vias de contratar a equipe de Professional Services da DocuSign para
-executar os **33 requisitos** que levantamos. Enquanto a contratação não fecha,
-nenhum dos 33 anda — o projeto não tem data de início.
+O SOW e o planejamento do Professional Services da DocuSign estão para aprovação
+entre nós dois. Aprovado o SOW, o escopo contratado passa a ser o que está escrito
+nele, e os **33 requisitos** que levantamos valem só na medida em que ele os cobre.
 
-**O que preciso de você:** clareza sobre o que falta para fechar a contratação e
-quem assina. Preciso também validar que o escopo contratado cobre os 33 requisitos;
-diferença de escopo descoberta depois da assinatura sai caro.
+**O risco que preciso registrar antes de assinar:** não tenho a lista dos 33
+requisitos conferida linha a linha contra o SOW. Aprovar sem essa conferência
+significa descobrir diferença de escopo depois, quando mudança já se paga.
+
+**O que preciso de você:** ou meia hora para conferirmos o SOW contra os 33
+requisitos antes de aprovar, ou a tua concordância de que aprovamos agora com
+ressalva escrita de que a conformidade com os 33 será verificada e tratada como
+desvio de escopo, não como pedido novo.
 
 ## Por que existe
 Atender a **33 requisitos** levantados internamente, por meio de alterações e
@@ -48,4 +53,5 @@ Fechar a contratação do PS. Enquanto ela não fecha, nenhum dos 33 requisitos 
 ## Histórico
 - **2026-09-11** — pacote de envio do BID gerado em `C:/git/ocean/docusign-bid/envio`.
 - **2026-10-20** — registrado: em vias de contratar o PS da DocuSign para atender aos 33 requisitos.
+- **2026-10-21** — SOW e planejamento do PS entraram em aprovação com o Vinicius Mattos, para hoje. Lista dos 33 requisitos ainda não está no vault, então a conferência de escopo não tem contra o que ser feita: o item de trazer a lista deixou de ser organização e virou pré-requisito.
 - **2026-10-21** — alinhamento com o [[pessoas/marcelo-cunha]] feito: o problema do DocuSign no contrato foi entendido. Sobrou um passo: alinhar com o [[pessoas/raphael-jesus]] e o Marcelo o **modus operandi informado pelo Jurídico**. Tarefa aberta em `tarefas.md`.

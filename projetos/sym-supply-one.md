@@ -29,6 +29,11 @@ impacto não fica na ferramenta nem no relatório: terceiro não liberado para e
 é serviço não executado e navio esperando. E isso aparece na implantação, depois de
 assinado.
 
+**Decisão que preciso tomar hoje, e que te afeta:** a Nashai apresentou proposta para
+a integração com o **Prothera**. Como o contrato do Standard está em redação, dá para
+negociar as duas coisas no mesmo pacote, com alavanca, ou deixar a integração para
+depois, sem alavanca nenhuma. Minha leitura é que vale juntar.
+
 **Dependência que vale registrar:** a integração com o **Protheus** está sequenciada
 para depois do término das atividades do Sym Supply One. Todo atraso aqui empurra o
 Protheus junto.
@@ -101,6 +106,21 @@ Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatur
 `## Para comunicar ao Vinicius`), garantir a reunião Prothera × Nashai na janela de
 hoje a amanhã, e registrar o cronograma quando chegar.
 
+### Proposta da Nashai para a integração com o Prothera
+Registrado em 21/10: a **Nashai apresentou proposta** para a integração com o
+Prothera, e ela está para avaliação.
+
+**A questão não é só se a proposta é boa, é quando ela é negociada.** O contrato do
+Standard está em redação agora. Avaliar a proposta de integração como item separado
+significa negociar duas vezes com o mesmo fornecedor, sendo que na segunda vez o
+Standard já está assinado e a alavanca acabou. Se a integração entra no mesmo pacote,
+ela é moeda de troca; se sai depois, é pedido de mudança com preço de pedido de
+mudança.
+
+Vale também conferir se a proposta já cobre, de graça, o que eu sugeri pedir por
+cláusula: expor o dado que o Prothera consome e amarrar aceite ao funcionamento da
+integração.
+
 ### Reunião técnica Prothera × Nashai — agendada
 **Agendamento concluído em 21/10.** É reunião **técnica** entre os dois fornecedores.
 A data ainda não está registrada aqui, e é ela que decide se a reunião serve de
@@ -142,6 +162,7 @@ que se paga.
 - Tem data-limite da negociação ou de renovação do contrato atual?
 
 ## Histórico
+- **2026-10-21** — **Nashai apresentou proposta de integração com o Prothera**, em avaliação. Decisão em aberto: negociar junto do contrato Standard, que ainda está em redação, ou depois dele.
 - **2026-10-21** — reunião **técnica** entre Nashai e Prothera **agendada**. Data a registrar; é o que define se as conclusões dela cabem no contrato em redação ou viram pedido de mudança.
 - **2026-10-21** — registrada a necessidade de garantir reunião entre **Prothera e Nashai** na janela de 21 a 22/10. Amarrada à janela do contrato: vale muito mais antes da assinatura que depois.
 - **2026-10-21** — termos da negociação fechados na reunião de **20/10**; Nashai redigindo o acordo, sem assinatura. Registrado em `decisoes.md`. A janela de influência deixa de ser escopo e passa a ser texto de contrato, com prazo curto. Cronograma do Sym Supply previsto para hoje.
