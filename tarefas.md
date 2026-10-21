@@ -7,7 +7,7 @@ Atualizado: 2026-10-21
 
 ### Hoje — 21/10
 
-- [ ] **Aprovar o SOW e o planejamento do DocuSign com o Vinicius Mattos** — conferir o escopo do SOW contra os 33 requisitos antes de aprovar; se a lista não estiver em mão, aprovar com ressalva escrita de conformidade a verificar | #docusign | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
+- [ ] **Aprovar o SOW e o planejamento do DocuSign com o Vinicius Mattos** — o escopo dos 33 requisitos existe e está validado; o que falta checar é se o SOW cobre esses 33, item por item | #docusign | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [ ] **Avaliar a proposta da Nashai de integração com o Prothera** — e decidir se ela entra na negociação do contrato Standard, que está em redação, ou corre separada | #sym-supply-one | prazo: 2026-10-21 | pri: alta | fonte: conversa 21/10
 - [ ] Comunicar ao Vinicius Mattos que os termos com a Nashai fecharam em 20/10 e pedir, antes da assinatura, as cláusulas de proteção: mapa das modificações pela Nashai, aceite amarrado a Prothera e FAS, e operação assistida | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [ ] Registrar a data da reunião técnica Prothera × Nashai e conferir se ela cai **antes** da assinatura do contrato da Nashai | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
@@ -32,7 +32,7 @@ Atualizado: 2026-10-21
 - [/] Fechar a contratação da versão Standard com a Nashai — termos fechados em 20/10, aguardando o contrato que a Nashai está redigindo | #sym-supply-one | pri: alta | aguardo: Nashai (redação do acordo, desde 2026-10-20) | fonte: conversa 21/10
 - [ ] Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
-- [ ] Trazer para o vault a lista dos 33 requisitos do DocuSign, ou linkar onde ela está — **virou pré-requisito da aprovação do SOW**, não mais item de organização | #docusign | prazo: 2026-10-21 | pri: alta | fonte: derivado do despejo 20/10
+- [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — o documento existe e está validado, só não está aqui, o que impede conferência por mim e pela revisão semanal | #docusign | prazo: 2026-10-22 | pri: media | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
 
