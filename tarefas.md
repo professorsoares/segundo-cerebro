@@ -17,14 +17,17 @@ Atualizado: 2026-10-23
 
 ## 🤝 Prometi e ainda não entreguei
 
-- [ ] Entrega final do Projuris — migração dos anexos do módulo Societário | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | aguardo: Bruno Maximo (novo planejamento para 23/10, confirmado em 21/10; prazo original era 16/10) | comunicar: Vinicius Mattos | fonte: baixa 21/10
-- [ ] Confirmar na sexta 23/10 se a migração dos anexos do Societário foi realmente entregue | #projuris | prazo: 2026-10-23 | pri: alta | fonte: derivado do despejo 20/10
+- [/] Entrega final do Projuris — migração dos anexos do Societário informada como entregue; falta conferência e aceite | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
+- [ ] Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10 | #projuris | prazo: 2026-10-23 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 
 ## 💰 Exposição financeira em aberto
 
 - [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | prazo: 2026-10-23 | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 
 ## 📋 Em aberto
+
+- [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
+- [ ] Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas | #projuris | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 
 - [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
