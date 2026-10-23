@@ -1,71 +1,57 @@
 # Projuris
 
 - **Slug:** #projuris
-- **Estado:** ativo — **ATRASADO**
+- **Estado:** ativo — migração entregue, aguardando conferência; demais pendências abertas
 - **Pessoas:** [[pessoas/bruno-maximo]] (fornecedor)
-- **Prazo-chave:** original **2026-10-16** (estourado) → fornecedor indicou **2026-10-23**
+- **Prazo-chave:** original **2026-10-16** → planejamento repactuado **2026-10-23**; entrega informada em 23/10, sem aceite
 - **Último status ao Vinicius:** 2026-10-21
-- **Atualizado:** 2026-10-20
+- **Atualizado:** 2026-10-23
 
 ## Para comunicar ao Vinicius
 
-**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**
+**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**
 
-Faltam três pendências, as três na mão do Bruno Maximo (fornecedor):
+A entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.
 
-1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor
-   indicou **23/10** como nova data. O prazo original era 16/10.
-2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.
-3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor
-   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é
-   exposição financeira em aberto, não atraso de cronograma.
+**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.
 
-Sobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por
-nós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer
-forma.
-
-**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas
-pendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há
-dinheiro nosso parado sem definição de crédito, reembolso ou abatimento.
+Rascunho atualizado; envio não confirmado.
 
 ## Por que existe
-Implantação do Projuris. Está na reta final: faltam as tarefas de fechamento,
-todas na mão do fornecedor.
+
+Implantação do Projuris, em fase de fechamento.
 
 ## Estado atual
-Prazo de entrega era **16/10** e não foi cumprido. Duas frentes abertas, ambas
-dependentes do fornecedor:
 
-| Pendência | Responsável | Situação |
+| Pendência | Responsabilidade / dependência | Situação em 23/10 |
 |---|---|---|
-| Migração dos anexos do módulo Societário — **é a entrega final** | Bruno Maximo (fornecedor) | **23/10** (indicada pelo fornecedor em 20/10) |
-| Alteração do endereço do sistema | Bruno Maximo (fornecedor) | **sem resposta** |
-| Devolutiva do cancelamento do módulo de Imóveis — tratativa do **valor já pago** | Bruno Maximo (fornecedor) | **sem resposta** |
+| Migração dos anexos do Societário | Conferência interna; responsável a confirmar | Entregue segundo Bruno; falta conferir e aceitar |
+| Alteração do endereço do sistema | Bruno Maximo / fornecedor | Ainda sem previsão |
+| Tratativa do valor já pago no módulo de Imóveis cancelado | Bruno Maximo / fornecedor | Ainda sem resposta |
 
-O projeto está **100% travado em terceiro**. O trabalho do Bruno aqui é cobrança
-e escalada, não execução.
-
-A terceira linha é de natureza diferente das outras duas: não é cronograma, é
-**dinheiro já pago por um módulo que foi cancelado**, sem definição de crédito,
-reembolso ou abatimento. Enquanto não houver resposta por escrito, o valor está
-em risco.
+A conferência passou a depender do lado interno. Não considerar o projeto encerrado ou a migração aceita. A data efetiva de entrega não foi informada; 23/10 é a data do relato.
 
 ## Próximo passo concreto
-Cobrar do Bruno Maximo, por escrito, data para as duas pendências — com destaque
-para a alteração de endereço, que está sem resposta nenhuma.
+
+Conferir os anexos e registrar o resultado. Execução e comunicações estão centralizadas em [tarefas.md](../tarefas.md).
 
 ## Riscos / o que pode travar
-- Fornecedor sem data comprometida: o atraso não tem fim previsível.
-- Pedido de data do endereço do sistema sem resposta — risco de estar parado sem ninguém olhando.
-- Migração de anexos pode revelar problema de volume/integridade só na execução.
+
+- Possíveis faltas ou problemas de integridade ainda não verificados.
+- Alteração de endereço sem previsão.
+- Valor pago pelo módulo de Imóveis sem tratativa definida.
 
 ## A confirmar
-- O atraso de 16/10 já foi comunicado? Para quem?
-- Existe contrato/SLA que permita escalar acima do Bruno Maximo? Quem é o superior dele?
-- A migração dos anexos do Societário depende de alguma ação do nosso lado (janela, homologação, acesso)?
+
+- Quem fará a conferência e qual o resultado?
+- Qual a data efetiva da entrega?
+- O novo status foi comunicado ao Vinicius e registrado no Monday?
+- Existe contrato/SLA e contato superior para escalada?
 
 ## Histórico
 - **2026-10-16** — data de entrega prevista; não cumprida.
 - **2026-10-20** — projeto registrado no segundo cérebro. Três pendências finais, todas com o fornecedor.
 - **2026-10-20** — Bruno Maximo **indicou 23/10** como nova data para a migração dos anexos do Societário. Primeira data que o fornecedor dá desde o estouro do prazo. Endereço do sistema e devolutiva do módulo de Imóveis seguem sem resposta.
 - **2026-10-21** — fornecedor cobrado por escrito nas duas pendências sem resposta. Atraso e o que falta comunicados ao Vinicius Mattos. **23/10 confirmado como o novo planejamento** da migração dos anexos, não mais só data indicada. Registrado em [[decisoes]].
+
+- **2026-10-23** — Bruno informou: migração entregue, falta conferir; Imóveis ainda sem resposta; endereço ainda sem previsão. Comunicação ao Vinicius e atualização do Monday não confirmadas. Fonte: [respostas do formulário](../importacoes/2026-10-23-atualizacao-projuris.md).
