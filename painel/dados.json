@@ -1,15 +1,15 @@
 {
-  "gerado_em": "2026-10-21T17:20:35",
-  "commit": "a89fe3d",
+  "gerado_em": "2026-10-23T17:45:13",
+  "commit": null,
   "resumo": {
     "abertas": 18,
-    "vencidas": 0,
-    "hoje": 4,
-    "proximos_7_dias": 10,
+    "vencidas": 11,
+    "hoje": 3,
+    "proximos_7_dias": 0,
     "sem_prazo": 4,
     "promessas": 1,
     "travadas": 4,
-    "a_comunicar": 7,
+    "a_comunicar": 15,
     "concluidas_no_arquivo": 10
   },
   "por_projeto": {
@@ -25,7 +25,7 @@
       "arquivo": "projetos/docket.md",
       "estado": "**concluído** em 2026-10-21 — validado, comunicado e atualizado no Monday",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 0,
+      "dias_sem_status": 2,
       "rascunho": null
     },
     "docusign": {
@@ -43,7 +43,7 @@
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — **ATRASADO**",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 0,
+      "dias_sem_status": 2,
       "rascunho": "**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor\n   indicou **23/10** como nova data. O prazo original era 16/10.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não atraso de cronograma.\n\nSobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por\nnós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer\nforma.\n\n**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas\npendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há\ndinheiro nosso parado sem definição de crédito, reembolso ou abatimento."
     },
     "sym-supply-one": {
@@ -67,6 +67,24 @@
       "rascunho": "**Status: termos fechados ontem (20/10). A Nashai está redigindo o contrato.**\n\nFechamos na reunião de ontem os termos para contratar a versão **Standard** do Sym\nSupply One (Techsocial), ou seja, sem as modificações que fizemos ao longo do tempo.\nO acordo está sendo escrito pela Nashai e ainda não foi assinado.\n\n**Risco que preciso registrar formalmente:** não temos levantamento de quais\nmodificações existem hoje nem de quais processos dependem delas. Cada modificação\nfoi feita porque alguma necessidade existia. Ir para Standard significa que esses\nprocessos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na\nimplantação, depois de assinado, não agora.\n\n**Segundo risco, maior que o primeiro:** o Sym Supply One é o cadastro mestre de\nfornecedor de uma cadeia operacional. O **FAS** agenda o serviço com o fornecedor e o\n**Prothera** autoriza o pessoal dele a embarcar no navio. Se a versão Standard não expõe o que essas integrações consomem hoje, o\nimpacto não fica na ferramenta nem no relatório: terceiro não liberado para embarcar\né serviço não executado e navio esperando. E isso aparece na implantação, depois de\nassinado.\n\n**Decisão que preciso tomar hoje, e que te afeta:** a Nashai apresentou proposta para\na integração com o **Prothera**. Como o contrato do Standard está em redação, dá para\nnegociar as duas coisas no mesmo pacote, com alavanca, ou deixar a integração para\ndepois, sem alavanca nenhuma. Minha leitura é que vale juntar.\n\n**Dependência que vale registrar:** a integração com o **Protheus** está sequenciada\npara depois do término das atividades do Sym Supply One. Todo atraso aqui empurra o\nProtheus junto.\n\n**O que preciso de você, e o prazo é agora:** como os termos já estão fechados, não\nestou pedindo para mexer em escopo nem em preço. O que ainda dá para mudar é o\n**texto do contrato**, enquanto a Nashai o está escrevendo. Três coisas que, se\nentrarem no documento, custam zero agora e valem muito na implantação:\n\n1. **Obrigação da Nashai de entregar o mapa do que muda** — inventário das\n   modificações hoje existentes e das diferenças de modelo de dados em relação ao\n   Standard. Hoje nós não temos isso; quem tem é o fornecedor.\n2. **Critério de aceite amarrado às integrações** — a implantação só é aceita com\n   **Prothera** e **FAS** funcionando. Sem isso, \"entregue\" significa a ferramenta de\n   pé e o processo parado.\n3. **Período de operação assistida ou paralelo** para absorver o que aparecer depois.\n\nSe a tua leitura for que não vale reabrir o documento, me diz e eu registro a ciência\nformal de que assinamos sem o levantamento e absorvemos o risco. Qualquer das duas\nserve; o que não serve é assinar sem essa conversa ter acontecido.",
       "itens": [
         {
+          "descricao": "**Avaliar a proposta da Nashai de integração com o Prothera** — e decidir se ela entra na negociação do contrato Standard, que está em redação, ou corre separada",
+          "projeto": "sym-supply-one",
+          "prazo": "2026-10-21",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -2,
+          "id": "57e667c413",
+          "precisa_comunicar": true
+        },
+        {
           "descricao": "Comunicar ao Vinicius Mattos que os termos com a Nashai fecharam em 20/10 e pedir, antes da assinatura, as cláusulas de proteção: mapa das modificações pela Nashai, aceite amarrado a Prothera e FAS, e operação assistida",
           "projeto": "sym-supply-one",
           "prazo": "2026-10-21",
@@ -80,8 +98,44 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": 0,
+          "dias": -2,
           "id": "49ff7c72f6",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Registrar a data da reunião técnica Prothera × Nashai e conferir se ela cai **antes** da assinatura do contrato da Nashai",
+          "projeto": "sym-supply-one",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "ed72003b4b",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Preparar a pauta da reunião técnica Prothera × Nashai: lista do que o Prothera precisa receber do Sym Supply para autorizar embarque",
+          "projeto": "sym-supply-one",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "derivado da conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "cc2c89b750",
           "precisa_comunicar": true
         },
         {
@@ -98,8 +152,26 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": 0,
+          "dias": -2,
           "id": "9d571b4532",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura",
+          "projeto": "sym-supply-one",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "07e1f82dba",
           "precisa_comunicar": true
         },
         {
@@ -118,6 +190,24 @@
           "estado": "aberto",
           "dias": null,
           "id": "33d5df19dd",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória",
+          "projeto": "sym-supply-one",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "andamento",
+          "dias": -1,
+          "id": "cfb9d1a1ab",
           "precisa_comunicar": true
         }
       ]
@@ -145,8 +235,26 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": 0,
+          "dias": -2,
           "id": "ebdebbb81b",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Alinhar com o Raphael Jesus e o Marcelo Cunha o modus operandi informado pelo Jurídico",
+          "projeto": "docusign",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "baixa 21/10 (nota do alinhamento com o Marcelo)",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "8fc45643c6",
           "precisa_comunicar": true
         },
         {
@@ -166,6 +274,24 @@
           "dias": null,
           "id": "084ce6fb06",
           "precisa_comunicar": true
+        },
+        {
+          "descricao": "Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — o documento existe e está validado, só não está aqui, o que impede conferência por mim e pela revisão semanal",
+          "projeto": "docusign",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "media",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "c2e3156bf9",
+          "precisa_comunicar": true
         }
       ]
     },
@@ -175,7 +301,7 @@
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — **ATRASADO**",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 0,
+      "dias_sem_status": 2,
       "rascunho": "**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor\n   indicou **23/10** como nova data. O prazo original era 16/10.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não atraso de cronograma.\n\nSobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por\nnós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer\nforma.\n\n**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas\npendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há\ndinheiro nosso parado sem definição de crédito, reembolso ou abatimento.",
       "itens": [
         {
@@ -192,7 +318,7 @@
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
-          "dias": 2,
+          "dias": 0,
           "id": "85d7a7b048",
           "precisa_comunicar": true
         },
@@ -210,8 +336,37 @@
           "monday": null,
           "secao": "💰 Exposição financeira em aberto",
           "estado": "aberto",
-          "dias": 2,
+          "dias": 0,
           "id": "a69cbcf473",
+          "precisa_comunicar": true
+        }
+      ]
+    },
+    {
+      "slug": "sem-projeto",
+      "nome": "sem-projeto",
+      "arquivo": null,
+      "estado": null,
+      "ultimo_status": null,
+      "dias_sem_status": null,
+      "rascunho": null,
+      "itens": [
+        {
+          "descricao": "Despejar no segundo cérebro o resto dos projetos, pendências e comunicações",
+          "projeto": null,
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa de montagem 20/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "andamento",
+          "dias": -1,
+          "id": "3ffe12679c",
           "precisa_comunicar": true
         }
       ]
@@ -232,7 +387,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -2,
       "id": "ebdebbb81b",
       "precisa_comunicar": true
     },
@@ -250,9 +405,9 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -2,
       "id": "57e667c413",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Comunicar ao Vinicius Mattos que os termos com a Nashai fecharam em 20/10 e pedir, antes da assinatura, as cláusulas de proteção: mapa das modificações pela Nashai, aceite amarrado a Prothera e FAS, e operação assistida",
@@ -268,7 +423,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -2,
       "id": "49ff7c72f6",
       "precisa_comunicar": true
     },
@@ -286,9 +441,9 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": -1,
       "id": "ed72003b4b",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Preparar a pauta da reunião técnica Prothera × Nashai: lista do que o Prothera precisa receber do Sym Supply para autorizar embarque",
@@ -304,9 +459,9 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": -1,
       "id": "cc2c89b750",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se \"término das atividades\" é assinatura, implantação ou estabilização",
@@ -322,7 +477,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -2,
       "id": "9d571b4532",
       "precisa_comunicar": true
     },
@@ -340,9 +495,9 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": -1,
       "id": "8fc45643c6",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário",
@@ -358,7 +513,7 @@
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": 2,
+      "dias": 0,
       "id": "85d7a7b048",
       "precisa_comunicar": true
     },
@@ -376,7 +531,7 @@
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": 2,
+      "dias": 0,
       "id": "d37c8455e0",
       "precisa_comunicar": false
     },
@@ -394,7 +549,7 @@
       "monday": null,
       "secao": "💰 Exposição financeira em aberto",
       "estado": "aberto",
-      "dias": 2,
+      "dias": 0,
       "id": "a69cbcf473",
       "precisa_comunicar": true
     },
@@ -466,9 +621,9 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 1,
+      "dias": -1,
       "id": "07e1f82dba",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso",
@@ -502,9 +657,9 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 1,
+      "dias": -1,
       "id": "c2e3156bf9",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória",
@@ -520,9 +675,9 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": 1,
+      "dias": -1,
       "id": "cfb9d1a1ab",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Despejar no segundo cérebro o resto dos projetos, pendências e comunicações",
@@ -538,9 +693,9 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": 1,
+      "dias": -1,
       "id": "3ffe12679c",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Entrega do Docket — projeto concluído",
@@ -556,7 +711,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -4,
       "id": "f7a3de915c",
       "precisa_comunicar": false
     },
@@ -574,7 +729,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": 0,
+      "dias": -2,
       "id": "851fde2359",
       "precisa_comunicar": false
     },
@@ -592,7 +747,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -3,
       "id": "d7a3310e6c",
       "precisa_comunicar": false
     },
@@ -610,7 +765,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -3,
       "id": "ae24a06f69",
       "precisa_comunicar": false
     },
@@ -628,7 +783,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -3,
       "id": "0292eabf93",
       "precisa_comunicar": false
     },
@@ -646,7 +801,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -3,
       "id": "f43bd020bf",
       "precisa_comunicar": false
     },
@@ -664,7 +819,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -3,
       "id": "1d195016fb",
       "precisa_comunicar": false
     },
@@ -682,7 +837,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -3,
       "id": "c53bed5b11",
       "precisa_comunicar": false
     },
@@ -700,7 +855,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": 1,
+      "dias": -1,
       "id": "0232634eb2",
       "precisa_comunicar": false
     },
@@ -718,7 +873,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": 0,
+      "dias": -2,
       "id": "c8e136d3ad",
       "precisa_comunicar": false
     },
@@ -736,7 +891,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": 0,
+      "dias": -2,
       "id": "c02e470f75",
       "precisa_comunicar": false
     }
