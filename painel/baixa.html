@@ -162,23 +162,23 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
 
 <script>
 const DADOS = {
-  "gerado_em": "2026-10-23T17:47:56",
+  "gerado_em": "2026-10-23T20:35:23",
   "commit": null,
   "resumo": {
-    "abertas": 19,
+    "abertas": 21,
     "vencidas": 11,
     "hoje": 3,
     "proximos_7_dias": 1,
-    "sem_prazo": 4,
+    "sem_prazo": 6,
     "promessas": 1,
-    "travadas": 4,
-    "a_comunicar": 15,
+    "travadas": 3,
+    "a_comunicar": 16,
     "concluidas_no_arquivo": 10
   },
   "por_projeto": {
     "sym-supply-one": 9,
+    "projuris": 6,
     "docusign": 4,
-    "projuris": 4,
     "sem-projeto": 2
   },
   "projetos": {
@@ -204,10 +204,10 @@ const DADOS = {
       "slug": "projuris",
       "nome": "Projuris",
       "arquivo": "projetos/projuris.md",
-      "estado": "ativo — **ATRASADO**",
+      "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
       "dias_sem_status": 2,
-      "rascunho": "**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor\n   indicou **23/10** como nova data. O prazo original era 16/10.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não atraso de cronograma.\n\nSobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por\nnós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer\nforma.\n\n**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas\npendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há\ndinheiro nosso parado sem definição de crédito, reembolso ou abatimento."
+      "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado."
     },
     "sym-supply-one": {
       "slug": "sym-supply-one",
@@ -462,27 +462,27 @@ const DADOS = {
       "slug": "projuris",
       "nome": "Projuris",
       "arquivo": "projetos/projuris.md",
-      "estado": "ativo — **ATRASADO**",
+      "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
       "dias_sem_status": 2,
-      "rascunho": "**Status: atrasado desde 16/10. Uma das três pendências ganhou data.**\n\nFaltam três pendências, as três na mão do Bruno Maximo (fornecedor):\n\n1. **Migração dos anexos do módulo Societário** — é a entrega final. O fornecedor\n   indicou **23/10** como nova data. O prazo original era 16/10.\n2. **Alteração do endereço do sistema** — pedido de data **sem resposta**.\n3. **Cancelamento do módulo de Imóveis** — solicitamos o cancelamento e o fornecedor\n   **ainda não respondeu qual será a tratativa sobre o valor já pago**. Isto é\n   exposição financeira em aberto, não atraso de cronograma.\n\nSobre o 23/10: é data **indicada pelo fornecedor**, não compromisso negociado por\nnós. Vou confirmar na sexta se foi cumprida e te aviso no mesmo dia, de qualquer\nforma.\n\n**O que preciso de você:** apoio para escalar acima do Bruno Maximo nas duas\npendências que continuam sem resposta nenhuma. No caso do módulo de Imóveis há\ndinheiro nosso parado sem definição de crédito, reembolso ou abatimento.",
+      "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado.",
       "itens": [
         {
-          "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário",
+          "descricao": "Entrega final do Projuris — migração dos anexos do Societário informada como entregue; falta conferência e aceite",
           "projeto": "projuris",
           "prazo": "2026-10-23",
           "hora": null,
           "prioridade": "alta",
           "prometi_a": "Vinicius Mattos",
-          "aguardo": "Bruno Maximo (novo planejamento para 23/10, confirmado em 21/10; prazo original era 16/10)",
-          "fonte": "baixa 21/10",
+          "aguardo": null,
+          "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
           "comunicar": "Vinicius Mattos",
           "comunicado": null,
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
-          "estado": "aberto",
+          "estado": "andamento",
           "dias": 0,
-          "id": "85d7a7b048",
+          "id": "05f9e37575",
           "precisa_comunicar": true
         },
         {
@@ -501,6 +501,24 @@ const DADOS = {
           "estado": "aberto",
           "dias": 0,
           "id": "a69cbcf473",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão",
+          "projeto": "projuris",
+          "prazo": null,
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
+          "comunicar": "Vinicius Mattos",
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": null,
+          "id": "8adaf69ade",
           "precisa_comunicar": true
         }
       ]
@@ -663,39 +681,39 @@ const DADOS = {
       "precisa_comunicar": true
     },
     {
-      "descricao": "Entrega final do Projuris — migração dos anexos do módulo Societário",
+      "descricao": "Entrega final do Projuris — migração dos anexos do Societário informada como entregue; falta conferência e aceite",
       "projeto": "projuris",
       "prazo": "2026-10-23",
       "hora": null,
       "prioridade": "alta",
       "prometi_a": "Vinicius Mattos",
-      "aguardo": "Bruno Maximo (novo planejamento para 23/10, confirmado em 21/10; prazo original era 16/10)",
-      "fonte": "baixa 21/10",
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
       "comunicar": "Vinicius Mattos",
       "comunicado": null,
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
-      "estado": "aberto",
+      "estado": "andamento",
       "dias": 0,
-      "id": "85d7a7b048",
+      "id": "05f9e37575",
       "precisa_comunicar": true
     },
     {
-      "descricao": "Confirmar na sexta 23/10 se a migração dos anexos do Societário foi realmente entregue",
+      "descricao": "Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10",
       "projeto": "projuris",
       "prazo": "2026-10-23",
       "hora": null,
       "prioridade": "alta",
       "prometi_a": null,
       "aguardo": null,
-      "fonte": "derivado do despejo 20/10",
+      "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
       "comunicar": null,
       "comunicado": null,
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
       "dias": 0,
-      "id": "d37c8455e0",
+      "id": "9d41d6c340",
       "precisa_comunicar": false
     },
     {
@@ -715,6 +733,42 @@ const DADOS = {
       "dias": 0,
       "id": "a69cbcf473",
       "precisa_comunicar": true
+    },
+    {
+      "descricao": "Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão",
+      "projeto": "projuris",
+      "prazo": null,
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
+      "comunicar": "Vinicius Mattos",
+      "comunicado": null,
+      "monday": null,
+      "secao": "📋 Em aberto",
+      "estado": "aberto",
+      "dias": null,
+      "id": "8adaf69ade",
+      "precisa_comunicar": true
+    },
+    {
+      "descricao": "Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas",
+      "projeto": "projuris",
+      "prazo": null,
+      "hora": null,
+      "prioridade": null,
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "📋 Em aberto",
+      "estado": "aberto",
+      "dias": null,
+      "id": "ddf08f1953",
+      "precisa_comunicar": false
     },
     {
       "descricao": "Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante",
