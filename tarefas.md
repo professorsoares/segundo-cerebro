@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-21
+Atualizado: 2026-10-23
 
 ## 🔥 Esta semana
 
@@ -25,6 +25,8 @@ Atualizado: 2026-10-21
 - [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | prazo: 2026-10-23 | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 
 ## 📋 Em aberto
+
+- [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
 - [ ] Alteração do endereço do sistema Projuris — pedido de data ainda sem resposta do fornecedor | #projuris | pri: media | aguardo: Bruno Maximo (cobrado em 2026-10-21) | fonte: derivado do despejo 20/10
 - [ ] Fechar a contratação da equipe de PS da DocuSign | #docusign | pri: alta | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
