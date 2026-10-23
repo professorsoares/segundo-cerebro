@@ -37,3 +37,9 @@ Markdown em git. Sem app proprietário, sem fornecedor no caminho.
 
 O manual de operação para o Claude está em [`CLAUDE.md`](CLAUDE.md).
 Para abrir no Obsidian: *Open folder as vault* → esta pasta.
+
+## Pesquisas e aprendizagem
+
+- [Second brain — panorama atualizado em 23/10/2026](pesquisas/second-brain/panorama-2026-10-23.md)
+- [Fontes primárias comentadas](pesquisas/second-brain/fontes.md)
+- [Roteiro de aprendizagem e experimentos](pesquisas/second-brain/roteiro-aprendizagem.md)
