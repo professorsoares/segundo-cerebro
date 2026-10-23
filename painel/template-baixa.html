@@ -128,8 +128,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
     <span class="stamp" id="stamp"></span>
   </header>
 
-  <p class="intro">Marque o que mudou. As marcações ficam guardadas aqui e o Claude
-    lê, aplica no <code>tarefas.md</code> e limpa. Esta página é um
+  <p class="intro">Marque o que mudou. O rascunho fica neste navegador. Use “Ver resumo”, copie o texto e cole na conversa para eu atualizar o repositório. Esta página é um
     <strong>buffer de captura</strong>, não a lista de tarefas: a verdade continua
     sendo o markdown do repositório.</p>
 
@@ -140,7 +139,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
   <div class="barra">
     <span class="conta" id="conta">carregando marcações…</span>
     <span class="barra-acoes">
-      <button class="b2" id="btn-resumo" type="button">Ver resumo</button>
+      <button class="b2" id="btn-resumo" type="button">Ver resumo para enviar</button>
       <button class="b2 perigo" id="btn-limpar" type="button" hidden>Limpar tudo</button>
       <span class="ok-msg" id="ok-msg" hidden></span>
     </span>
@@ -193,6 +192,12 @@ const BUCKETS = [
   { t:"Adiante / sem prazo",      c:"var(--line)",     f:() => true }
 ];
 
+// Recalcula prazos ao abrir uma cópia salva em outro dia.
+(DADOS.tarefas || []).forEach(t => {
+  if (t.prazo && /^\d{4}-\d{2}-\d{2}$/.test(t.prazo)) {
+    t.dias = Math.round((Date.parse(t.prazo + "T12:00:00Z") - Date.parse(HOJE + "T12:00:00Z")) / 86400000);
+  }
+});
 const ABERTAS = (DADOS.tarefas || []).filter(
   t => t.estado === "aberto" || t.estado === "andamento"
 );
@@ -319,7 +324,7 @@ function corpoMarca(id){
 
 let fila = Promise.resolve();
 function gravar(id){
-  if (!db) { pintar(); return; }
+  if (!db) { salvarLocal(); pintar(); return; }
   const m = marcas[id];
   const vazio = !m || (!m.estado && !m.comunicado && !m.nota);
   const ref = db.collection("baixa").doc(id);
@@ -367,6 +372,7 @@ function anotar(id, valor){
   m.nota = valor.trim();
   if (!m.nota) delete m.nota;
   if (!m.estado && !m.comunicado && !m.nota) delete marcas[id];
+  salvarLocal();
   clearTimeout(timerNota[id]);
   timerNota[id] = setTimeout(function(){ gravar(id); }, 600);
 }
@@ -399,7 +405,7 @@ document.getElementById("corpo").addEventListener("input", function(ev){
 function textoResumo(){
   const ids = Object.keys(marcas);
   if (!ids.length) return "Nenhuma marcação.";
-  const linhas = ["Baixa do segundo cerebro — " + HOJE, ""];
+  const linhas = ["Baixa do segundo cerebro — " + HOJE, "Base: " + (DADOS.commit || "?") + " / gerada em " + DADOS.gerado_em, ""];
   ids.sort(function(a, b){ return (NUMERO[a] || 999) - (NUMERO[b] || 999); });
   ids.forEach(function(id){
     const t = PORID[id] || {};
@@ -409,7 +415,7 @@ function textoResumo(){
     if (m.comunicado) partes.push("comunicado em " + m.comunicado);
     if (m.nota) partes.push("nota: " + m.nota);
     linhas.push(String(NUMERO[id] || "?").padStart(2, " ") + ". " +
-                (t.descricao || "(sem descricao)") +
+                (t.descricao || "(sem descricao)") + " [id: " + id + "]" +
                 "\n    -> " + partes.join(" | "));
   });
   return linhas.join("\n");
@@ -447,6 +453,7 @@ btnLimpar.addEventListener("click", function(){
   btnLimpar.textContent = "Limpar tudo";
   const ids = Object.keys(marcas);
   marcas = {};
+  salvarLocal();
   pintar();
   if (!db) return;
   ids.forEach(function(id){
@@ -465,32 +472,17 @@ document.getElementById("stamp").textContent =
 montar();
 pintar();
 
-(async function(){
-  try {
-    db = await claude.use("db");
-  } catch (e) {
-    db = null;
-  }
-  if (!db) {
-    aviso("As marcações não estão sendo guardadas nesta visualização. Pode marcar " +
-          "do mesmo jeito: abra “Ver resumo” e cole o texto na conversa com o Claude.");
-    pintar();
-    return;
-  }
-  db.collection("baixa").onSnapshot(function(snap){
-    const novas = {};
-    snap.docs.forEach(function(d){
-      const v = d.data() || {};
-      novas[d.id] = { estado: v.estado || null, comunicado: v.comunicado || null, nota: v.nota || "" };
-      if (!novas[d.id].estado) delete novas[d.id].estado;
-      if (!novas[d.id].comunicado) delete novas[d.id].comunicado;
-      if (!novas[d.id].nota) delete novas[d.id].nota;
-    });
-    marcas = novas;
-    pintar();
-  }, function(err){
-    aviso("A sincronização das marcações parou (" + (err.code || "erro") +
-          "). O que já estava salvo continua lá; para o resto, use “Ver resumo”.");
-  });
-})();
+
+const CHAVE_LOCAL = "segundo-cerebro-baixa-v1";
+function salvarLocal(){
+  try { localStorage.setItem(CHAVE_LOCAL, JSON.stringify(marcas)); }
+  catch(e) { aviso("Não foi possível guardar o rascunho. Copie o resumo antes de fechar."); }
+}
+try {
+  const salvo = JSON.parse(localStorage.getItem(CHAVE_LOCAL) || "{}");
+  if (salvo && typeof salvo === "object" && !Array.isArray(salvo)) marcas = salvo;
+} catch(e) { aviso("Não foi possível recuperar o rascunho."); }
+aviso("Rascunho local: as respostas só chegam à conversa quando você copia e cola o resumo. Após eu confirmar o commit, use Limpar tudo. Para novas tarefas, bloqueios, prazo repactuado, comunicação ou Monday, use a nota do item. Itens sem marcação permanecem como estão.");
+pintar();
 </script>
+
