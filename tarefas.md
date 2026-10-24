@@ -7,13 +7,11 @@ Atualizado: 2026-10-23
 
 ### Hoje — 21/10
 
-- [ ] **Aprovar o SOW e o planejamento do DocuSign com o Vinicius Mattos** — o escopo dos 33 requisitos existe e está validado; o que falta checar é se o SOW cobre esses 33, item por item | #docusign | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [ ] **Avaliar a proposta da Nashai de integração com o Prothera** — e decidir se ela entra na negociação do contrato Standard, que está em redação, ou corre separada | #sym-supply-one | prazo: 2026-10-21 | pri: alta | fonte: conversa 21/10
 - [ ] Comunicar ao Vinicius Mattos que os termos com a Nashai fecharam em 20/10 e pedir, antes da assinatura, as cláusulas de proteção: mapa das modificações pela Nashai, aceite amarrado a Prothera e FAS, e operação assistida | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 - [ ] Registrar a data da reunião técnica Prothera × Nashai e conferir se ela cai **antes** da assinatura do contrato da Nashai | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Preparar a pauta da reunião técnica Prothera × Nashai: lista do que o Prothera precisa receber do Sym Supply para autorizar embarque | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: derivado da conversa 21/10
 - [ ] Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se "término das atividades" é assinatura, implantação ou estabilização | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
-- [ ] Alinhar com o Raphael Jesus e o Marcelo Cunha o modus operandi informado pelo Jurídico | #docusign | prazo: 2026-10-22 | pri: alta | fonte: baixa 21/10 (nota do alinhamento com o Marcelo)
 
 ## 🤝 Prometi e ainda não entreguei
 
@@ -26,13 +24,16 @@ Atualizado: 2026-10-23
 
 ## 📋 Em aberto
 
+- [ ] Atualizar o Monday com a aprovação do SOW e planejamento, contratação concluída do PS e alinhamento do procedimento do Jurídico | #docusign | fonte: importacoes/2026-10-23-atualizacao-docusign.md
+- [ ] Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças | #docusign | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
+- [ ] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação | #docusign | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-docusign.md
+
 - [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 - [ ] Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas | #projuris | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 
 - [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
 - [ ] Alteração do endereço do sistema Projuris — pedido de data ainda sem resposta do fornecedor | #projuris | pri: media | aguardo: Bruno Maximo (cobrado em 2026-10-21) | fonte: derivado do despejo 20/10
-- [ ] Fechar a contratação da equipe de PS da DocuSign | #docusign | pri: alta | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 - [/] Fechar a contratação da versão Standard com a Nashai — termos fechados em 20/10, aguardando o contrato que a Nashai está redigindo | #sym-supply-one | pri: alta | aguardo: Nashai (redação do acordo, desde 2026-10-20) | fonte: conversa 21/10
 - [ ] Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
@@ -45,6 +46,10 @@ Atualizado: 2026-10-23
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [x] Aprovar o SOW e o planejamento do DocuSign com o Vinicius Mattos — aprovação confirmada por Bruno; conferência dos 33 requisitos ainda não confirmada | #docusign | prazo: 2026-10-21 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
+- [x] Alinhar com o Raphael Jesus e o Marcelo Cunha o modus operandi informado pelo Jurídico | #docusign | prazo: 2026-10-22 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
+- [x] Fechar a contratação da equipe de PS da DocuSign | #docusign | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 
 <!-- últimos 30 dias; mais antigo que isso, apagar daqui (fica no histórico do git) -->
 

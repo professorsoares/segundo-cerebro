@@ -51,3 +51,10 @@ Formato:
 - **Decidido:** markdown em git como fonte única da verdade; Claude como operador (captura, cruzamento e cobrança); Obsidian como leitor/editor humano; painel JSON apenas **derivado**, read-only.
 - **Consequência:** nenhuma tarefa mora fora de `tarefas.md`. Nada de segunda base de dados.
 - **Fonte:** conversa de montagem, 20/10/2026
+
+## 2026-10-23 — DocuSign: aprovação, contratação e alinhamento confirmados
+- **Com quem:** Vinicius Mattos (aprovação); Raphael Jesus e Marcelo Cunha (procedimento).
+- **Contexto:** atualização de Bruno no formulário da conversa; datas efetivas não informadas.
+- **Decidido / confirmado:** SOW e planejamento aprovados com Vinicius; contratação do PS concluída; alinhamento sobre o procedimento do Jurídico concluído.
+- **Consequência:** as três tarefas foram baixadas. O projeto passa ao acompanhamento da execução. Cobertura dos 33 requisitos, início do PS, conteúdo do procedimento e atualização do Monday continuam a confirmar.
+- **Fonte:** [respostas de Bruno](importacoes/2026-10-23-atualizacao-docusign.md).
