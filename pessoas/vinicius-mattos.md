@@ -3,7 +3,7 @@
 - **Onde:** OceanPact — colaborador
 - **Papel:** **gerente do Bruno**
 - **Projetos:** todos (#docket · #projuris · #docusign · #sym-supply-one)
-- **Último contato:** 2026-10-21 — Docket (conclusão) e Projuris (atraso e o que falta)
+- **Último contato:** data efetiva não informada; em 2026-10-24 Bruno confirmou comunicação dos três avanços do Sym Supply
 
 ## Como trabalhar com essa pessoa
 É o **principal afetado quando algo sai do esperado** — ou seja, é o destinatário
@@ -16,7 +16,6 @@ Atraso que ele descobre sozinho custa muito mais caro que atraso comunicado.
 <nada registrado>
 
 ## Eu devo a ele
-- Comunicação do contrato Standard assinado e integração Prothera aprovada para contratação separada; conferir proteções no contrato — #sym-supply-one
 - Cronograma do Sym Supply quando chegar — #sym-supply-one
 - Visibilidade de status do #docusign: contratação do PS concluída; comunicação dessa conclusão e data de início a confirmar
 - Visibilidade do que está travado no Bruno Maximo no #projuris
@@ -38,3 +37,5 @@ falta. Ver [[decisoes]].
 - **2026-10-23** — Bruno confirmou SOW e planejamento DocuSign aprovados com Vinicius. Data efetiva da aprovação não informada; não há confirmação de comunicação da contratação concluída. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-docusign.md).
 
 - **2026-10-23** — Bruno confirmou assinatura do Standard, aprovação da integração Prothera para contratação separada e realização da reunião técnica. Comunicação desses avanços ao Vinicius não confirmada. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-sym-supply.md).
+
+- **2026-10-24** — Bruno confirmou comunicação dos três avanços Sym Supply: assinatura do Standard, aprovação da integração Prothera separada e reunião técnica realizada. Data efetiva não informada. Fonte: [respostas](../importacoes/2026-10-24-comunicacoes-e-monday.md).

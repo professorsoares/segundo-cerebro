@@ -1,13 +1,12 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-23
+Atualizado: 2026-10-24
 
 ## 🔥 Esta semana
 
 ### Hoje — 21/10
 
-- [ ] Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada; confirmar no contrato as proteções de mapa de modificações, aceite e operação assistida | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
 - [ ] Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
 - [ ] Vincular ou trazer ao vault o cronograma aprovado do Sym Supply e registrar marcos e dependência do Protheus — cronograma disponível e aprovado segundo Bruno; arquivo e datas ainda não fornecidos | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md
 
@@ -22,12 +21,13 @@ Atualizado: 2026-10-23
 
 ## 📋 Em aberto
 
+- [ ] Conferir no contrato Standard assinado as proteções de mapa de modificações, aceite das integrações e operação assistida — a comunicação dos avanços foi concluída, mas esta conferência não foi confirmada | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md
+
 
 - [ ] Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças | #docusign | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 - [ ] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação | #docusign | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 
 - [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
-- [ ] Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas | #projuris | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 
 - [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
@@ -42,6 +42,9 @@ Atualizado: 2026-10-23
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [x] Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada | #sym-supply-one | comunicado: confirmado em 2026-10-24; data efetiva não informada | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md
+- [x] Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas | #projuris | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md
 
 - [-] Atualizar o Monday com o contrato Standard assinado, aprovação da integração Prothera para contratação separada e reunião técnica realizada | #sym-supply-one | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md | motivo: adiado por Bruno; fora do acompanhamento atual do Monday
 - [-] Atualizar o Monday com a aprovação do SOW e planejamento, contratação concluída do PS e alinhamento do procedimento do Jurídico | #docusign | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md | motivo: adiado por Bruno; fora do acompanhamento atual do Monday

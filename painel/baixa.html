@@ -162,22 +162,22 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline
 
 <script>
 const DADOS = {
-  "gerado_em": "2026-10-23T22:20:41",
+  "gerado_em": "2026-10-24T11:25:06",
   "commit": null,
   "resumo": {
-    "abertas": 16,
-    "vencidas": 3,
-    "hoje": 3,
+    "abertas": 15,
+    "vencidas": 6,
+    "hoje": 0,
     "proximos_7_dias": 1,
-    "sem_prazo": 9,
+    "sem_prazo": 8,
     "promessas": 1,
     "travadas": 2,
     "a_comunicar": 9,
-    "concluidas_no_arquivo": 15
+    "concluidas_no_arquivo": 17
   },
   "por_projeto": {
-    "projuris": 6,
     "sym-supply-one": 5,
+    "projuris": 5,
     "docusign": 3,
     "sem-projeto": 2
   },
@@ -188,7 +188,7 @@ const DADOS = {
       "arquivo": "projetos/docket.md",
       "estado": "**concluído** em 2026-10-21 — validado, comunicado e atualizado no Monday",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 2,
+      "dias_sem_status": 3,
       "rascunho": null
     },
     "docusign": {
@@ -206,7 +206,7 @@ const DADOS = {
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 2,
+      "dias_sem_status": 3,
       "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado."
     },
     "sym-supply-one": {
@@ -214,9 +214,9 @@ const DADOS = {
       "nome": "Sym Supply One",
       "arquivo": "projetos/sym-supply-one.md",
       "estado": "ativo — contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada",
-      "ultimo_status": "nunca",
+      "ultimo_status": "data efetiva não informada; comunicação dos três avanços confirmada em 2026-10-24",
       "dias_sem_status": null,
-      "rascunho": "**Status: contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada.**\n\nO cronograma vigente está disponível e aprovado, conforme Bruno. Falta vinculá-lo ao vault e registrar suas datas, marcos e os encaminhamentos da reunião. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.\n\n**O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.\n\nRascunho atualizado; envio não confirmado."
+      "rascunho": "**Status: contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada.**\n\nO cronograma vigente está disponível e aprovado, conforme Bruno. Falta vinculá-lo ao vault e registrar suas datas, marcos e os encaminhamentos da reunião. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.\n\n**O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.\n\nOs três avanços acima foram comunicados ao Vinicius, conforme confirmação de Bruno em 24/10; data efetiva não informada. Conferência das proteções contratuais ainda não confirmada."
     }
   },
   "comunicar": [
@@ -226,7 +226,7 @@ const DADOS = {
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 2,
+      "dias_sem_status": 3,
       "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado.",
       "itens": [
         {
@@ -243,8 +243,26 @@ const DADOS = {
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "andamento",
-          "dias": 0,
+          "dias": -1,
           "id": "05f9e37575",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10",
+          "projeto": "projuris",
+          "prazo": "2026-10-23",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🤝 Prometi e ainda não entreguei",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "9d41d6c340",
           "precisa_comunicar": true
         },
         {
@@ -261,7 +279,7 @@ const DADOS = {
           "monday": null,
           "secao": "💰 Exposição financeira em aberto",
           "estado": "aberto",
-          "dias": 0,
+          "dias": -1,
           "id": "a69cbcf473",
           "precisa_comunicar": true
         },
@@ -281,71 +299,6 @@ const DADOS = {
           "estado": "aberto",
           "dias": null,
           "id": "8adaf69ade",
-          "precisa_comunicar": true
-        }
-      ]
-    },
-    {
-      "slug": "sym-supply-one",
-      "nome": "Sym Supply One",
-      "arquivo": "projetos/sym-supply-one.md",
-      "estado": "ativo — contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada",
-      "ultimo_status": "nunca",
-      "dias_sem_status": null,
-      "rascunho": "**Status: contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada.**\n\nO cronograma vigente está disponível e aprovado, conforme Bruno. Falta vinculá-lo ao vault e registrar suas datas, marcos e os encaminhamentos da reunião. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.\n\n**O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.\n\nRascunho atualizado; envio não confirmado.",
-      "itens": [
-        {
-          "descricao": "Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada; confirmar no contrato as proteções de mapa de modificações, aceite e operação assistida",
-          "projeto": "sym-supply-one",
-          "prazo": null,
-          "hora": null,
-          "prioridade": "alta",
-          "prometi_a": null,
-          "aguardo": null,
-          "fonte": "importacoes/2026-10-23-atualizacao-sym-supply.md",
-          "comunicar": "Vinicius Mattos",
-          "comunicado": null,
-          "monday": null,
-          "secao": "🔥 Esta semana",
-          "estado": "aberto",
-          "dias": null,
-          "id": "4cf19f9ade",
-          "precisa_comunicar": true
-        },
-        {
-          "descricao": "Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso",
-          "projeto": "sym-supply-one",
-          "prazo": null,
-          "hora": null,
-          "prioridade": "alta",
-          "prometi_a": null,
-          "aguardo": null,
-          "fonte": "derivado do despejo 20/10",
-          "comunicar": "Vinicius Mattos",
-          "comunicado": null,
-          "monday": null,
-          "secao": "📋 Em aberto",
-          "estado": "aberto",
-          "dias": null,
-          "id": "33d5df19dd",
-          "precisa_comunicar": true
-        },
-        {
-          "descricao": "Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória",
-          "projeto": "sym-supply-one",
-          "prazo": "2026-10-22",
-          "hora": null,
-          "prioridade": "alta",
-          "prometi_a": null,
-          "aguardo": null,
-          "fonte": "conversa 21/10",
-          "comunicar": null,
-          "comunicado": null,
-          "monday": null,
-          "secao": "📋 Em aberto",
-          "estado": "andamento",
-          "dias": -1,
-          "id": "cfb9d1a1ab",
           "precisa_comunicar": true
         }
       ]
@@ -391,8 +344,55 @@ const DADOS = {
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "aberto",
-          "dias": -1,
+          "dias": -2,
           "id": "c2e3156bf9",
+          "precisa_comunicar": true
+        }
+      ]
+    },
+    {
+      "slug": "sym-supply-one",
+      "nome": "Sym Supply One",
+      "arquivo": "projetos/sym-supply-one.md",
+      "estado": "ativo — contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada",
+      "ultimo_status": "data efetiva não informada; comunicação dos três avanços confirmada em 2026-10-24",
+      "dias_sem_status": null,
+      "rascunho": "**Status: contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada.**\n\nO cronograma vigente está disponível e aprovado, conforme Bruno. Falta vinculá-lo ao vault e registrar suas datas, marcos e os encaminhamentos da reunião. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.\n\n**O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.\n\nOs três avanços acima foram comunicados ao Vinicius, conforme confirmação de Bruno em 24/10; data efetiva não informada. Conferência das proteções contratuais ainda não confirmada.",
+      "itens": [
+        {
+          "descricao": "Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso",
+          "projeto": "sym-supply-one",
+          "prazo": null,
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "derivado do despejo 20/10",
+          "comunicar": "Vinicius Mattos",
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": null,
+          "id": "33d5df19dd",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória",
+          "projeto": "sym-supply-one",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "alta",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "andamento",
+          "dias": -2,
+          "id": "cfb9d1a1ab",
           "precisa_comunicar": true
         }
       ]
@@ -420,7 +420,7 @@ const DADOS = {
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "andamento",
-          "dias": -1,
+          "dias": -2,
           "id": "3ffe12679c",
           "precisa_comunicar": true
         }
@@ -428,24 +428,6 @@ const DADOS = {
     }
   ],
   "tarefas": [
-    {
-      "descricao": "Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada; confirmar no contrato as proteções de mapa de modificações, aceite e operação assistida",
-      "projeto": "sym-supply-one",
-      "prazo": null,
-      "hora": null,
-      "prioridade": "alta",
-      "prometi_a": null,
-      "aguardo": null,
-      "fonte": "importacoes/2026-10-23-atualizacao-sym-supply.md",
-      "comunicar": "Vinicius Mattos",
-      "comunicado": null,
-      "monday": null,
-      "secao": "🔥 Esta semana",
-      "estado": "aberto",
-      "dias": null,
-      "id": "4cf19f9ade",
-      "precisa_comunicar": true
-    },
     {
       "descricao": "Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard",
       "projeto": "sym-supply-one",
@@ -496,7 +478,7 @@ const DADOS = {
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "andamento",
-      "dias": 0,
+      "dias": -1,
       "id": "05f9e37575",
       "precisa_comunicar": true
     },
@@ -514,9 +496,9 @@ const DADOS = {
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -1,
       "id": "9d41d6c340",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago**",
@@ -532,9 +514,27 @@ const DADOS = {
       "monday": null,
       "secao": "💰 Exposição financeira em aberto",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -1,
       "id": "a69cbcf473",
       "precisa_comunicar": true
+    },
+    {
+      "descricao": "Conferir no contrato Standard assinado as proteções de mapa de modificações, aceite das integrações e operação assistida — a comunicação dos avanços foi concluída, mas esta conferência não foi confirmada",
+      "projeto": "sym-supply-one",
+      "prazo": null,
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-24-comunicacoes-e-monday.md",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "📋 Em aberto",
+      "estado": "aberto",
+      "dias": null,
+      "id": "25a837e8c7",
+      "precisa_comunicar": false
     },
     {
       "descricao": "Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças",
@@ -591,24 +591,6 @@ const DADOS = {
       "precisa_comunicar": true
     },
     {
-      "descricao": "Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas",
-      "projeto": "projuris",
-      "prazo": null,
-      "hora": null,
-      "prioridade": null,
-      "prometi_a": null,
-      "aguardo": null,
-      "fonte": "importacoes/2026-10-23-atualizacao-projuris.md",
-      "comunicar": null,
-      "comunicado": null,
-      "monday": null,
-      "secao": "📋 Em aberto",
-      "estado": "aberto",
-      "dias": null,
-      "id": "ddf08f1953",
-      "precisa_comunicar": false
-    },
-    {
       "descricao": "Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante",
       "projeto": null,
       "prazo": "2026-10-26",
@@ -622,7 +604,7 @@ const DADOS = {
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 3,
+      "dias": 2,
       "id": "18338fea3a",
       "precisa_comunicar": false
     },
@@ -676,7 +658,7 @@ const DADOS = {
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": -1,
+      "dias": -2,
       "id": "c2e3156bf9",
       "precisa_comunicar": true
     },
@@ -694,7 +676,7 @@ const DADOS = {
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": -1,
+      "dias": -2,
       "id": "cfb9d1a1ab",
       "precisa_comunicar": true
     },
@@ -712,9 +694,45 @@ const DADOS = {
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": -1,
+      "dias": -2,
       "id": "3ffe12679c",
       "precisa_comunicar": true
+    },
+    {
+      "descricao": "Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada",
+      "projeto": "sym-supply-one",
+      "prazo": null,
+      "hora": null,
+      "prioridade": null,
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-24-comunicacoes-e-monday.md",
+      "comunicar": null,
+      "comunicado": "confirmado em 2026-10-24; data efetiva não informada",
+      "monday": null,
+      "secao": "✅ Concluído",
+      "estado": "concluido",
+      "dias": null,
+      "id": "86d234f7c3",
+      "precisa_comunicar": false
+    },
+    {
+      "descricao": "Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas",
+      "projeto": "projuris",
+      "prazo": null,
+      "hora": null,
+      "prioridade": null,
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-24-comunicacoes-e-monday.md",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "✅ Concluído",
+      "estado": "concluido",
+      "dias": null,
+      "id": "ddf08f1953",
+      "precisa_comunicar": false
     },
     {
       "descricao": "Atualizar o Monday com o contrato Standard assinado, aprovação da integração Prothera para contratação separada e reunião técnica realizada",
@@ -766,7 +784,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -3,
       "id": "c363811c66",
       "precisa_comunicar": false
     },
@@ -802,7 +820,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -1,
+      "dias": -2,
       "id": "cc2c89b750",
       "precisa_comunicar": false
     },
@@ -820,7 +838,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -1,
+      "dias": -2,
       "id": "07e1f82dba",
       "precisa_comunicar": false
     },
@@ -838,7 +856,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -3,
       "id": "d0c949c69f",
       "precisa_comunicar": false
     },
@@ -856,7 +874,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -2,
       "id": "8fc45643c6",
       "precisa_comunicar": false
     },
@@ -892,7 +910,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -5,
       "id": "f7a3de915c",
       "precisa_comunicar": false
     },
@@ -910,7 +928,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -3,
       "id": "851fde2359",
       "precisa_comunicar": false
     },
@@ -928,7 +946,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -4,
       "id": "d7a3310e6c",
       "precisa_comunicar": false
     },
@@ -946,7 +964,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -4,
       "id": "ae24a06f69",
       "precisa_comunicar": false
     },
@@ -964,7 +982,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -4,
       "id": "0292eabf93",
       "precisa_comunicar": false
     },
@@ -982,7 +1000,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -4,
       "id": "f43bd020bf",
       "precisa_comunicar": false
     },
@@ -1000,7 +1018,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -4,
       "id": "1d195016fb",
       "precisa_comunicar": false
     },
@@ -1018,7 +1036,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -4,
       "id": "c53bed5b11",
       "precisa_comunicar": false
     },
@@ -1036,7 +1054,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -1,
+      "dias": -2,
       "id": "0232634eb2",
       "precisa_comunicar": false
     },
@@ -1054,7 +1072,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -3,
       "id": "c8e136d3ad",
       "precisa_comunicar": false
     },
@@ -1072,7 +1090,7 @@ const DADOS = {
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -2,
+      "dias": -3,
       "id": "c02e470f75",
       "precisa_comunicar": false
     }

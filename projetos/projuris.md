@@ -5,7 +5,7 @@
 - **Pessoas:** [[pessoas/bruno-maximo]] (fornecedor)
 - **Prazo-chave:** original **2026-10-16** → planejamento repactuado **2026-10-23**; entrega informada em 23/10, sem aceite
 - **Último status ao Vinicius:** 2026-10-21
-- **Atualizado:** 2026-10-23
+- **Atualizado:** 2026-10-24
 
 ## Para comunicar ao Vinicius
 
@@ -45,7 +45,7 @@ Conferir os anexos e registrar o resultado. Execução e comunicações estão c
 
 - Quem fará a conferência e qual o resultado?
 - Qual a data efetiva da entrega?
-- O novo status foi comunicado ao Vinicius e registrado no Monday?
+- O novo status foi comunicado diretamente ao Vinicius? O Monday está atualizado, conforme confirmação de Bruno em 24/10.
 - Existe contrato/SLA e contato superior para escalada?
 
 ## Histórico
@@ -55,3 +55,5 @@ Conferir os anexos e registrar o resultado. Execução e comunicações estão c
 - **2026-10-21** — fornecedor cobrado por escrito nas duas pendências sem resposta. Atraso e o que falta comunicados ao Vinicius Mattos. **23/10 confirmado como o novo planejamento** da migração dos anexos, não mais só data indicada. Registrado em [[decisoes]].
 
 - **2026-10-23** — Bruno informou: migração entregue, falta conferir; Imóveis ainda sem resposta; endereço ainda sem previsão. Comunicação ao Vinicius e atualização do Monday não confirmadas. Fonte: [respostas do formulário](../importacoes/2026-10-23-atualizacao-projuris.md).
+
+- **2026-10-24** — Bruno confirmou que a atividade do Projuris no Monday reflete o status atual. Data efetiva da atualização não informada. Conferência e aceite da migração permanecem pendentes. Fonte: [respostas](../importacoes/2026-10-24-comunicacoes-e-monday.md).

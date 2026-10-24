@@ -5,8 +5,8 @@
 - **Estado:** ativo — contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada
 - **Pessoas:** a preencher (quem é o contato comercial da Nashai?)
 - **Prazo-chave:** a definir
-- **Último status ao Vinicius:** nunca
-- **Atualizado:** 2026-10-23
+- **Último status ao Vinicius:** data efetiva não informada; comunicação dos três avanços confirmada em 2026-10-24
+- **Atualizado:** 2026-10-24
 
 ## Para comunicar ao Vinicius
 
@@ -16,7 +16,7 @@ O cronograma vigente está disponível e aprovado, conforme Bruno. Falta vincul�
 
 **O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.
 
-Rascunho atualizado; envio não confirmado.
+Os três avanços acima foram comunicados ao Vinicius, conforme confirmação de Bruno em 24/10; data efetiva não informada. Conferência das proteções contratuais ainda não confirmada.
 
 ## Por que existe
 Sistema fornecido pela **Nashai**. A decisão em curso é contratar a **versão
@@ -114,3 +114,5 @@ Realizada, conforme Bruno. Data, participantes, decisões, responsáveis e prazo
 - **2026-10-23** — Bruno confirmou contrato Standard assinado, proposta de integração Prothera aprovada para contratação separada e reunião técnica realizada. Datas efetivas não informadas. O histórico anterior descreve fases já superadas. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-sym-supply.md).
 
 - **2026-10-23** — Bruno confirmou cronograma disponível e aprovado. Arquivo e marcos ainda não fornecidos. Monday fora do acompanhamento atual para esta frente, por orientação de Bruno; será tratado futuramente. Comunicação ao Vinicius permanece a confirmar. Fonte: [respostas](../importacoes/2026-10-23-cronograma-e-escopo-monday.md).
+
+- **2026-10-24** — Bruno confirmou que comunicou ao Vinicius: Standard assinado, integração Prothera aprovada separadamente e reunião técnica realizada. Data efetiva não informada. Fonte: [respostas](../importacoes/2026-10-24-comunicacoes-e-monday.md).

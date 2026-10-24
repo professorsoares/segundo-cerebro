@@ -73,3 +73,10 @@ Formato:
 - **Confirmado:** cronograma Sym Supply disponível e aprovado; arquivo, datas e marcos ainda não fornecidos ao vault.
 - **Consequência:** retiradas as cobranças atuais de Monday para DocuSign e Sym Supply; preservada a pendência de Projuris. Comunicação ao Vinicius ainda não confirmada.
 - **Fonte:** [respostas de Bruno](importacoes/2026-10-23-cronograma-e-escopo-monday.md).
+
+## 2026-10-24 — Baixas: comunicação Sym Supply e Monday Projuris
+- **Com quem:** Vinicius Mattos (comunicação Sym Supply).
+- **Contexto:** confirmação de Bruno no formulário; datas efetivas não informadas.
+- **Confirmado:** três avanços Sym Supply comunicados ao Vinicius; atividade Projuris no Monday reflete o status atual.
+- **Consequência:** duas tarefas baixadas. Mantida a conferência das proteções do Standard, separada da comunicação. Conferência e aceite da migração Projuris continuam pendentes.
+- **Fonte:** [respostas de Bruno](importacoes/2026-10-24-comunicacoes-e-monday.md).
