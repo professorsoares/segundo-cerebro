@@ -1,22 +1,22 @@
 {
-  "gerado_em": "2026-10-24T11:25:06",
+  "gerado_em": "2026-10-24T11:27:31",
   "commit": null,
   "resumo": {
-    "abertas": 15,
+    "abertas": 13,
     "vencidas": 6,
     "hoje": 0,
     "proximos_7_dias": 1,
-    "sem_prazo": 8,
+    "sem_prazo": 6,
     "promessas": 1,
     "travadas": 2,
-    "a_comunicar": 9,
-    "concluidas_no_arquivo": 17
+    "a_comunicar": 8,
+    "concluidas_no_arquivo": 19
   },
   "por_projeto": {
     "sym-supply-one": 5,
     "projuris": 5,
-    "docusign": 3,
-    "sem-projeto": 2
+    "sem-projeto": 2,
+    "docusign": 1
   },
   "projetos": {
     "docket": {
@@ -33,9 +33,9 @@
       "nome": "DocuSign",
       "arquivo": "projetos/docusign.md",
       "estado": "ativo — SOW e planejamento aprovados; contratação do PS concluída",
-      "ultimo_status": "nunca",
+      "ultimo_status": "data efetiva não informada; comunicação da contratação concluída confirmada em 2026-10-24",
       "dias_sem_status": null,
-      "rascunho": "**Status: SOW e planejamento aprovados com você; contratação do PS concluída.**\n\nO alinhamento com Raphael Jesus e Marcelo Cunha sobre o procedimento informado pelo Jurídico também foi concluído. Falta registrar no vault o início e os próximos marcos do PS e confirmar a conferência do SOW contra os 33 requisitos.\n\n**Próximo alinhamento:** confirmar início, responsáveis e marcos de execução.\n\nRascunho atualizado. A aprovação com Vinicius foi confirmada; a data desse contato e o envio deste status completo não foram informados."
+      "rascunho": "**Status: SOW e planejamento aprovados com você; contratação do PS concluída.**\n\nO alinhamento com Raphael Jesus e Marcelo Cunha sobre o procedimento informado pelo Jurídico também foi concluído. Bruno confirmou que o SOW foi conferido e cobre todos os 33 requisitos. Falta registrar no vault o início e os próximos marcos do PS.\n\n**Próximo alinhamento:** confirmar início, responsáveis e marcos de execução.\n\nA conclusão da contratação já foi comunicada ao Vinicius, conforme confirmação de Bruno em 24/10; data efetiva não informada. O texto acima permanece como base para próximos alinhamentos; não se presume que o conteúdo completo foi enviado."
     },
     "projuris": {
       "slug": "projuris",
@@ -141,53 +141,6 @@
       ]
     },
     {
-      "slug": "docusign",
-      "nome": "DocuSign",
-      "arquivo": "projetos/docusign.md",
-      "estado": "ativo — SOW e planejamento aprovados; contratação do PS concluída",
-      "ultimo_status": "nunca",
-      "dias_sem_status": null,
-      "rascunho": "**Status: SOW e planejamento aprovados com você; contratação do PS concluída.**\n\nO alinhamento com Raphael Jesus e Marcelo Cunha sobre o procedimento informado pelo Jurídico também foi concluído. Falta registrar no vault o início e os próximos marcos do PS e confirmar a conferência do SOW contra os 33 requisitos.\n\n**Próximo alinhamento:** confirmar início, responsáveis e marcos de execução.\n\nRascunho atualizado. A aprovação com Vinicius foi confirmada; a data desse contato e o envio deste status completo não foram informados.",
-      "itens": [
-        {
-          "descricao": "Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação",
-          "projeto": "docusign",
-          "prazo": null,
-          "hora": null,
-          "prioridade": null,
-          "prometi_a": null,
-          "aguardo": null,
-          "fonte": "importacoes/2026-10-23-atualizacao-docusign.md",
-          "comunicar": "Vinicius Mattos",
-          "comunicado": null,
-          "monday": null,
-          "secao": "📋 Em aberto",
-          "estado": "aberto",
-          "dias": null,
-          "id": "3b296e66d3",
-          "precisa_comunicar": true
-        },
-        {
-          "descricao": "Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — o documento existe e está validado, só não está aqui, o que impede conferência por mim e pela revisão semanal",
-          "projeto": "docusign",
-          "prazo": "2026-10-22",
-          "hora": null,
-          "prioridade": "media",
-          "prometi_a": null,
-          "aguardo": null,
-          "fonte": "conversa 21/10",
-          "comunicar": null,
-          "comunicado": null,
-          "monday": null,
-          "secao": "📋 Em aberto",
-          "estado": "aberto",
-          "dias": -2,
-          "id": "c2e3156bf9",
-          "precisa_comunicar": true
-        }
-      ]
-    },
-    {
       "slug": "sym-supply-one",
       "nome": "Sym Supply One",
       "arquivo": "projetos/sym-supply-one.md",
@@ -230,6 +183,35 @@
           "estado": "andamento",
           "dias": -2,
           "id": "cfb9d1a1ab",
+          "precisa_comunicar": true
+        }
+      ]
+    },
+    {
+      "slug": "docusign",
+      "nome": "DocuSign",
+      "arquivo": "projetos/docusign.md",
+      "estado": "ativo — SOW e planejamento aprovados; contratação do PS concluída",
+      "ultimo_status": "data efetiva não informada; comunicação da contratação concluída confirmada em 2026-10-24",
+      "dias_sem_status": null,
+      "rascunho": "**Status: SOW e planejamento aprovados com você; contratação do PS concluída.**\n\nO alinhamento com Raphael Jesus e Marcelo Cunha sobre o procedimento informado pelo Jurídico também foi concluído. Bruno confirmou que o SOW foi conferido e cobre todos os 33 requisitos. Falta registrar no vault o início e os próximos marcos do PS.\n\n**Próximo alinhamento:** confirmar início, responsáveis e marcos de execução.\n\nA conclusão da contratação já foi comunicada ao Vinicius, conforme confirmação de Bruno em 24/10; data efetiva não informada. O texto acima permanece como base para próximos alinhamentos; não se presume que o conteúdo completo foi enviado.",
+      "itens": [
+        {
+          "descricao": "Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — o documento existe e está validado, só não está aqui, o que impede conferência por mim e pela revisão semanal",
+          "projeto": "docusign",
+          "prazo": "2026-10-22",
+          "hora": null,
+          "prioridade": "media",
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "conversa 21/10",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": -2,
+          "id": "c2e3156bf9",
           "precisa_comunicar": true
         }
       ]
@@ -374,42 +356,6 @@
       "precisa_comunicar": false
     },
     {
-      "descricao": "Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças",
-      "projeto": "docusign",
-      "prazo": null,
-      "hora": null,
-      "prioridade": "alta",
-      "prometi_a": null,
-      "aguardo": null,
-      "fonte": "importacoes/2026-10-23-atualizacao-docusign.md",
-      "comunicar": null,
-      "comunicado": null,
-      "monday": null,
-      "secao": "📋 Em aberto",
-      "estado": "aberto",
-      "dias": null,
-      "id": "e2ba2b6d49",
-      "precisa_comunicar": false
-    },
-    {
-      "descricao": "Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação",
-      "projeto": "docusign",
-      "prazo": null,
-      "hora": null,
-      "prioridade": null,
-      "prometi_a": null,
-      "aguardo": null,
-      "fonte": "importacoes/2026-10-23-atualizacao-docusign.md",
-      "comunicar": "Vinicius Mattos",
-      "comunicado": null,
-      "monday": null,
-      "secao": "📋 Em aberto",
-      "estado": "aberto",
-      "dias": null,
-      "id": "3b296e66d3",
-      "precisa_comunicar": true
-    },
-    {
       "descricao": "Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão",
       "projeto": "projuris",
       "prazo": null,
@@ -534,6 +480,42 @@
       "dias": -2,
       "id": "3ffe12679c",
       "precisa_comunicar": true
+    },
+    {
+      "descricao": "Conferir o SOW aprovado contra os 33 requisitos validados — Bruno confirmou cobertura de todos",
+      "projeto": "docusign",
+      "prazo": null,
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "✅ Concluído",
+      "estado": "concluido",
+      "dias": null,
+      "id": "8e9a8218fa",
+      "precisa_comunicar": false
+    },
+    {
+      "descricao": "Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign",
+      "projeto": "docusign",
+      "prazo": null,
+      "hora": null,
+      "prioridade": null,
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md",
+      "comunicar": null,
+      "comunicado": "confirmado em 2026-10-24; data efetiva não informada",
+      "monday": null,
+      "secao": "✅ Concluído",
+      "estado": "concluido",
+      "dias": null,
+      "id": "4b7b622f90",
+      "precisa_comunicar": false
     },
     {
       "descricao": "Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada",

@@ -80,3 +80,10 @@ Formato:
 - **Confirmado:** três avanços Sym Supply comunicados ao Vinicius; atividade Projuris no Monday reflete o status atual.
 - **Consequência:** duas tarefas baixadas. Mantida a conferência das proteções do Standard, separada da comunicação. Conferência e aceite da migração Projuris continuam pendentes.
 - **Fonte:** [respostas de Bruno](importacoes/2026-10-24-comunicacoes-e-monday.md).
+
+## 2026-10-24 — DocuSign: 33 requisitos cobertos e contratação comunicada
+- **Com quem:** Bruno (confirmação) e Vinicius Mattos (comunicação).
+- **Confirmado:** SOW conferido e cobrindo todos os 33 requisitos; contratação concluída do PS já comunicada ao Vinicius.
+- **Consequência:** duas tarefas concluídas. Arquivos/evidências ainda devem ser vinculados ao vault; não se confunde ausência do documento com conferência pendente.
+- **Datas:** 24/10 é a data da confirmação; datas efetivas não informadas.
+- **Fonte:** [respostas de Bruno](importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md).

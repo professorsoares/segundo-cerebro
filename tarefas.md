@@ -24,8 +24,6 @@ Atualizado: 2026-10-24
 - [ ] Conferir no contrato Standard assinado as proteções de mapa de modificações, aceite das integrações e operação assistida — a comunicação dos avanços foi concluída, mas esta conferência não foi confirmada | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md
 
 
-- [ ] Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças | #docusign | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
-- [ ] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação | #docusign | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 
 - [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 
@@ -42,6 +40,9 @@ Atualizado: 2026-10-24
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [x] Conferir o SOW aprovado contra os 33 requisitos validados — Bruno confirmou cobertura de todos | #docusign | pri: alta | fonte: importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md
+- [x] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign | #docusign | comunicado: confirmado em 2026-10-24; data efetiva não informada | fonte: importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md
 
 - [x] Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada | #sym-supply-one | comunicado: confirmado em 2026-10-24; data efetiva não informada | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md
 - [x] Atualizar o Monday com o status do Projuris após a entrega informada da migração, mantendo conferência e demais pendências abertas | #projuris | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md

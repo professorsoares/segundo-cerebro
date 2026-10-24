@@ -17,7 +17,7 @@ Atraso que ele descobre sozinho custa muito mais caro que atraso comunicado.
 
 ## Eu devo a ele
 - Cronograma do Sym Supply quando chegar — #sym-supply-one
-- Visibilidade de status do #docusign: contratação do PS concluída; comunicação dessa conclusão e data de início a confirmar
+- Próximos marcos do #docusign: contratação concluída já comunicada; data de início a confirmar
 - Visibilidade do que está travado no Bruno Maximo no #projuris
 
 **Cumprido em 21/10:** atraso e conclusão do #docket; atraso do #projuris e o que
@@ -39,3 +39,5 @@ falta. Ver [[decisoes]].
 - **2026-10-23** — Bruno confirmou assinatura do Standard, aprovação da integração Prothera para contratação separada e realização da reunião técnica. Comunicação desses avanços ao Vinicius não confirmada. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-sym-supply.md).
 
 - **2026-10-24** — Bruno confirmou comunicação dos três avanços Sym Supply: assinatura do Standard, aprovação da integração Prothera separada e reunião técnica realizada. Data efetiva não informada. Fonte: [respostas](../importacoes/2026-10-24-comunicacoes-e-monday.md).
+
+- **2026-10-24** — Bruno confirmou que já comunicou a contratação concluída do PS DocuSign; data efetiva não informada. Fonte: [respostas](../importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md).
