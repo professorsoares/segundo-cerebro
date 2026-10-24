@@ -58,3 +58,10 @@ Formato:
 - **Decidido / confirmado:** SOW e planejamento aprovados com Vinicius; contratação do PS concluída; alinhamento sobre o procedimento do Jurídico concluído.
 - **Consequência:** as três tarefas foram baixadas. O projeto passa ao acompanhamento da execução. Cobertura dos 33 requisitos, início do PS, conteúdo do procedimento e atualização do Monday continuam a confirmar.
 - **Fonte:** [respostas de Bruno](importacoes/2026-10-23-atualizacao-docusign.md).
+
+## 2026-10-23 — Sym Supply: Standard assinado e integração Prothera separada
+- **Com quem:** Nashai; reunião técnica Prothera × Nashai (participantes não informados).
+- **Contexto:** respostas de Bruno no formulário; datas efetivas não informadas.
+- **Decidido / confirmado:** contrato Standard assinado; proposta de integração Prothera aprovada para contratação separada; reunião técnica realizada.
+- **Consequência:** fase de redação do Standard superada. Aprovação da integração não comprova contratação formalizada. Registrar contrato, cronograma e encaminhamentos da reunião; conferir proteções contratuais.
+- **Fonte:** [formulário](importacoes/2026-10-23-atualizacao-sym-supply.md).

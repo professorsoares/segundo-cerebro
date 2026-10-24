@@ -7,10 +7,8 @@ Atualizado: 2026-10-23
 
 ### Hoje — 21/10
 
-- [ ] **Avaliar a proposta da Nashai de integração com o Prothera** — e decidir se ela entra na negociação do contrato Standard, que está em redação, ou corre separada | #sym-supply-one | prazo: 2026-10-21 | pri: alta | fonte: conversa 21/10
-- [ ] Comunicar ao Vinicius Mattos que os termos com a Nashai fecharam em 20/10 e pedir, antes da assinatura, as cláusulas de proteção: mapa das modificações pela Nashai, aceite amarrado a Prothera e FAS, e operação assistida | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
-- [ ] Registrar a data da reunião técnica Prothera × Nashai e conferir se ela cai **antes** da assinatura do contrato da Nashai | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
-- [ ] Preparar a pauta da reunião técnica Prothera × Nashai: lista do que o Prothera precisa receber do Sym Supply para autorizar embarque | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: derivado da conversa 21/10
+- [ ] Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada; confirmar no contrato as proteções de mapa de modificações, aceite e operação assistida | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
+- [ ] Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
 - [ ] Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se "término das atividades" é assinatura, implantação ou estabilização | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
 
 ## 🤝 Prometi e ainda não entreguei
@@ -24,6 +22,8 @@ Atualizado: 2026-10-23
 
 ## 📋 Em aberto
 
+- [ ] Atualizar o Monday com o contrato Standard assinado, aprovação da integração Prothera para contratação separada e reunião técnica realizada | #sym-supply-one | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
+
 - [ ] Atualizar o Monday com a aprovação do SOW e planejamento, contratação concluída do PS e alinhamento do procedimento do Jurídico | #docusign | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 - [ ] Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças | #docusign | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 - [ ] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação | #docusign | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-docusign.md
@@ -34,8 +34,6 @@ Atualizado: 2026-10-23
 - [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
 - [ ] Alteração do endereço do sistema Projuris — pedido de data ainda sem resposta do fornecedor | #projuris | pri: media | aguardo: Bruno Maximo (cobrado em 2026-10-21) | fonte: derivado do despejo 20/10
-- [/] Fechar a contratação da versão Standard com a Nashai — termos fechados em 20/10, aguardando o contrato que a Nashai está redigindo | #sym-supply-one | pri: alta | aguardo: Nashai (redação do acordo, desde 2026-10-20) | fonte: conversa 21/10
-- [ ] Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
 - [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — o documento existe e está validado, só não está aqui, o que impede conferência por mim e pela revisão semanal | #docusign | prazo: 2026-10-22 | pri: media | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
@@ -46,6 +44,11 @@ Atualizado: 2026-10-23
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [x] Avaliar a proposta da Nashai de integração com o Prothera — aprovada para contratação separada; contratação da integração ainda não confirmada | #sym-supply-one | prazo: 2026-10-21 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
+- [x] Fechar a contratação da versão Standard com a Nashai — contrato assinado, conforme Bruno; data efetiva não informada | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
+- [-] Preparar a pauta da reunião técnica Prothera × Nashai: lista do que o Prothera precisa receber do Sym Supply para autorizar embarque | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md | encerramento: etapa prévia superada; execução original não confirmada
+- [-] Descobrir quem revisa o contrato da Nashai do nosso lado e qual o prazo para comentar antes da assinatura | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md | encerramento: etapa prévia superada; execução original não confirmada
 
 - [x] Aprovar o SOW e o planejamento do DocuSign com o Vinicius Mattos — aprovação confirmada por Bruno; conferência dos 33 requisitos ainda não confirmada | #docusign | prazo: 2026-10-21 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 - [x] Alinhar com o Raphael Jesus e o Marcelo Cunha o modus operandi informado pelo Jurídico | #docusign | prazo: 2026-10-22 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md

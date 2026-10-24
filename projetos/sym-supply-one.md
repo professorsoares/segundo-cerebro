@@ -2,58 +2,21 @@
 
 - **Slug:** #sym-supply-one
 - **Outros nomes:** **Sym Supply** (como o Bruno costuma chamar), **Techsocial** (nome antigo, ainda usado no dia a dia — procurar por este termo em e-mail antigo), sistema da **Nashai**
-- **Estado:** ativo — **termos fechados em 20/10; contrato em redação pela Nashai, não assinado**
+- **Estado:** ativo — contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada
 - **Pessoas:** a preencher (quem é o contato comercial da Nashai?)
 - **Prazo-chave:** a definir
 - **Último status ao Vinicius:** nunca
-- **Atualizado:** 2026-10-21
+- **Atualizado:** 2026-10-23
 
 ## Para comunicar ao Vinicius
 
-**Status: termos fechados ontem (20/10). A Nashai está redigindo o contrato.**
+**Status: contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada.**
 
-Fechamos na reunião de ontem os termos para contratar a versão **Standard** do Sym
-Supply One (Techsocial), ou seja, sem as modificações que fizemos ao longo do tempo.
-O acordo está sendo escrito pela Nashai e ainda não foi assinado.
+Falta registrar as datas, os encaminhamentos da reunião e o cronograma vigente. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.
 
-**Risco que preciso registrar formalmente:** não temos levantamento de quais
-modificações existem hoje nem de quais processos dependem delas. Cada modificação
-foi feita porque alguma necessidade existia. Ir para Standard significa que esses
-processos mudam, viram contorno manual ou desaparecem — e isso vai aparecer na
-implantação, depois de assinado, não agora.
+**O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.
 
-**Segundo risco, maior que o primeiro:** o Sym Supply One é o cadastro mestre de
-fornecedor de uma cadeia operacional. O **FAS** agenda o serviço com o fornecedor e o
-**Prothera** autoriza o pessoal dele a embarcar no navio. Se a versão Standard não expõe o que essas integrações consomem hoje, o
-impacto não fica na ferramenta nem no relatório: terceiro não liberado para embarcar
-é serviço não executado e navio esperando. E isso aparece na implantação, depois de
-assinado.
-
-**Decisão que preciso tomar hoje, e que te afeta:** a Nashai apresentou proposta para
-a integração com o **Prothera**. Como o contrato do Standard está em redação, dá para
-negociar as duas coisas no mesmo pacote, com alavanca, ou deixar a integração para
-depois, sem alavanca nenhuma. Minha leitura é que vale juntar.
-
-**Dependência que vale registrar:** a integração com o **Protheus** está sequenciada
-para depois do término das atividades do Sym Supply One. Todo atraso aqui empurra o
-Protheus junto.
-
-**O que preciso de você, e o prazo é agora:** como os termos já estão fechados, não
-estou pedindo para mexer em escopo nem em preço. O que ainda dá para mudar é o
-**texto do contrato**, enquanto a Nashai o está escrevendo. Três coisas que, se
-entrarem no documento, custam zero agora e valem muito na implantação:
-
-1. **Obrigação da Nashai de entregar o mapa do que muda** — inventário das
-   modificações hoje existentes e das diferenças de modelo de dados em relação ao
-   Standard. Hoje nós não temos isso; quem tem é o fornecedor.
-2. **Critério de aceite amarrado às integrações** — a implantação só é aceita com
-   **Prothera** e **FAS** funcionando. Sem isso, "entregue" significa a ferramenta de
-   pé e o processo parado.
-3. **Período de operação assistida ou paralelo** para absorver o que aparecer depois.
-
-Se a tua leitura for que não vale reabrir o documento, me diz e eu registro a ciência
-formal de que assinamos sem o levantamento e absorvemos o risco. Qualquer das duas
-serve; o que não serve é assinar sem essa conversa ter acontecido.
+Rascunho atualizado; envio não confirmado.
 
 ## Por que existe
 Sistema fornecido pela **Nashai**. A decisão em curso é contratar a **versão
@@ -61,14 +24,10 @@ Standard** da ferramenta — isto é, abandonar as diversas modificações
 (customizações) feitas ao longo do tempo.
 
 ## Estado atual
-Termos fechados com a Nashai em reunião de **20/10**. O acordo está sendo **redigido
-pela Nashai** e ainda não foi assinado. Cronograma do Sym Supply previsto para
-**21/10**, decorrente desse fechamento.
 
-**A janela mudou de natureza.** Até ontem o que estava em jogo era escopo. Com os
-termos fechados, escopo e preço saíram da mesa; o que ainda está aberto é o **texto
-do contrato**, e só enquanto ele está sendo escrito. Depois da assinatura não há mais
-alavanca nenhuma.
+Bruno confirmou contrato Standard assinado, proposta Prothera aprovada para contratação separada e reunião técnica Prothera × Nashai realizada. As datas efetivas e os encaminhamentos não foram informados.
+
+A fase de redação do Standard foi superada. Conferir o contrato efetivamente assinado; eventuais ajustes dependerão dos instrumentos e acordos aplicáveis, sem presumir que já estejam previstos.
 
 ## Interfaces e integrações
 Frentes em paralelo que o Bruno apoia e que consomem dados de fornecedores do Sym
@@ -102,36 +61,16 @@ Cada frente pode virar arquivo próprio em `projetos/` quando houver fase, respo
 e prazo. Até lá, ficam aqui.
 
 ## Próximo passo concreto
-Levar ao Vinicius, hoje, o pedido de cláusulas de proteção antes da assinatura (ver
-`## Para comunicar ao Vinicius`), garantir a reunião Prothera × Nashai na janela de
-hoje a amanhã, e registrar o cronograma quando chegar.
 
-### Proposta da Nashai para a integração com o Prothera
-Registrado em 21/10: a **Nashai apresentou proposta** para a integração com o
-Prothera, e ela está para avaliação.
+Registrar cronograma vigente e encaminhamentos da reunião; acompanhar a formalização separada da integração Prothera e conferir as proteções no contrato Standard assinado. Execução centralizada em [tarefas.md](../tarefas.md).
 
-**A questão não é só se a proposta é boa, é quando ela é negociada.** O contrato do
-Standard está em redação agora. Avaliar a proposta de integração como item separado
-significa negociar duas vezes com o mesmo fornecedor, sendo que na segunda vez o
-Standard já está assinado e a alavanca acabou. Se a integração entra no mesmo pacote,
-ela é moeda de troca; se sai depois, é pedido de mudança com preço de pedido de
-mudança.
+### Integração com o Prothera
 
-Vale também conferir se a proposta já cobre, de graça, o que eu sugeri pedir por
-cláusula: expor o dado que o Prothera consome e amarrar aceite ao funcionamento da
-integração.
+Proposta aprovada para contratação separada, conforme Bruno. Não há confirmação de contrato da integração assinado, início de execução ou conclusão técnica.
 
-### Reunião técnica Prothera × Nashai — agendada
-**Agendamento concluído em 21/10.** É reunião **técnica** entre os dois fornecedores.
-A data ainda não está registrada aqui, e é ela que decide se a reunião serve de
-insumo para o contrato ou chega tarde.
+### Reunião técnica Prothera × Nashai
 
-O prazo real dessa reunião não é "amanhã", é **antes de o contrato da Nashai ser
-assinado**. Se os dois fornecedores se falarem enquanto o acordo está em redação,
-tudo o que a reunião concluir sobre a integração ainda cabe no documento: campo que
-o Prothera precisa, obrigação de expor dado, prazo, aceite. Se a reunião acontecer
-depois da assinatura, as conclusões não têm onde morar e viram pedido de mudança,
-que se paga.
+Realizada, conforme Bruno. Data, participantes, decisões, responsáveis e prazos ainda precisam ser registrados; a sequência em relação à assinatura não foi informada.
 
 ## Riscos / o que pode travar
 - **O risco central é o abandono das customizações.** Houve "um monte de modificações" ao longo do tempo. Cada uma existe porque algum processo precisava dela. Ir para o Standard significa que esses processos mudam, ganham contorno manual ou somem — e isso aparece depois de assinado, não antes.
@@ -146,10 +85,10 @@ que se paga.
 
 ## A confirmar
 - Existe levantamento das modificações atuais e de quem depende de cada uma? (Nunca foi confirmado. Com os termos fechados, a saída provável é obrigar a Nashai a entregá-lo por contrato, já que quem tem o mapa é o fornecedor.)
-- O contrato em redação já prevê prazo, aceite e operação assistida, ou vem só com licença e valor?
-- Quem revisa o contrato do nosso lado antes da assinatura, e qual o prazo que temos para comentar?
+- O contrato assinado prevê prazo, aceite, mapa de modificações e operação assistida?
+- Quem revisou o contrato assinado e onde está a versão final?
 - **"Prothera" é também o nome do fornecedor, além do sistema?** A reunião é "Prothera com Nashai", o que indica fornecedor contra fornecedor. Confirmar o nome da empresa e quem é o contato.
-- A reunião Prothera × Nashai tem pauta definida? Se o objetivo é a integração, quem do nosso lado leva a lista do que o Prothera precisa receber?
+- Quais encaminhamentos, responsáveis e prazos saíram da reunião Prothera × Nashai?
 - **Descrição formal de Prothera, FAS e Protheus** — o Bruno vai trazer. Até então a tabela acima é redação provisória.
 - **O que exatamente a integração com o Protheus vai trocar, e em que direção?** Hoje só se sabe que é integração e que vem depois.
 - **"Término das atividades do Sym Supply One" é o quê, concretamente?** Assinatura do Standard, implantação concluída, ou estabilização? A data do Protheus depende dessa definição.
@@ -171,3 +110,5 @@ que se paga.
 - **2026-10-21** — esclarecido que Prothera e Protheus são sistemas distintos. Prothera = permissão de terceiro para embarcar e prestar serviço no navio; FAS = agendamento do serviço com o fornecedor; Protheus = função ainda não descrita. Redação provisória, descrição formal pendente com o Bruno.
 - **2026-10-21** — registrado: existem frentes em paralelo integrando dados de fornecedores com Prothera, FAS e Protheus. Eleva o risco do Standard, que deixa de ser só perda de customização e passa a ser risco de quebra de integração em cadeia operacional. Detalhamento pendente.
 - **2026-10-20** — registrado: fase final de negociação da versão Standard, sem as modificações históricas.
+
+- **2026-10-23** — Bruno confirmou contrato Standard assinado, proposta de integração Prothera aprovada para contratação separada e reunião técnica realizada. Datas efetivas não informadas. O histórico anterior descreve fases já superadas. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-sym-supply.md).

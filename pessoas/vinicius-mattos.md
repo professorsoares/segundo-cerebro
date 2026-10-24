@@ -16,8 +16,7 @@ Atraso que ele descobre sozinho custa muito mais caro que atraso comunicado.
 <nada registrado>
 
 ## Eu devo a ele
-- Comunicação de que os termos com a Nashai fecharam em 20/10, com o pedido das
-  cláusulas de proteção **antes da assinatura** — #sym-supply-one, vence hoje
+- Comunicação do contrato Standard assinado e integração Prothera aprovada para contratação separada; conferir proteções no contrato — #sym-supply-one
 - Cronograma do Sym Supply quando chegar — #sym-supply-one
 - Visibilidade de status do #docusign: contratação do PS concluída; comunicação dessa conclusão e data de início a confirmar
 - Visibilidade do que está travado no Bruno Maximo no #projuris
@@ -37,3 +36,5 @@ falta. Ver [[decisoes]].
 - **2026-10-21** — recebeu o status do Docket (atraso e depois conclusão) e do Projuris (atraso de 16/10 e o que falta). Primeiro status formal registrado.
 
 - **2026-10-23** — Bruno confirmou SOW e planejamento DocuSign aprovados com Vinicius. Data efetiva da aprovação não informada; não há confirmação de comunicação da contratação concluída. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-docusign.md).
+
+- **2026-10-23** — Bruno confirmou assinatura do Standard, aprovação da integração Prothera para contratação separada e realização da reunião técnica. Comunicação desses avanços ao Vinicius não confirmada. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-sym-supply.md).
