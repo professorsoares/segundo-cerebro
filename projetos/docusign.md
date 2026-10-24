@@ -43,7 +43,8 @@ Registrar o planejamento aprovado, início, responsáveis e próximos marcos do 
 - Conferência do SOW contra os 33 requisitos e eventuais diferenças.
 - Data de início, responsáveis e próximos marcos.
 - Conteúdo do procedimento acordado com Raphael e Marcelo.
-- Atualização do Monday e comunicação da conclusão da contratação ao Vinicius.
+- Comunicação da conclusão da contratação ao Vinicius.
+- Monday: tratamento adiado por Bruno em 23/10; fora da cobrança atual, sem prazo definido.
 
 ## Histórico
 - **2026-09-11** — pacote de envio do BID gerado em `C:/git/ocean/docusign-bid/envio`.
@@ -52,3 +53,5 @@ Registrar o planejamento aprovado, início, responsáveis e próximos marcos do 
 - **2026-10-21** — alinhamento com o [[pessoas/marcelo-cunha]] feito: o problema do DocuSign no contrato foi entendido. Sobrou um passo: alinhar com o [[pessoas/raphael-jesus]] e o Marcelo o **modus operandi informado pelo Jurídico**. Tarefa aberta em `tarefas.md`.
 
 - **2026-10-23** — atualização recebida de Bruno: SOW e planejamento aprovados com Vinicius; contratação do PS concluída; alinhamento com Raphael e Marcelo concluído. Datas efetivas não informadas. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-docusign.md).
+
+- **2026-10-23** — Bruno restringiu o acompanhamento atual do Monday ao Projuris; DocuSign será tratado futuramente, sem prazo definido. Fonte: [orientação](../importacoes/2026-10-23-cronograma-e-escopo-monday.md).

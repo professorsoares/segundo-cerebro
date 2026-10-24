@@ -9,7 +9,7 @@ Atualizado: 2026-10-23
 
 - [ ] Comunicar ao Vinicius o contrato Standard assinado, integração Prothera aprovada para contratação separada e reunião técnica realizada; confirmar no contrato as proteções de mapa de modificações, aceite e operação assistida | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
 - [ ] Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
-- [ ] Registrar no vault o cronograma do Sym Supply, previsto para hoje — é o que define a data do Protheus e permite checar se "término das atividades" é assinatura, implantação ou estabilização | #sym-supply-one | prazo: 2026-10-21 | pri: alta | comunicar: Vinicius Mattos | fonte: conversa 21/10
+- [ ] Vincular ou trazer ao vault o cronograma aprovado do Sym Supply e registrar marcos e dependência do Protheus — cronograma disponível e aprovado segundo Bruno; arquivo e datas ainda não fornecidos | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md
 
 ## 🤝 Prometi e ainda não entreguei
 
@@ -22,9 +22,7 @@ Atualizado: 2026-10-23
 
 ## 📋 Em aberto
 
-- [ ] Atualizar o Monday com o contrato Standard assinado, aprovação da integração Prothera para contratação separada e reunião técnica realizada | #sym-supply-one | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
 
-- [ ] Atualizar o Monday com a aprovação do SOW e planejamento, contratação concluída do PS e alinhamento do procedimento do Jurídico | #docusign | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 - [ ] Confirmar a conferência do SOW aprovado contra os 33 requisitos validados e registrar eventuais diferenças | #docusign | pri: alta | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 - [ ] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign e o próximo passo de implantação | #docusign | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-docusign.md
 
@@ -44,6 +42,9 @@ Atualizado: 2026-10-23
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [-] Atualizar o Monday com o contrato Standard assinado, aprovação da integração Prothera para contratação separada e reunião técnica realizada | #sym-supply-one | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md | motivo: adiado por Bruno; fora do acompanhamento atual do Monday
+- [-] Atualizar o Monday com a aprovação do SOW e planejamento, contratação concluída do PS e alinhamento do procedimento do Jurídico | #docusign | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md | motivo: adiado por Bruno; fora do acompanhamento atual do Monday
 
 - [x] Avaliar a proposta da Nashai de integração com o Prothera — aprovada para contratação separada; contratação da integração ainda não confirmada | #sym-supply-one | prazo: 2026-10-21 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
 - [x] Fechar a contratação da versão Standard com a Nashai — contrato assinado, conforme Bruno; data efetiva não informada | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md

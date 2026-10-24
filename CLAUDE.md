@@ -71,13 +71,15 @@ Estados da caixa: `[ ]` aberto · `[/]` em andamento · `[x]` concluído · `[-]
 
 ## Monday é o sistema oficial; este vault é a camada do Bruno
 
-Todos os projetos são trabalhados no **Monday**. Isso significa:
+**Escopo vigente informado por Bruno em 23/10/2026:** por enquanto, somente o Projuris tem atividade a concluir que deve ser acompanhada/atualizada no Monday. DocuSign e Sym Supply serão tratados futuramente, sem prazo definido. Não criar ou cobrar atualização desses dois no Monday até Bruno ampliar o escopo. Esta orientação substitui a regra anterior de atualização automática para todos os projetos.
+
+Dentro desse escopo:
 
 - O Monday é o registro **oficial** — é onde a organização vê o andamento.
 - Este vault é a camada **pessoal e de risco** do Bruno: o que ele precisa fazer,
   o que está travado, qual o risco e o que precisa ser comunicado. O Monday não
   guarda isso bem.
-- **Quando algo muda de verdade, o Monday tem que ser atualizado.** Depois de uma
+- **Quando algo muda de verdade, o Monday tem que ser atualizado.** Nos projetos incluídos no escopo vigente, depois de uma
   entrega, validação ou repactuação de prazo, a tarefa de atualizar o Monday é
   parte do trabalho, não um extra. Crie-a explicitamente.
 - Exports do Monday entram em `importacoes/`. Ver o leia-me de lá antes de importar.

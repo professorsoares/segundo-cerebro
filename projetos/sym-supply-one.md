@@ -12,7 +12,7 @@
 
 **Status: contrato Standard assinado; integração Prothera aprovada para contratação separada; reunião técnica realizada.**
 
-Falta registrar as datas, os encaminhamentos da reunião e o cronograma vigente. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.
+O cronograma vigente está disponível e aprovado, conforme Bruno. Falta vinculá-lo ao vault e registrar suas datas, marcos e os encaminhamentos da reunião. A aprovação da proposta não confirma que a contratação da integração já foi formalizada. Também falta verificar se o contrato assinado contempla mapa das modificações, aceite das integrações e operação assistida.
 
 **O que preciso de você:** alinhar próximos marcos e apoio em eventuais lacunas contratuais ou dependências de integração.
 
@@ -25,7 +25,7 @@ Standard** da ferramenta — isto é, abandonar as diversas modificações
 
 ## Estado atual
 
-Bruno confirmou contrato Standard assinado, proposta Prothera aprovada para contratação separada e reunião técnica Prothera × Nashai realizada. As datas efetivas e os encaminhamentos não foram informados.
+Bruno confirmou contrato Standard assinado, proposta Prothera aprovada para contratação separada e reunião técnica Prothera × Nashai realizada. O cronograma está disponível e aprovado. As datas efetivas, os marcos e os encaminhamentos não foram informados.
 
 A fase de redação do Standard foi superada. Conferir o contrato efetivamente assinado; eventuais ajustes dependerão dos instrumentos e acordos aplicáveis, sem presumir que já estejam previstos.
 
@@ -112,3 +112,5 @@ Realizada, conforme Bruno. Data, participantes, decisões, responsáveis e prazo
 - **2026-10-20** — registrado: fase final de negociação da versão Standard, sem as modificações históricas.
 
 - **2026-10-23** — Bruno confirmou contrato Standard assinado, proposta de integração Prothera aprovada para contratação separada e reunião técnica realizada. Datas efetivas não informadas. O histórico anterior descreve fases já superadas. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-sym-supply.md).
+
+- **2026-10-23** — Bruno confirmou cronograma disponível e aprovado. Arquivo e marcos ainda não fornecidos. Monday fora do acompanhamento atual para esta frente, por orientação de Bruno; será tratado futuramente. Comunicação ao Vinicius permanece a confirmar. Fonte: [respostas](../importacoes/2026-10-23-cronograma-e-escopo-monday.md).

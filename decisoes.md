@@ -65,3 +65,11 @@ Formato:
 - **Decidido / confirmado:** contrato Standard assinado; proposta de integração Prothera aprovada para contratação separada; reunião técnica realizada.
 - **Consequência:** fase de redação do Standard superada. Aprovação da integração não comprova contratação formalizada. Registrar contrato, cronograma e encaminhamentos da reunião; conferir proteções contratuais.
 - **Fonte:** [formulário](importacoes/2026-10-23-atualizacao-sym-supply.md).
+
+## 2026-10-23 — Escopo atual do Monday e cronograma Sym Supply
+- **Com quem:** Bruno.
+- **Contexto:** correção do acompanhamento proposto pelo assistente.
+- **Decidido:** somente Projuris tem atividade a concluir atualizável no Monday neste momento; demais frentes serão tratadas futuramente, sem prazo definido. Substitui a orientação genérica de criar cobrança de Monday para todos os projetos.
+- **Confirmado:** cronograma Sym Supply disponível e aprovado; arquivo, datas e marcos ainda não fornecidos ao vault.
+- **Consequência:** retiradas as cobranças atuais de Monday para DocuSign e Sym Supply; preservada a pendência de Projuris. Comunicação ao Vinicius ainda não confirmada.
+- **Fonte:** [respostas de Bruno](importacoes/2026-10-23-cronograma-e-escopo-monday.md).
