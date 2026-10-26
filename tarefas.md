@@ -1,37 +1,33 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-24
+Atualizado: 2026-10-26
 
 ## 🔥 Esta semana
 
-### Hoje — 21/10
-
-- [ ] Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
-- [ ] Vincular ou trazer ao vault o cronograma aprovado do Sym Supply e registrar marcos e dependência do Protheus — cronograma disponível e aprovado segundo Bruno; arquivo e datas ainda não fornecidos | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md
+- [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
+- [ ] Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10 — definir primeiro quem confere | #projuris | prazo: 2026-10-23 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-projuris.md
+- [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
 ## 🤝 Prometi e ainda não entreguei
 
 - [/] Entrega final do Projuris — migração dos anexos do Societário informada como entregue; falta conferência e aceite | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
-- [ ] Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10 | #projuris | prazo: 2026-10-23 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 
 ## 💰 Exposição financeira em aberto
 
 - [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | prazo: 2026-10-23 | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
+- [ ] Levantar nome, cargo e canal do superior do Bruno Maximo no fornecedor do Projuris — sem esse contato não existe escalada possível das duas pendências sem resposta | #projuris | pri: alta | fonte: reunioes/2026-10-26-revisao-semanal.md
 
 ## 📋 Em aberto
 
+- [ ] Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-atualizacao-sym-supply.md
+- [ ] Vincular ou trazer ao vault o cronograma aprovado do Sym Supply e registrar marcos e dependência do Protheus — cronograma disponível e aprovado segundo Bruno; arquivo e datas ainda não fornecidos | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-23-cronograma-e-escopo-monday.md
+
 - [ ] Conferir no contrato Standard assinado as proteções de mapa de modificações, aceite das integrações e operação assistida — a comunicação dos avanços foi concluída, mas esta conferência não foi confirmada | #sym-supply-one | pri: alta | fonte: importacoes/2026-10-24-comunicacoes-e-monday.md
-
-
-
-- [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
-
-- [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 
 - [ ] Alteração do endereço do sistema Projuris — pedido de data ainda sem resposta do fornecedor | #projuris | pri: media | aguardo: Bruno Maximo (cobrado em 2026-10-21) | fonte: derivado do despejo 20/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
-- [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — o documento existe e está validado, só não está aqui, o que impede conferência por mim e pela revisão semanal | #docusign | prazo: 2026-10-22 | pri: media | fonte: conversa 21/10
+- [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — conferência confirmada em 24/10, então isto virou rastreabilidade e não bloqueio | #docusign | prazo: 2026-10-22 | pri: baixa | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
 
