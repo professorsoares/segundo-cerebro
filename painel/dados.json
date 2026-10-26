@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-24T11:27:31",
-  "commit": null,
+  "gerado_em": "2026-10-26T07:12:11",
+  "commit": "d9a9bf2",
   "resumo": {
     "abertas": 13,
     "vencidas": 6,
-    "hoje": 0,
-    "proximos_7_dias": 1,
+    "hoje": 1,
+    "proximos_7_dias": 0,
     "sem_prazo": 6,
     "promessas": 1,
     "travadas": 2,
@@ -25,7 +25,7 @@
       "arquivo": "projetos/docket.md",
       "estado": "**concluído** em 2026-10-21 — validado, comunicado e atualizado no Monday",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 3,
+      "dias_sem_status": 5,
       "rascunho": null
     },
     "docusign": {
@@ -43,7 +43,7 @@
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 3,
+      "dias_sem_status": 5,
       "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado."
     },
     "sym-supply-one": {
@@ -63,7 +63,7 @@
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 3,
+      "dias_sem_status": 5,
       "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado.",
       "itens": [
         {
@@ -80,7 +80,7 @@
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "andamento",
-          "dias": -1,
+          "dias": -3,
           "id": "05f9e37575",
           "precisa_comunicar": true
         },
@@ -98,7 +98,7 @@
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "aberto",
-          "dias": -1,
+          "dias": -3,
           "id": "9d41d6c340",
           "precisa_comunicar": true
         },
@@ -116,7 +116,7 @@
           "monday": null,
           "secao": "💰 Exposição financeira em aberto",
           "estado": "aberto",
-          "dias": -1,
+          "dias": -3,
           "id": "a69cbcf473",
           "precisa_comunicar": true
         },
@@ -181,7 +181,7 @@
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "andamento",
-          "dias": -2,
+          "dias": -4,
           "id": "cfb9d1a1ab",
           "precisa_comunicar": true
         }
@@ -210,7 +210,7 @@
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "aberto",
-          "dias": -2,
+          "dias": -4,
           "id": "c2e3156bf9",
           "precisa_comunicar": true
         }
@@ -239,7 +239,7 @@
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "andamento",
-          "dias": -2,
+          "dias": -4,
           "id": "3ffe12679c",
           "precisa_comunicar": true
         }
@@ -297,7 +297,7 @@
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "andamento",
-      "dias": -1,
+      "dias": -3,
       "id": "05f9e37575",
       "precisa_comunicar": true
     },
@@ -315,7 +315,7 @@
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "aberto",
-      "dias": -1,
+      "dias": -3,
       "id": "9d41d6c340",
       "precisa_comunicar": true
     },
@@ -333,7 +333,7 @@
       "monday": null,
       "secao": "💰 Exposição financeira em aberto",
       "estado": "aberto",
-      "dias": -1,
+      "dias": -3,
       "id": "a69cbcf473",
       "precisa_comunicar": true
     },
@@ -387,7 +387,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 2,
+      "dias": 0,
       "id": "18338fea3a",
       "precisa_comunicar": false
     },
@@ -441,7 +441,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": -2,
+      "dias": -4,
       "id": "c2e3156bf9",
       "precisa_comunicar": true
     },
@@ -459,7 +459,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": -2,
+      "dias": -4,
       "id": "cfb9d1a1ab",
       "precisa_comunicar": true
     },
@@ -477,7 +477,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": -2,
+      "dias": -4,
       "id": "3ffe12679c",
       "precisa_comunicar": true
     },
@@ -603,7 +603,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -5,
       "id": "c363811c66",
       "precisa_comunicar": false
     },
@@ -639,7 +639,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -2,
+      "dias": -4,
       "id": "cc2c89b750",
       "precisa_comunicar": false
     },
@@ -657,7 +657,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -2,
+      "dias": -4,
       "id": "07e1f82dba",
       "precisa_comunicar": false
     },
@@ -675,7 +675,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -5,
       "id": "d0c949c69f",
       "precisa_comunicar": false
     },
@@ -693,7 +693,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -4,
       "id": "8fc45643c6",
       "precisa_comunicar": false
     },
@@ -729,7 +729,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -5,
+      "dias": -7,
       "id": "f7a3de915c",
       "precisa_comunicar": false
     },
@@ -747,7 +747,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -5,
       "id": "851fde2359",
       "precisa_comunicar": false
     },
@@ -765,7 +765,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -6,
       "id": "d7a3310e6c",
       "precisa_comunicar": false
     },
@@ -783,7 +783,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -6,
       "id": "ae24a06f69",
       "precisa_comunicar": false
     },
@@ -801,7 +801,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -6,
       "id": "0292eabf93",
       "precisa_comunicar": false
     },
@@ -819,7 +819,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -6,
       "id": "f43bd020bf",
       "precisa_comunicar": false
     },
@@ -837,7 +837,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -6,
       "id": "1d195016fb",
       "precisa_comunicar": false
     },
@@ -855,7 +855,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -4,
+      "dias": -6,
       "id": "c53bed5b11",
       "precisa_comunicar": false
     },
@@ -873,7 +873,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -2,
+      "dias": -4,
       "id": "0232634eb2",
       "precisa_comunicar": false
     },
@@ -891,7 +891,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -3,
+      "dias": -5,
       "id": "c8e136d3ad",
       "precisa_comunicar": false
     },
@@ -909,7 +909,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -3,
+      "dias": -5,
       "id": "c02e470f75",
       "precisa_comunicar": false
     }
