@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-26
+Atualizado: 2026-10-27
 
 ## 🔥 Esta semana
 
@@ -30,6 +30,7 @@ Atualizado: 2026-10-26
 - [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — conferência confirmada em 24/10, então isto virou rastreabilidade e não bloqueio | #docusign | prazo: 2026-10-22 | pri: baixa | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
+- [ ] Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer) | prazo: 2026-11-13 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-26
 
 ## ⏳ Aguardando outra pessoa
 
