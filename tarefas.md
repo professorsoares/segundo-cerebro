@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-27
+Atualizado: 2026-10-28
 
 ## 🔥 Esta semana
 
@@ -31,6 +31,8 @@ Atualizado: 2026-10-27
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
 - [ ] Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer) | prazo: 2026-11-13 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-26
+- [ ] Confirmar leitura do comunicado do Colégio pH sobre a Celebração das Conquistas nas Olimpíadas, encontro com as famílias em 25/11/2026 à noite | fonte: e-mail Agenda Edu / Colégio pH 2026-10-27
+- [ ] Verificar no app do Nubank o boleto emitido no CPF por AIUA EDUCACIONAL LTDA e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-10-27
 
 ## ⏳ Aguardando outra pessoa
 
