@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-28
+Atualizado: 2026-10-29
 
 ## 🔥 Esta semana
 
@@ -33,6 +33,8 @@ Atualizado: 2026-10-28
 - [ ] Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer) | prazo: 2026-11-13 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-26
 - [ ] Confirmar leitura do comunicado do Colégio pH sobre a Celebração das Conquistas nas Olimpíadas, encontro com as famílias em 25/11/2026 à noite | fonte: e-mail Agenda Edu / Colégio pH 2026-10-27
 - [ ] Verificar no app do Nubank o boleto emitido no CPF por AIUA EDUCACIONAL LTDA e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-10-27
+- [ ] Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp | prazo: 2026-10-30 | pri: alta | fonte: e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28
+- [ ] Confirmar a inscrição na Imersão Claude na Prática (Empowerdata) — confirmação pedida por clique, sem prazo informado | fonte: e-mail Empowerdata 2026-10-29
 
 ## ⏳ Aguardando outra pessoa
 
