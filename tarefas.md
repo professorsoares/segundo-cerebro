@@ -7,7 +7,8 @@ Atualizado: 2026-10-30
 
 - [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 - [ ] Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10 — definir primeiro quem confere | #projuris | prazo: 2026-10-23 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-projuris.md
-- [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
+- [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante — vencida desde 26/10; se não sair esta semana, avisar a Mariana vale mais que silêncio | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
+- [ ] Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp; cobrada com urgência em 29/10 à noite, a Capitani precisa enviar para aprovação do gestor na terça 03/11 no primeiro horário | prazo: 2026-10-30 | pri: alta | fonte: e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29
 
 ## 🤝 Prometi e ainda não entreguei
 
@@ -17,6 +18,7 @@ Atualizado: 2026-10-30
 
 - [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | prazo: 2026-10-23 | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
 - [ ] Levantar nome, cargo e canal do superior do Bruno Maximo no fornecedor do Projuris — sem esse contato não existe escalada possível das duas pendências sem resposta | #projuris | pri: alta | fonte: reunioes/2026-10-26-revisao-semanal.md
+- [ ] Enviar ao Bruno Maximo cobrança final por escrito das duas pendências numeradas (valor pago no módulo de Imóveis e data do endereço do sistema), com prazo de resposta explícito e aviso de que a falta de resposta será escalada — sem resposta desde 21/10; sem prazo aqui porque a data-limite é do Bruno para definir | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: reunioes/2026-10-30-revisao-semanal.md
 
 ## 📋 Em aberto
 
@@ -29,11 +31,10 @@ Atualizado: 2026-10-30
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
 - [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — conferência confirmada em 24/10, então isto virou rastreabilidade e não bloqueio | #docusign | prazo: 2026-10-22 | pri: baixa | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
-- [/] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10
+- [ ] Treinamento DocuSign Administration I: Configure Your Account | #docusign | prazo: 2026-11-02 | hora: 13:00 | fonte: Google Calendar, evento criado em 23/10 (13h às 16h)
 - [ ] Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer) | prazo: 2026-11-13 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-26
 - [ ] Confirmar leitura do comunicado do Colégio pH sobre a Celebração das Conquistas nas Olimpíadas, encontro com as famílias em 25/11/2026 à noite | fonte: e-mail Agenda Edu / Colégio pH 2026-10-27
 - [ ] Verificar no app do Nubank o boleto emitido no CPF por AIUA EDUCACIONAL LTDA e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-10-27
-- [ ] Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp; cobrada com urgência em 29/10 à noite, a Capitani precisa enviar para aprovação do cliente na terça-feira no primeiro horário | prazo: 2026-10-30 | pri: alta | fonte: e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29
 - [ ] Confirmar a inscrição na Imersão Claude na Prática (Empowerdata) — confirmação pedida por clique, sem prazo informado | fonte: e-mail Empowerdata 2026-10-29
 - [ ] Verificar se a recuperação da conta bruninhoaugustogamer@gmail.com em 29/10 foi feita pelo próprio titular; se não foi, proteger a conta — dois avisos de segurança chegaram ao e-mail de recuperação do Bruno em 29/10 às 19:50 | pri: alta | fonte: e-mail no-reply@accounts.google.com 2026-10-29
 - [ ] Completar o próximo passo da inscrição no Slack Agêntico (Full Cycle) — inscrição pendente de ação, sem prazo informado | fonte: e-mail atendimento@fullcycle.com.br 2026-10-29
@@ -44,6 +45,8 @@ Atualizado: 2026-10-30
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [-] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10 | motivo: cancelada na revisão de 30/10 — sem definição de pronto e 8 dias vencida sem movimento; o trabalho que ela descrevia passou a ser feito pela rotina de captura diária (brief + formulário). Projeto específico que faltar vira tarefa própria quando aparecer.
 
 - [x] Conferir o SOW aprovado contra os 33 requisitos validados — Bruno confirmou cobertura de todos | #docusign | pri: alta | fonte: importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md
 - [x] Comunicar ao Vinicius a conclusão da contratação do PS da DocuSign | #docusign | comunicado: confirmado em 2026-10-24; data efetiva não informada | fonte: importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md

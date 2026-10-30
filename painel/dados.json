@@ -1,22 +1,22 @@
 {
-  "gerado_em": "2026-10-30T07:13:50",
-  "commit": "67e6581",
+  "gerado_em": "2026-10-30T07:48:16",
+  "commit": "2932563",
   "resumo": {
-    "abertas": 22,
-    "vencidas": 7,
+    "abertas": 23,
+    "vencidas": 6,
     "hoje": 2,
-    "proximos_7_dias": 0,
-    "sem_prazo": 12,
+    "proximos_7_dias": 1,
+    "sem_prazo": 13,
     "promessas": 1,
     "travadas": 2,
     "a_comunicar": 9,
     "concluidas_no_arquivo": 19
   },
   "por_projeto": {
-    "sem-projeto": 10,
-    "projuris": 6,
+    "sem-projeto": 9,
+    "projuris": 7,
     "sym-supply-one": 5,
-    "docusign": 1
+    "docusign": 2
   },
   "projetos": {
     "docket": {
@@ -137,52 +137,23 @@
           "dias": -7,
           "id": "a69cbcf473",
           "precisa_comunicar": true
-        }
-      ]
-    },
-    {
-      "slug": "sem-projeto",
-      "nome": "sem-projeto",
-      "arquivo": null,
-      "estado": null,
-      "ultimo_status": null,
-      "dias_sem_status": null,
-      "rascunho": null,
-      "itens": [
-        {
-          "descricao": "Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante",
-          "projeto": null,
-          "prazo": "2026-10-26",
-          "hora": null,
-          "prioridade": null,
-          "prometi_a": null,
-          "aguardo": null,
-          "fonte": "importacoes/2026-10-23-mariana-clm-00002609.md",
-          "comunicar": null,
-          "comunicado": null,
-          "monday": null,
-          "secao": "🔥 Esta semana",
-          "estado": "aberto",
-          "dias": -4,
-          "id": "18338fea3a",
-          "precisa_comunicar": true
         },
         {
-          "descricao": "Despejar no segundo cérebro o resto dos projetos, pendências e comunicações",
-          "projeto": null,
-          "prazo": "2026-10-22",
+          "descricao": "Enviar ao Bruno Maximo cobrança final por escrito das duas pendências numeradas (valor pago no módulo de Imóveis e data do endereço do sistema), com prazo de resposta explícito e aviso de que a falta de resposta será escalada — sem resposta desde 21/10; sem prazo aqui porque a data-limite é do Bruno para definir",
+          "projeto": "projuris",
+          "prazo": null,
           "hora": null,
           "prioridade": "alta",
           "prometi_a": null,
           "aguardo": null,
-          "fonte": "conversa de montagem 20/10",
-          "comunicar": null,
+          "fonte": "reunioes/2026-10-30-revisao-semanal.md",
+          "comunicar": "Vinicius Mattos",
           "comunicado": null,
           "monday": null,
-          "secao": "📋 Em aberto",
-          "estado": "andamento",
-          "dias": -8,
-          "id": "3ffe12679c",
+          "secao": "💰 Exposição financeira em aberto",
+          "estado": "aberto",
+          "dias": null,
+          "id": "71a2d07536",
           "precisa_comunicar": true
         }
       ]
@@ -262,6 +233,35 @@
           "precisa_comunicar": true
         }
       ]
+    },
+    {
+      "slug": "sem-projeto",
+      "nome": "sem-projeto",
+      "arquivo": null,
+      "estado": null,
+      "ultimo_status": null,
+      "dias_sem_status": null,
+      "rascunho": null,
+      "itens": [
+        {
+          "descricao": "Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante — vencida desde 26/10; se não sair esta semana, avisar a Mariana vale mais que silêncio",
+          "projeto": null,
+          "prazo": "2026-10-26",
+          "hora": null,
+          "prioridade": null,
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "importacoes/2026-10-23-mariana-clm-00002609.md",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "🔥 Esta semana",
+          "estado": "aberto",
+          "dias": -4,
+          "id": "384e93bc74",
+          "precisa_comunicar": true
+        }
+      ]
     }
   ],
   "tarefas": [
@@ -302,7 +302,7 @@
       "precisa_comunicar": true
     },
     {
-      "descricao": "Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante",
+      "descricao": "Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante — vencida desde 26/10; se não sair esta semana, avisar a Mariana vale mais que silêncio",
       "projeto": null,
       "prazo": "2026-10-26",
       "hora": null,
@@ -316,8 +316,26 @@
       "secao": "🔥 Esta semana",
       "estado": "aberto",
       "dias": -4,
-      "id": "18338fea3a",
+      "id": "384e93bc74",
       "precisa_comunicar": true
+    },
+    {
+      "descricao": "Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp; cobrada com urgência em 29/10 à noite, a Capitani precisa enviar para aprovação do gestor na terça 03/11 no primeiro horário",
+      "projeto": null,
+      "prazo": "2026-10-30",
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "🔥 Esta semana",
+      "estado": "aberto",
+      "dias": 0,
+      "id": "f6c0244e94",
+      "precisa_comunicar": false
     },
     {
       "descricao": "Entrega final do Projuris — migração dos anexos do Societário informada como entregue; falta conferência e aceite",
@@ -372,6 +390,24 @@
       "dias": null,
       "id": "be4d0c0ac7",
       "precisa_comunicar": false
+    },
+    {
+      "descricao": "Enviar ao Bruno Maximo cobrança final por escrito das duas pendências numeradas (valor pago no módulo de Imóveis e data do endereço do sistema), com prazo de resposta explícito e aviso de que a falta de resposta será escalada — sem resposta desde 21/10; sem prazo aqui porque a data-limite é do Bruno para definir",
+      "projeto": "projuris",
+      "prazo": null,
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "reunioes/2026-10-30-revisao-semanal.md",
+      "comunicar": "Vinicius Mattos",
+      "comunicado": null,
+      "monday": null,
+      "secao": "💰 Exposição financeira em aberto",
+      "estado": "aberto",
+      "dias": null,
+      "id": "71a2d07536",
+      "precisa_comunicar": true
     },
     {
       "descricao": "Registrar data, encaminhamentos e responsáveis da reunião Prothera × Nashai realizada e confirmar a sequência em relação à assinatura do Standard",
@@ -500,22 +536,22 @@
       "precisa_comunicar": true
     },
     {
-      "descricao": "Despejar no segundo cérebro o resto dos projetos, pendências e comunicações",
-      "projeto": null,
-      "prazo": "2026-10-22",
-      "hora": null,
-      "prioridade": "alta",
+      "descricao": "Treinamento DocuSign Administration I: Configure Your Account",
+      "projeto": "docusign",
+      "prazo": "2026-11-02",
+      "hora": "13:00",
+      "prioridade": null,
       "prometi_a": null,
       "aguardo": null,
-      "fonte": "conversa de montagem 20/10",
+      "fonte": "Google Calendar, evento criado em 23/10 (13h às 16h)",
       "comunicar": null,
       "comunicado": null,
       "monday": null,
       "secao": "📋 Em aberto",
-      "estado": "andamento",
-      "dias": -8,
-      "id": "3ffe12679c",
-      "precisa_comunicar": true
+      "estado": "aberto",
+      "dias": 3,
+      "id": "0d0eb07531",
+      "precisa_comunicar": false
     },
     {
       "descricao": "Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer)",
@@ -569,24 +605,6 @@
       "estado": "aberto",
       "dias": null,
       "id": "4d050c4d36",
-      "precisa_comunicar": false
-    },
-    {
-      "descricao": "Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp; cobrada com urgência em 29/10 à noite, a Capitani precisa enviar para aprovação do cliente na terça-feira no primeiro horário",
-      "projeto": null,
-      "prazo": "2026-10-30",
-      "hora": null,
-      "prioridade": "alta",
-      "prometi_a": null,
-      "aguardo": null,
-      "fonte": "e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29",
-      "comunicar": null,
-      "comunicado": null,
-      "monday": null,
-      "secao": "📋 Em aberto",
-      "estado": "aberto",
-      "dias": 0,
-      "id": "fffecbc1df",
       "precisa_comunicar": false
     },
     {
@@ -659,6 +677,24 @@
       "estado": "aberto",
       "dias": 0,
       "id": "4b95c34d8b",
+      "precisa_comunicar": false
+    },
+    {
+      "descricao": "Despejar no segundo cérebro o resto dos projetos, pendências e comunicações",
+      "projeto": null,
+      "prazo": "2026-10-22",
+      "hora": null,
+      "prioridade": "alta",
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "conversa de montagem 20/10",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "✅ Concluído",
+      "estado": "cancelado",
+      "dias": -8,
+      "id": "3ffe12679c",
       "precisa_comunicar": false
     },
     {
