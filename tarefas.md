@@ -29,7 +29,6 @@ Atualizado: 2026-11-02
 
 - [ ] Alteração do endereço do sistema Projuris — pedido de data ainda sem resposta do fornecedor | #projuris | pri: media | aguardo: Bruno Maximo (cobrado em 2026-10-21) | fonte: derivado do despejo 20/10
 - [ ] Levantar as modificações atuais do Techsocial e quem depende de cada uma — se a cláusula do mapa entrar no contrato, isto passa a ser cobrança da Nashai em vez de trabalho nosso | #sym-supply-one | pri: alta | comunicar: Vinicius Mattos | fonte: derivado do despejo 20/10
-- [ ] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está — conferência confirmada em 24/10, então isto virou rastreabilidade e não bloqueio | #docusign | prazo: 2026-10-22 | pri: baixa | fonte: conversa 21/10
 - [/] Trazer a descrição formal de Prothera, FAS e Protheus, mais fase, responsável e prazo de cada frente — a redação em `projetos/sym-supply-one.md` é provisória | #sym-supply-one | prazo: 2026-10-22 | pri: alta | fonte: conversa 21/10
 - [ ] Treinamento DocuSign Administration I: Configure Your Account | #docusign | prazo: 2026-11-02 | hora: 13:00 | fonte: Google Calendar, evento criado em 23/10 (13h às 16h)
 - [ ] Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer) | prazo: 2026-11-13 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-26
@@ -38,7 +37,6 @@ Atualizado: 2026-11-02
 - [ ] Confirmar a inscrição na Imersão Claude na Prática (Empowerdata) — confirmação pedida por clique, sem prazo informado | fonte: e-mail Empowerdata 2026-10-29
 - [ ] Verificar se a recuperação da conta bruninhoaugustogamer@gmail.com em 29/10 foi feita pelo próprio titular; se não foi, proteger a conta — dois avisos de segurança chegaram ao e-mail de recuperação do Bruno em 29/10 às 19:50 | pri: alta | fonte: e-mail no-reply@accounts.google.com 2026-10-29
 - [ ] Completar o próximo passo da inscrição no Slack Agêntico (Full Cycle) — inscrição pendente de ação, sem prazo informado | fonte: e-mail atendimento@fullcycle.com.br 2026-10-29
-- [ ] Confirmar leitura do comunicado do Colégio pH sobre o Halloween no pH Tijuca 1 em 30/10 | prazo: 2026-10-30 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-29
 - [ ] Atendimento por vídeo com Samsung Expert — agendamento confirmado por e-mail, não encontrado na agenda principal; reagendar ou cancelar pelo e-mail se não puder | prazo: 2026-11-03 | hora: 12:15 | fonte: e-mail noreply@email.support.samsung.com 2026-11-01
 - [ ] Verificar se reconhece o próprio e-mail no cadastro SGIP do TSE: aviso de prestação de contas de campanha criada para o MDB de Epitaciolândia/AC em 01/11; se não houver vínculo, pedir a correção do cadastro | fonte: e-mail no_reply_secon@tse.jus.br 2026-11-01
 - [ ] Verificar boleto da Claro, conta 183871730, R$ 61,10, em nome de Cicera Maria de Araujo Bernardo, e confirmar se cabe a você pagar — chegou ao seu e-mail em nome de outra pessoa | prazo: 2026-11-06 | fonte: e-mail clarofatura@minhaclaro.com.br 2026-10-31
@@ -51,6 +49,9 @@ Atualizado: 2026-11-02
 <!-- as tarefas com `aguardo:` estão listadas nas seções acima, junto do seu prazo -->
 
 ## ✅ Concluído
+
+- [-] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está | #docusign | prazo: 2026-10-22 | pri: baixa | fonte: conversa 21/10 | motivo: cancelada na revisão de 02/11, conforme aviso da revisão de 30/10 — terceira revisão sem movimento e nada depende dela; a conferência foi confirmada em 24/10 e o vínculo do SOW segue em "A confirmar" de `projetos/docusign.md`.
+- [-] Confirmar leitura do comunicado do Colégio pH sobre o Halloween no pH Tijuca 1 em 30/10 | prazo: 2026-10-30 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-29 | motivo: cancelada na revisão de 02/11 — o evento já passou.
 
 - [-] Despejar no segundo cérebro o resto dos projetos, pendências e comunicações | prazo: 2026-10-22 | pri: alta | fonte: conversa de montagem 20/10 | motivo: cancelada na revisão de 30/10 — sem definição de pronto e 8 dias vencida sem movimento; o trabalho que ela descrevia passou a ser feito pela rotina de captura diária (brief + formulário). Projeto específico que faltar vira tarefa própria quando aparecer.
 
