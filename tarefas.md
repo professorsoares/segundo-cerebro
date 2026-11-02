@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-10-30
+Atualizado: 2026-11-02
 
 ## 🔥 Esta semana
 
@@ -39,6 +39,12 @@ Atualizado: 2026-10-30
 - [ ] Verificar se a recuperação da conta bruninhoaugustogamer@gmail.com em 29/10 foi feita pelo próprio titular; se não foi, proteger a conta — dois avisos de segurança chegaram ao e-mail de recuperação do Bruno em 29/10 às 19:50 | pri: alta | fonte: e-mail no-reply@accounts.google.com 2026-10-29
 - [ ] Completar o próximo passo da inscrição no Slack Agêntico (Full Cycle) — inscrição pendente de ação, sem prazo informado | fonte: e-mail atendimento@fullcycle.com.br 2026-10-29
 - [ ] Confirmar leitura do comunicado do Colégio pH sobre o Halloween no pH Tijuca 1 em 30/10 | prazo: 2026-10-30 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-29
+- [ ] Atendimento por vídeo com Samsung Expert — agendamento confirmado por e-mail, não encontrado na agenda principal; reagendar ou cancelar pelo e-mail se não puder | prazo: 2026-11-03 | hora: 12:15 | fonte: e-mail noreply@email.support.samsung.com 2026-11-01
+- [ ] Verificar se reconhece o próprio e-mail no cadastro SGIP do TSE: aviso de prestação de contas de campanha criada para o MDB de Epitaciolândia/AC em 01/11; se não houver vínculo, pedir a correção do cadastro | fonte: e-mail no_reply_secon@tse.jus.br 2026-11-01
+- [ ] Verificar boleto da Claro, conta 183871730, R$ 61,10, em nome de Cicera Maria de Araujo Bernardo, e confirmar se cabe a você pagar — chegou ao seu e-mail em nome de outra pessoa | prazo: 2026-11-06 | fonte: e-mail clarofatura@minhaclaro.com.br 2026-10-31
+- [ ] Emitir e pagar a cota condominial do Morning Star, bloco 0, unidade 303, R$ 889,26 | prazo: 2026-11-15 | fonte: e-mail nao-responda@envio.bcfadm.com.br 2026-10-31
+- [ ] Verificar no app do Nubank o boleto emitido no CPF por BULHOES CARVALHO DA FONSECA AD e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-10-30
+- [ ] Concluir o curso em andamento na Escola Virtual da Fundação Bradesco e salvar os certificados já obtidos — o e-mail não informa qual é o curso | prazo: 2026-11-21 | fonte: e-mail noreplyev@fundacao.bradesco 2026-11-02
 
 ## ⏳ Aguardando outra pessoa
 
