@@ -90,7 +90,7 @@ O vault tem 13 dias, então o histórico ainda não comprova 14 dias para quase 
 
 ## 6. O QUE PUXAR
 
-Hoje é feriado de Finados e o vault só registra uma atividade de trabalho na agenda da semana: o treinamento DocuSign, hoje das 13h às 16h. Confirme se ele está mantido.
+Hoje é feriado de Finados. Na agenda principal e na de compromissos, a única atividade de trabalho da semana é o treinamento DocuSign, hoje das 13h às 16h. Confirme se ele está mantido.
 
 1. **Hoje: planilha de horas para a Capitani.** A Capitani precisa enviá-la para aprovação do cliente na terça, 03/11, no primeiro horário. É o único prazo externo imediato, e o atraso chega ao cliente. Horas adicionais só contam com autorização prévia do gestor por e-mail ou WhatsApp. Se já enviou por outro canal, dê baixa.
 2. **Terça cedo: enviar o status ao Vinicius.** Resolve 6 dos 9 itens "a comunicar" e abre caminho para a escalada. Depois do envio, registre `comunicado:` com a data nas tarefas e atualize "Último status" em `projetos/projuris.md`.
