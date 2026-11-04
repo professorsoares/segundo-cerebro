@@ -1,19 +1,19 @@
 {
-  "gerado_em": "2026-11-02T07:45:32",
-  "commit": "b44753b",
+  "gerado_em": "2026-11-03T22:15:33",
+  "commit": "fa98fed",
   "resumo": {
-    "abertas": 27,
-    "vencidas": 6,
+    "abertas": 28,
+    "vencidas": 7,
     "hoje": 1,
-    "proximos_7_dias": 2,
-    "sem_prazo": 15,
+    "proximos_7_dias": 1,
+    "sem_prazo": 16,
     "promessas": 1,
     "travadas": 2,
-    "a_comunicar": 9,
+    "a_comunicar": 10,
     "concluidas_no_arquivo": 19
   },
   "por_projeto": {
-    "sem-projeto": 14,
+    "sem-projeto": 15,
     "projuris": 7,
     "sym-supply-one": 5,
     "docusign": 1
@@ -25,7 +25,7 @@
       "arquivo": "projetos/docket.md",
       "estado": "**concluído** em 2026-10-21 — validado, comunicado e atualizado no Monday",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 12,
+      "dias_sem_status": 13,
       "rascunho": null
     },
     "docusign": {
@@ -43,7 +43,7 @@
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 12,
+      "dias_sem_status": 13,
       "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado."
     },
     "sym-supply-one": {
@@ -63,7 +63,7 @@
       "arquivo": "projetos/projuris.md",
       "estado": "ativo — migração entregue, aguardando conferência; demais pendências abertas",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 12,
+      "dias_sem_status": 13,
       "rascunho": "**Status: migração dos anexos do Societário informada como entregue; conferência ainda pendente.**\n\nA entrega foi informada por Bruno em 23/10. Falta validar completude e integridade dos anexos para registrar aceite. A devolutiva sobre o valor já pago no módulo de Imóveis continua sem resposta, e a alteração do endereço do sistema segue sem previsão.\n\n**O que preciso de você:** apoio para escalar as pendências do fornecedor se necessário, especialmente a definição financeira de Imóveis.\n\nRascunho atualizado; envio não confirmado.",
       "itens": [
         {
@@ -98,7 +98,7 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": -10,
+          "dias": -11,
           "id": "228a5fe817",
           "precisa_comunicar": true
         },
@@ -116,7 +116,7 @@
           "monday": null,
           "secao": "🤝 Prometi e ainda não entreguei",
           "estado": "andamento",
-          "dias": -10,
+          "dias": -11,
           "id": "05f9e37575",
           "precisa_comunicar": true
         },
@@ -134,7 +134,7 @@
           "monday": null,
           "secao": "💰 Exposição financeira em aberto",
           "estado": "aberto",
-          "dias": -10,
+          "dias": -11,
           "id": "a69cbcf473",
           "precisa_comunicar": true
         },
@@ -181,7 +181,7 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": -7,
+          "dias": -8,
           "id": "384e93bc74",
           "precisa_comunicar": true
         },
@@ -199,7 +199,7 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": -3,
+          "dias": -4,
           "id": "f6c0244e94",
           "precisa_comunicar": true
         }
@@ -246,7 +246,7 @@
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "andamento",
-          "dias": -11,
+          "dias": -12,
           "id": "cfb9d1a1ab",
           "precisa_comunicar": true
         }
@@ -260,7 +260,26 @@
       "ultimo_status": "data efetiva não informada; comunicação da contratação concluída confirmada em 2026-10-24",
       "dias_sem_status": null,
       "rascunho": "**Status: SOW e planejamento aprovados com você; contratação do PS concluída.**\n\nO alinhamento com Raphael Jesus e Marcelo Cunha sobre o procedimento informado pelo Jurídico também foi concluído. Bruno confirmou que o SOW foi conferido e cobre todos os 33 requisitos. Falta registrar no vault o início e os próximos marcos do PS.\n\n**Próximo alinhamento:** confirmar início, responsáveis e marcos de execução.\n\nA conclusão da contratação já foi comunicada ao Vinicius, conforme confirmação de Bruno em 24/10; data efetiva não informada. O texto acima permanece como base para próximos alinhamentos; não se presume que o conteúdo completo foi enviado.",
-      "itens": []
+      "itens": [
+        {
+          "descricao": "Treinamento DocuSign Administration I: Configure Your Account",
+          "projeto": "docusign",
+          "prazo": "2026-11-02",
+          "hora": "13:00",
+          "prioridade": null,
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "Google Calendar, evento criado em 23/10 (13h às 16h)",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "0d0eb07531",
+          "precisa_comunicar": true
+        }
+      ]
     }
   ],
   "tarefas": [
@@ -296,7 +315,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": -10,
+      "dias": -11,
       "id": "228a5fe817",
       "precisa_comunicar": true
     },
@@ -314,7 +333,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": -7,
+      "dias": -8,
       "id": "384e93bc74",
       "precisa_comunicar": true
     },
@@ -332,7 +351,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": -3,
+      "dias": -4,
       "id": "f6c0244e94",
       "precisa_comunicar": true
     },
@@ -350,7 +369,7 @@
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "andamento",
-      "dias": -10,
+      "dias": -11,
       "id": "05f9e37575",
       "precisa_comunicar": true
     },
@@ -368,7 +387,7 @@
       "monday": null,
       "secao": "💰 Exposição financeira em aberto",
       "estado": "aberto",
-      "dias": -10,
+      "dias": -11,
       "id": "a69cbcf473",
       "precisa_comunicar": true
     },
@@ -512,7 +531,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": -11,
+      "dias": -12,
       "id": "cfb9d1a1ab",
       "precisa_comunicar": true
     },
@@ -530,9 +549,9 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -1,
       "id": "0d0eb07531",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Confirmar leitura do comunicado do Colégio pH e fazer inscrição e pagamento da saída pedagógica do 6º ano (código 3658C006, R$ 374,00, app Forma Conhecer)",
@@ -548,7 +567,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 11,
+      "dias": 10,
       "id": "b20a1f89fd",
       "precisa_comunicar": false
     },
@@ -656,7 +675,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "id": "0362860eb1",
       "precisa_comunicar": false
     },
@@ -692,7 +711,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 4,
+      "dias": 3,
       "id": "8d76dcc53f",
       "precisa_comunicar": false
     },
@@ -710,7 +729,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 13,
+      "dias": 12,
       "id": "05a999bc23",
       "precisa_comunicar": false
     },
@@ -746,8 +765,26 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 19,
+      "dias": 18,
       "id": "a74a50e49a",
+      "precisa_comunicar": false
+    },
+    {
+      "descricao": "Conferir se a rematrícula 2027 do Bruno Augusto no Colégio pH está completa — boleto pago e contrato assinado no Portal Atlas, porque só o pagamento não garante a vaga — e confirmar a leitura do comunicado; algumas turmas estão perto da lotação; prazo não informado no e-mail",
+      "projeto": null,
+      "prazo": null,
+      "hora": null,
+      "prioridade": null,
+      "prometi_a": null,
+      "aguardo": null,
+      "fonte": "e-mail Agenda Edu / Colégio pH 2026-11-03",
+      "comunicar": null,
+      "comunicado": null,
+      "monday": null,
+      "secao": "📋 Em aberto",
+      "estado": "aberto",
+      "dias": null,
+      "id": "3d3c359e03",
       "precisa_comunicar": false
     },
     {
@@ -764,7 +801,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -11,
+      "dias": -12,
       "id": "5a77b15597",
       "precisa_comunicar": false
     },
@@ -782,7 +819,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -3,
+      "dias": -4,
       "id": "4b95c34d8b",
       "precisa_comunicar": false
     },
@@ -800,7 +837,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -11,
+      "dias": -12,
       "id": "3ffe12679c",
       "precisa_comunicar": false
     },
@@ -926,7 +963,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -12,
+      "dias": -13,
       "id": "c363811c66",
       "precisa_comunicar": false
     },
@@ -962,7 +999,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -11,
+      "dias": -12,
       "id": "cc2c89b750",
       "precisa_comunicar": false
     },
@@ -980,7 +1017,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -11,
+      "dias": -12,
       "id": "07e1f82dba",
       "precisa_comunicar": false
     },
@@ -998,7 +1035,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -12,
+      "dias": -13,
       "id": "d0c949c69f",
       "precisa_comunicar": false
     },
@@ -1016,7 +1053,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -11,
+      "dias": -12,
       "id": "8fc45643c6",
       "precisa_comunicar": false
     },
@@ -1052,7 +1089,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "f7a3de915c",
       "precisa_comunicar": false
     },
@@ -1070,7 +1107,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -12,
+      "dias": -13,
       "id": "851fde2359",
       "precisa_comunicar": false
     },
@@ -1088,7 +1125,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "d7a3310e6c",
       "precisa_comunicar": false
     },
@@ -1106,7 +1143,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "ae24a06f69",
       "precisa_comunicar": false
     },
@@ -1124,7 +1161,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "0292eabf93",
       "precisa_comunicar": false
     },
@@ -1142,7 +1179,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "f43bd020bf",
       "precisa_comunicar": false
     },
@@ -1160,7 +1197,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "1d195016fb",
       "precisa_comunicar": false
     },
@@ -1178,7 +1215,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "c53bed5b11",
       "precisa_comunicar": false
     },
@@ -1196,7 +1233,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -11,
+      "dias": -12,
       "id": "0232634eb2",
       "precisa_comunicar": false
     },
@@ -1214,7 +1251,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -12,
+      "dias": -13,
       "id": "c8e136d3ad",
       "precisa_comunicar": false
     },
@@ -1232,7 +1269,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -12,
+      "dias": -13,
       "id": "c02e470f75",
       "precisa_comunicar": false
     }

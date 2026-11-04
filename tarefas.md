@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-11-02
+Atualizado: 2026-11-03
 
 ## 🔥 Esta semana
 
@@ -43,6 +43,7 @@ Atualizado: 2026-11-02
 - [ ] Emitir e pagar a cota condominial do Morning Star, bloco 0, unidade 303, R$ 889,26 | prazo: 2026-11-15 | fonte: e-mail nao-responda@envio.bcfadm.com.br 2026-10-31
 - [ ] Verificar no app do Nubank o boleto emitido no CPF por BULHOES CARVALHO DA FONSECA AD e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-10-30
 - [ ] Concluir o curso em andamento na Escola Virtual da Fundação Bradesco e salvar os certificados já obtidos — o e-mail não informa qual é o curso | prazo: 2026-11-21 | fonte: e-mail noreplyev@fundacao.bradesco 2026-11-02
+- [ ] Conferir se a rematrícula 2027 do Bruno Augusto no Colégio pH está completa — boleto pago e contrato assinado no Portal Atlas, porque só o pagamento não garante a vaga — e confirmar a leitura do comunicado; algumas turmas estão perto da lotação; prazo não informado no e-mail | fonte: e-mail Agenda Edu / Colégio pH 2026-11-03
 
 ## ⏳ Aguardando outra pessoa
 
