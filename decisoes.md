@@ -87,3 +87,10 @@ Formato:
 - **Consequência:** duas tarefas concluídas. Arquivos/evidências ainda devem ser vinculados ao vault; não se confunde ausência do documento com conferência pendente.
 - **Datas:** 24/10 é a data da confirmação; datas efetivas não informadas.
 - **Fonte:** [respostas de Bruno](importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md).
+
+## 2026-11-03 — Projuris: entrega replanejada para 06/11
+- **Com quem:** reunião com a Projuris — Bruno Maximo, Kerollyn e Maurílio (Projuris); Anna Paula, Vinicius Mattos, Maria Aurora, Leonardo Pimenta e Bruno Soares (OceanPact). O vínculo entre a decisão e esta reunião foi inferido da captura, não dito explicitamente.
+- **Contexto:** a entrega final, com prazo de 23/10, não fechou: ainda há itens sendo ajustados. A migração dos anexos do Societário foi informada como entregue em 23/10, sem conferência registrada.
+- **Decidido:** entrega do Projuris replanejada para **sexta, 06/11/2026**. Em **04/11** será feito um caderno de testes para tentar exaurir ao máximo os testes e garantir entrega completa e sem problemas para a operação do Jurídico.
+- **Consequência:** revoga a data de 23/10 registrada em 21/10. É a terceira data da entrega (16/10 → 23/10 → 06/11). Com o Vinicius presente, o replanejamento conta como comunicado em 03/11. A confirmar se 06/11 inclui a tratativa do valor pago em Imóveis e o endereço do sistema, que estão com o fornecedor. Novas tarefas: caderno de testes (04/11) e atualização do Monday.
+- **Fonte:** [captura de Bruno](importacoes/2026-11-03-replanejamento-projuris.md); [ata](reunioes/2026-11-03-reuniao-projuris.md).

@@ -3,7 +3,7 @@
 - **Onde:** OceanPact — colaborador
 - **Papel:** **gerente do Bruno**
 - **Projetos:** todos (#docket · #projuris · #docusign · #sym-supply-one)
-- **Último contato:** data efetiva não informada; em 2026-10-24 Bruno confirmou comunicação dos três avanços do Sym Supply
+- **Último contato:** 2026-11-03 — reunião com a Projuris, em que a entrega do #projuris foi replanejada para 06/11
 
 ## Como trabalhar com essa pessoa
 É o **principal afetado quando algo sai do esperado** — ou seja, é o destinatário
@@ -19,6 +19,7 @@ Atraso que ele descobre sozinho custa muito mais caro que atraso comunicado.
 - Cronograma do Sym Supply quando chegar — #sym-supply-one
 - Próximos marcos do #docusign: contratação concluída já comunicada; data de início a confirmar
 - Visibilidade do que está travado no Bruno Maximo no #projuris
+- Entrega final do #projuris em **06/11** — data replanejada na reunião de 03/11, com ele presente. É a terceira data (16/10 → 23/10 → 06/11).
 
 **Cumprido em 21/10:** atraso e conclusão do #docket; atraso do #projuris e o que
 falta. Ver [[decisoes]].
@@ -41,3 +42,5 @@ falta. Ver [[decisoes]].
 - **2026-10-24** — Bruno confirmou comunicação dos três avanços Sym Supply: assinatura do Standard, aprovação da integração Prothera separada e reunião técnica realizada. Data efetiva não informada. Fonte: [respostas](../importacoes/2026-10-24-comunicacoes-e-monday.md).
 
 - **2026-10-24** — Bruno confirmou que já comunicou a contratação concluída do PS DocuSign; data efetiva não informada. Fonte: [respostas](../importacoes/2026-10-24-docusign-cobertura-e-comunicacao.md).
+
+- **2026-11-03** — participou da reunião com a Projuris. A entrega do Projuris foi replanejada para 06/11 (vínculo com a reunião inferido). Não informado se a reunião tratou Imóveis e endereço do sistema. Fonte: [ata](../reunioes/2026-11-03-reuniao-projuris.md).

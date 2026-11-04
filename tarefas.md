@@ -5,19 +5,21 @@ Atualizado: 2026-11-03
 
 ## 🔥 Esta semana
 
-- [ ] Comunicar ao Vinicius o status do Projuris: migração entregue aguardando conferência, Imóveis sem resposta e endereço sem previsão | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
+- [ ] Confirmar se a reunião de 03/11 com a Projuris, com o Vinicius presente, tratou a tratativa do valor pago no módulo de Imóveis e a data da alteração do endereço do sistema; o que não tiver sido tratado, comunicar ao Vinicius com o texto de `projetos/projuris.md` | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: reunioes/2026-11-03-reuniao-projuris.md
+- [ ] Fazer o caderno de testes do Projuris para exaurir ao máximo os testes antes da entrega de 06/11 e garantir entrega completa e sem problemas para a operação do Jurídico | #projuris | prazo: 2026-11-04 | pri: alta | fonte: importacoes/2026-11-03-replanejamento-projuris.md
+- [ ] Atualizar o Monday do Projuris com a nova data de entrega, 06/11, e o caderno de testes de 04/11 | #projuris | pri: alta | fonte: importacoes/2026-11-03-replanejamento-projuris.md
 - [ ] Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10 — definir primeiro quem confere | #projuris | prazo: 2026-10-23 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 - [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante — vencida desde 26/10; se não sair esta semana, avisar a Mariana vale mais que silêncio | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
 - [ ] Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp; cobrada com urgência em 29/10 à noite, a Capitani precisa enviar para aprovação do gestor na terça 03/11 no primeiro horário | prazo: 2026-10-30 | pri: alta | fonte: e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29
 
 ## 🤝 Prometi e ainda não entreguei
 
-- [/] Entrega final do Projuris — migração dos anexos do Societário informada como entregue; falta conferência e aceite | #projuris | prazo: 2026-10-23 | pri: alta | prometi-a: Vinicius Mattos | comunicar: Vinicius Mattos | fonte: importacoes/2026-10-23-atualizacao-projuris.md
+- [/] Entrega final do Projuris — replanejada para sexta, 06/11, na reunião de 03/11 com a Projuris e com o Vinicius presente (vínculo com a reunião inferido; confirmar): itens ainda em ajuste e caderno de testes em 04/11; terceira data (16/10 → 23/10 → 06/11); migração dos anexos do Societário informada como entregue em 23/10, sem conferência registrada | #projuris | prazo: 2026-11-06 | pri: alta | prometi-a: Vinicius Mattos | comunicado: 2026-11-03 | fonte: reunioes/2026-11-03-reuniao-projuris.md
 
 ## 💰 Exposição financeira em aberto
 
 - [ ] Devolutiva do cancelamento do módulo de Imóveis — qual a tratativa sobre o valor **já pago** | #projuris | prazo: 2026-10-23 | pri: alta | aguardo: Bruno Maximo (cobrado em 2026-10-21) | comunicar: Vinicius Mattos | fonte: inbox 2026-10-20
-- [ ] Levantar nome, cargo e canal do superior do Bruno Maximo no fornecedor do Projuris — sem esse contato não existe escalada possível das duas pendências sem resposta | #projuris | pri: alta | fonte: reunioes/2026-10-26-revisao-semanal.md
+- [ ] Levantar nome, cargo e canal do superior do Bruno Maximo no fornecedor do Projuris — sem esse contato não existe escalada possível das duas pendências sem resposta; Kerollyn e Maurílio, da Projuris, estavam na reunião de 03/11 — ver se um deles é esse caminho | #projuris | pri: alta | fonte: reunioes/2026-10-26-revisao-semanal.md
 - [ ] Enviar ao Bruno Maximo cobrança final por escrito das duas pendências numeradas (valor pago no módulo de Imóveis e data do endereço do sistema), com prazo de resposta explícito e aviso de que a falta de resposta será escalada — sem resposta desde 21/10; sem prazo aqui porque a data-limite é do Bruno para definir | #projuris | pri: alta | comunicar: Vinicius Mattos | fonte: reunioes/2026-10-30-revisao-semanal.md
 
 ## 📋 Em aberto

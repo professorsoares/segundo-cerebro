@@ -29,3 +29,5 @@ A migração foi informada como entregue por Bruno em 23/10 e aguarda conferênc
 - **2026-10-20** — indicou **23/10** para a migração dos anexos do Societário. Cobrança por escrito funcionou neste item; nos outros dois, não.
 
 - **2026-10-23** — Bruno informou a migração como entregue, ainda sem conferência. Tratativa do valor de Imóveis continua sem resposta e endereço sem previsão. Sem nova cobrança ou contato direto confirmados. Fonte: [formulário](../importacoes/2026-10-23-atualizacao-projuris.md).
+
+- **2026-11-03** — presente na reunião com a Projuris, com Kerollyn e Maurílio (Projuris) e o lado OceanPact, Vinicius Mattos incluído. A entrega foi replanejada para 06/11. Não informado se respondeu às duas pendências (Imóveis e endereço). Fonte: [ata](../reunioes/2026-11-03-reuniao-projuris.md).
