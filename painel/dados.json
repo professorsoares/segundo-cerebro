@@ -1,15 +1,15 @@
 {
-  "gerado_em": "2026-11-03T22:23:17",
-  "commit": "275df1f",
+  "gerado_em": "2026-11-04T07:11:59",
+  "commit": "6a886ee",
   "resumo": {
     "abertas": 30,
-    "vencidas": 6,
+    "vencidas": 7,
     "hoje": 1,
-    "proximos_7_dias": 3,
+    "proximos_7_dias": 2,
     "sem_prazo": 17,
     "promessas": 1,
     "travadas": 2,
-    "a_comunicar": 9,
+    "a_comunicar": 10,
     "concluidas_no_arquivo": 19
   },
   "por_projeto": {
@@ -25,7 +25,7 @@
       "arquivo": "projetos/docket.md",
       "estado": "**concluído** em 2026-10-21 — validado, comunicado e atualizado no Monday",
       "ultimo_status": "2026-10-21",
-      "dias_sem_status": 13,
+      "dias_sem_status": 14,
       "rascunho": null
     },
     "docusign": {
@@ -98,7 +98,7 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": -11,
+          "dias": -12,
           "id": "228a5fe817",
           "precisa_comunicar": true
         },
@@ -116,7 +116,7 @@
           "monday": null,
           "secao": "💰 Exposição financeira em aberto",
           "estado": "aberto",
-          "dias": -11,
+          "dias": -12,
           "id": "a69cbcf473",
           "precisa_comunicar": true
         },
@@ -163,7 +163,7 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": -8,
+          "dias": -9,
           "id": "384e93bc74",
           "precisa_comunicar": true
         },
@@ -181,8 +181,26 @@
           "monday": null,
           "secao": "🔥 Esta semana",
           "estado": "aberto",
-          "dias": -4,
+          "dias": -5,
           "id": "f6c0244e94",
+          "precisa_comunicar": true
+        },
+        {
+          "descricao": "Atendimento por vídeo com Samsung Expert — agendamento confirmado por e-mail, não encontrado na agenda principal; reagendar ou cancelar pelo e-mail se não puder",
+          "projeto": null,
+          "prazo": "2026-11-03",
+          "hora": "12:15",
+          "prioridade": null,
+          "prometi_a": null,
+          "aguardo": null,
+          "fonte": "e-mail noreply@email.support.samsung.com 2026-11-01",
+          "comunicar": null,
+          "comunicado": null,
+          "monday": null,
+          "secao": "📋 Em aberto",
+          "estado": "aberto",
+          "dias": -1,
+          "id": "0362860eb1",
           "precisa_comunicar": true
         }
       ]
@@ -228,7 +246,7 @@
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "andamento",
-          "dias": -12,
+          "dias": -13,
           "id": "cfb9d1a1ab",
           "precisa_comunicar": true
         }
@@ -257,7 +275,7 @@
           "monday": null,
           "secao": "📋 Em aberto",
           "estado": "aberto",
-          "dias": -1,
+          "dias": -2,
           "id": "0d0eb07531",
           "precisa_comunicar": true
         }
@@ -297,7 +315,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": 1,
+      "dias": 0,
       "id": "5075bca12b",
       "precisa_comunicar": false
     },
@@ -333,7 +351,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": -11,
+      "dias": -12,
       "id": "228a5fe817",
       "precisa_comunicar": true
     },
@@ -351,7 +369,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": -8,
+      "dias": -9,
       "id": "384e93bc74",
       "precisa_comunicar": true
     },
@@ -369,7 +387,7 @@
       "monday": null,
       "secao": "🔥 Esta semana",
       "estado": "aberto",
-      "dias": -4,
+      "dias": -5,
       "id": "f6c0244e94",
       "precisa_comunicar": true
     },
@@ -387,7 +405,7 @@
       "monday": null,
       "secao": "🤝 Prometi e ainda não entreguei",
       "estado": "andamento",
-      "dias": 3,
+      "dias": 2,
       "id": "91b6c80301",
       "precisa_comunicar": false
     },
@@ -405,7 +423,7 @@
       "monday": null,
       "secao": "💰 Exposição financeira em aberto",
       "estado": "aberto",
-      "dias": -11,
+      "dias": -12,
       "id": "a69cbcf473",
       "precisa_comunicar": true
     },
@@ -549,7 +567,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "andamento",
-      "dias": -12,
+      "dias": -13,
       "id": "cfb9d1a1ab",
       "precisa_comunicar": true
     },
@@ -567,7 +585,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": -1,
+      "dias": -2,
       "id": "0d0eb07531",
       "precisa_comunicar": true
     },
@@ -585,7 +603,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 10,
+      "dias": 9,
       "id": "b20a1f89fd",
       "precisa_comunicar": false
     },
@@ -693,9 +711,9 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 0,
+      "dias": -1,
       "id": "0362860eb1",
-      "precisa_comunicar": false
+      "precisa_comunicar": true
     },
     {
       "descricao": "Verificar se reconhece o próprio e-mail no cadastro SGIP do TSE: aviso de prestação de contas de campanha criada para o MDB de Epitaciolândia/AC em 01/11; se não houver vínculo, pedir a correção do cadastro",
@@ -729,7 +747,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 3,
+      "dias": 2,
       "id": "8d76dcc53f",
       "precisa_comunicar": false
     },
@@ -747,7 +765,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 12,
+      "dias": 11,
       "id": "05a999bc23",
       "precisa_comunicar": false
     },
@@ -783,7 +801,7 @@
       "monday": null,
       "secao": "📋 Em aberto",
       "estado": "aberto",
-      "dias": 18,
+      "dias": 17,
       "id": "a74a50e49a",
       "precisa_comunicar": false
     },
@@ -819,7 +837,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -12,
+      "dias": -13,
       "id": "5a77b15597",
       "precisa_comunicar": false
     },
@@ -837,7 +855,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -4,
+      "dias": -5,
       "id": "4b95c34d8b",
       "precisa_comunicar": false
     },
@@ -855,7 +873,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -12,
+      "dias": -13,
       "id": "3ffe12679c",
       "precisa_comunicar": false
     },
@@ -981,7 +999,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "c363811c66",
       "precisa_comunicar": false
     },
@@ -1017,7 +1035,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -12,
+      "dias": -13,
       "id": "cc2c89b750",
       "precisa_comunicar": false
     },
@@ -1035,7 +1053,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -12,
+      "dias": -13,
       "id": "07e1f82dba",
       "precisa_comunicar": false
     },
@@ -1053,7 +1071,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "d0c949c69f",
       "precisa_comunicar": false
     },
@@ -1071,7 +1089,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -12,
+      "dias": -13,
       "id": "8fc45643c6",
       "precisa_comunicar": false
     },
@@ -1107,7 +1125,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -15,
+      "dias": -16,
       "id": "f7a3de915c",
       "precisa_comunicar": false
     },
@@ -1125,7 +1143,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "851fde2359",
       "precisa_comunicar": false
     },
@@ -1143,7 +1161,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "d7a3310e6c",
       "precisa_comunicar": false
     },
@@ -1161,7 +1179,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "ae24a06f69",
       "precisa_comunicar": false
     },
@@ -1179,7 +1197,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "0292eabf93",
       "precisa_comunicar": false
     },
@@ -1197,7 +1215,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "f43bd020bf",
       "precisa_comunicar": false
     },
@@ -1215,7 +1233,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "1d195016fb",
       "precisa_comunicar": false
     },
@@ -1233,7 +1251,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -14,
+      "dias": -15,
       "id": "c53bed5b11",
       "precisa_comunicar": false
     },
@@ -1251,7 +1269,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -12,
+      "dias": -13,
       "id": "0232634eb2",
       "precisa_comunicar": false
     },
@@ -1269,7 +1287,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "concluido",
-      "dias": -13,
+      "dias": -14,
       "id": "c8e136d3ad",
       "precisa_comunicar": false
     },
@@ -1287,7 +1305,7 @@
       "monday": null,
       "secao": "✅ Concluído",
       "estado": "cancelado",
-      "dias": -13,
+      "dias": -14,
       "id": "c02e470f75",
       "precisa_comunicar": false
     }
