@@ -1,7 +1,7 @@
 # Tarefas
 
 Visão única de tudo em aberto. Formato de cada linha está em `CLAUDE.md`.
-Atualizado: 2026-11-03
+Atualizado: 2026-11-05
 
 ## 🔥 Esta semana
 
@@ -10,7 +10,6 @@ Atualizado: 2026-11-03
 - [ ] Atualizar o Monday do Projuris com a nova data de entrega, 06/11, e o caderno de testes de 04/11 | #projuris | pri: alta | fonte: importacoes/2026-11-03-replanejamento-projuris.md
 - [ ] Conferir a migração dos anexos do Societário: validar completude e integridade e registrar o resultado; entrega informada por Bruno em 23/10 — definir primeiro quem confere | #projuris | prazo: 2026-10-23 | pri: alta | fonte: importacoes/2026-10-23-atualizacao-projuris.md
 - [ ] Ajudar Mariana Oliveira no CLM, processo 00002609: verificar como retornar o documento enviado por engano à fase de assinatura, permitir a inclusão de nova versão para análise do Jurídico e orientar a solicitante — vencida desde 26/10; se não sair esta semana, avisar a Mariana vale mais que silêncio | prazo: 2026-10-26 | fonte: importacoes/2026-10-23-mariana-clm-00002609.md
-- [ ] Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — planilha em branco anexa ao e-mail; horas adicionais só com autorização prévia do gestor formalizada por e-mail ou WhatsApp; cobrada com urgência em 29/10 à noite, a Capitani precisa enviar para aprovação do gestor na terça 03/11 no primeiro horário | prazo: 2026-10-30 | pri: alta | fonte: e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29
 
 ## 🤝 Prometi e ainda não entreguei
 
@@ -44,6 +43,7 @@ Atualizado: 2026-11-03
 - [ ] Verificar boleto da Claro, conta 183871730, R$ 61,10, em nome de Cicera Maria de Araujo Bernardo, e confirmar se cabe a você pagar — chegou ao seu e-mail em nome de outra pessoa | prazo: 2026-11-06 | fonte: e-mail clarofatura@minhaclaro.com.br 2026-10-31
 - [ ] Emitir e pagar a cota condominial do Morning Star, bloco 0, unidade 303, R$ 889,26 | prazo: 2026-11-15 | fonte: e-mail nao-responda@envio.bcfadm.com.br 2026-10-31
 - [ ] Verificar no app do Nubank o boleto emitido no CPF por BULHOES CARVALHO DA FONSECA AD e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-10-30
+- [ ] Verificar no app do Nubank o boleto emitido no CPF por LWSA SA KINGHOST e pagar ou agendar — valor e vencimento não constam no e-mail | fonte: e-mail Nubank 2026-11-05
 - [ ] Concluir o curso em andamento na Escola Virtual da Fundação Bradesco e salvar os certificados já obtidos — o e-mail não informa qual é o curso | prazo: 2026-11-21 | fonte: e-mail noreplyev@fundacao.bradesco 2026-11-02
 - [ ] Conferir se a rematrícula 2027 do Bruno Augusto no Colégio pH está completa — boleto pago e contrato assinado no Portal Atlas, porque só o pagamento não garante a vaga — e confirmar a leitura do comunicado; algumas turmas estão perto da lotação; prazo não informado no e-mail | fonte: e-mail Agenda Edu / Colégio pH 2026-11-03
 
@@ -53,6 +53,7 @@ Atualizado: 2026-11-03
 
 ## ✅ Concluído
 
+- [x] Preencher e enviar à Capitani a planilha de horas de outubro/26, apontando 01/10 a 31/10 — enviada em 2026-11-04 às 06:26, em resposta ao pedido da Capitani, com a planilha "3 Planilha de Horas OUTUBRO-26.xlsx" anexa; 5 dias depois do prazo de 30/10 e um dia depois da data em que a Capitani precisava encaminhar para aprovação (03/11); sem resposta da Capitani até 05/11 | prazo: 2026-10-30 | pri: alta | fonte: e-mail Taís de Paula / contasarecebersistemas@capitanigroup.com 2026-10-28 e cobrança 2026-10-29; envio: e-mail "Re: PLANILHA DE APONTAMENTO DE HORAS OUTUBRO/26 - OCEANPACT" 2026-11-04, achado no brief de 05/11
 - [-] Trazer para o vault o escopo validado dos 33 requisitos do DocuSign, ou linkar onde ele está | #docusign | prazo: 2026-10-22 | pri: baixa | fonte: conversa 21/10 | motivo: cancelada na revisão de 02/11, conforme aviso da revisão de 30/10 — terceira revisão sem movimento e nada depende dela; a conferência foi confirmada em 24/10 e o vínculo do SOW segue em "A confirmar" de `projetos/docusign.md`.
 - [-] Confirmar leitura do comunicado do Colégio pH sobre o Halloween no pH Tijuca 1 em 30/10 | prazo: 2026-10-30 | fonte: e-mail Agenda Edu / Colégio pH 2026-10-29 | motivo: cancelada na revisão de 02/11 — o evento já passou.
 
